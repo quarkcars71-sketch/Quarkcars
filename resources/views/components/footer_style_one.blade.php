@@ -11,7 +11,7 @@
                         <div class="footer-widget__about">
                             <div class="footer-widget__about-logo">
                                 <a href="{{ route('index') }}"><img
-                                        src="{{ asset('assets/images/resources/footer-logo(1).png') }}" alt=""></a>
+                                        src="{{ asset('assets/images/resources/footer-logo(4).png') }}" alt=""></a>
                             </div>
                             <p class="footer-widget__about-text">Cars integrate advanced technology and innovation to deliver a modern, efficient, and reliable driving experience.</p>
                             <form class="footer-widget__form">
@@ -39,10 +39,10 @@
                         <div class="footer-widget__services">
                             <h4 class="footer-widget__title">Services</h4>
                             <ul class="footer-widget__links-list list-unstyled">
-                                <li><a href="{{ route('car-list-v-1') }}">Rental Cars</a></li>
+                                <li><a href="{{ route('self-drive-car') }}">Rental Cars</a></li>
                                 <li><a href="{{ route('car-list-v-2') }}">Car Sharing</a></li>
                                 <li><a href="{{ route('car-list-v-3') }}">Car Subscription</a></li>
-                                <li><a href="{{ route('cars') }}">Taxi Services</a></li>
+                                <li><a href="{{ route('self-drive-car') }}">Taxi Services</a></li>
                                 <li><a href="{{ route('listing-single') }}">Dash Transport</a></li>
                             </ul>
                         </div>

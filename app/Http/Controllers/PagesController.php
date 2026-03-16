@@ -46,12 +46,12 @@ class PagesController extends Controller
         return view('pages.404');
     }
 
-    public function cars()
+    public function car_subscription()
     {
-        return view('pages.cars');
+        return view('pages.car-subscription');
     }
 
-    public function car_list_v_1()
+    public function self_drive_car()
     {
         return view('pages.car-list-v-1');
     }

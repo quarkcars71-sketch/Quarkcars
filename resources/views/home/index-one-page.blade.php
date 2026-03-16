@@ -4349,7 +4349,7 @@
                         </div>
                     </div>
                     <div class="call-one__btn-box">
-                        <a href="{{ route('car-list-v-1') }}" class="thm-btn">Rent Now<span
+                        <a href="{{ route('self-drive-car') }}" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -4380,7 +4380,7 @@
                             <span class="icon-sports-car"></span>
                         </div>
                         <div class="popular-car-one__single-inner">
-                            <h4 class="popular-car-one__title"><a href="{{ route('car-list-v-1') }}">Sports Coupe</a></h4>
+                            <h4 class="popular-car-one__title"><a href="{{ route('self-drive-car') }}">Sports Coupe</a></h4>
                         </div>
                         <p class="popular-car-one__count">3 Cars</p>
                     </div>
@@ -4770,7 +4770,7 @@
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="{{ route('car-list-v-1') }}" class="thm-btn">Rent Now<span
+                        <a href="{{ route('self-drive-car') }}" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>

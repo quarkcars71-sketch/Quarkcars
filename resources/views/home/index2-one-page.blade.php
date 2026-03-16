@@ -583,7 +583,7 @@
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="{{ route('car-list-v-1') }}" class="thm-btn">Rent Now<span
+                        <a href="{{ route('self-drive-car') }}" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -1521,7 +1521,7 @@
                             <p class="feature-one__inner-text">Lorem ipsum is simply ipun txns mane so dummy text of
                                 free available in market the printing and typesetting industry</p>
                             <div class="feature-one__inner-btn-box">
-                                <a href="{{ route('car-list-v-1') }}" class="thm-btn">Rent Now</a>
+                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Rent Now</a>
                             </div>
                         </div>
                     </div>
@@ -1551,7 +1551,7 @@
                             <span class="icon-sedan"></span>
                         </div>
                         <div class="popular-car-two__single-inner">
-                            <h4 class="popular-car-two__title"><a href="{{ route('car-list-v-1') }}">Sedan</a></h4>
+                            <h4 class="popular-car-two__title"><a href="{{ route('self-drive-car') }}">Sedan</a></h4>
                             <p class="popular-car-two__count">9 Cars</p>
                         </div>
                     </div>

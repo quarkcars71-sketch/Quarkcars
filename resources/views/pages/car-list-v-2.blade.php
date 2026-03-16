@@ -21,14 +21,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Tesla S-Line
-                                                Upon</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI </p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Dausa</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>120 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -47,14 +46,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Tesla S-Line
-                                                Upon</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Alwar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -73,14 +71,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">BMW 640 XI
-                                                Gran</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Bharatpur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -99,15 +96,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Maserati
-                                                Ghibli
-                                                SQ4</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Ajmer</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>299 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -126,14 +121,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Audi A4 1.8
-                                                TFSI</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Sawai Madhopur </a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>499 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -152,14 +146,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">BMW Sports
-                                                Car</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Khatu Shyam Ji</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>199 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -178,15 +171,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Yellow
-                                                Ferrari
-                                                458</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Tonk</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>229 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -205,14 +196,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">toyota innova
-                                                crysta</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Sikar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -231,14 +221,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Tesla S-Line
-                                                Upon</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Nagaur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>549 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -257,14 +246,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Tesla S-Line
-                                                Upon</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur -  Mahuwa</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -283,14 +271,15 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">BMW 640 XI
-                                                Gran</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur
+                                             - sariska
+                                        </a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>329 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -309,15 +298,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Maserati
-                                                Ghibli
-                                                SQ4</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Pushkar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>379 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -336,14 +323,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Audi A4 1.8
-                                                TFSI</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Kishangarh</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>249 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -362,14 +348,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">BMW Sports
-                                                Car</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - udaipur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>899 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -388,15 +373,13 @@
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
-                                        <p class="listing-two__sub-title">economy</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Yellow
-                                                Ferrari
-                                                458</a>
+                                        <p class="listing-two__sub-title">Maruti Swift VXI</p>
+                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Delhi</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
                                                 <span>From</span>
-                                                <p>$180,00 /day</p>
+                                                <p>799 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
                                                 <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
@@ -459,7 +442,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper2" id="skipper2" checked="">
-                                            <label for="skipper2"><span></span>sport cars</label>
+                                            <label for="skipper2"><span></span>SUV</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>50</p>
@@ -468,7 +451,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper3" id="skipper3">
-                                            <label for="skipper3"><span></span>sedan</label>
+                                            <label for="skipper3"><span></span>Sedan</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>100</p>
@@ -486,7 +469,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper5" id="skipper5">
-                                            <label for="skipper5"><span></span>Minibus</label>
+                                            <label for="skipper5"><span></span>Hatchbacks</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>80</p>
@@ -495,7 +478,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper6" id="skipper6">
-                                            <label for="skipper6"><span></span>Coupes</label>
+                                            <label for="skipper6"><span></span>MUV / MPV</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>60</p>
@@ -504,7 +487,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper7" id="skipper7">
-                                            <label for="skipper7"><span></span>Trucks</label>
+                                            <label for="skipper7"><span></span>Crossover</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>90</p>
@@ -586,7 +569,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type2" id="f_type2" checked="">
-                                            <label for="f_type2"><span></span>Gasoline</label>
+                                            <label for="f_type2"><span></span>Petrol</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>25</p>
@@ -595,7 +578,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type3" id="f_type3">
-                                            <label for="f_type3"><span></span>Petrol</label>
+                                            <label for="f_type3"><span></span>Electric Vehicle</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>29</p>
@@ -604,13 +587,13 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type4" id="f_type4">
-                                            <label for="f_type4"><span></span>Electric Vehicle</label>
+                                            <label for="f_type4"><span></span>Petrol + CNG</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>40</p>
                                         </div>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type5" id="f_type5">
                                             <label for="f_type5"><span></span>Ethanol</label>
@@ -618,8 +601,8 @@
                                         <div class="counts-box">
                                             <p>20</p>
                                         </div>
-                                    </li>
-                                    <li>
+                                    </li> -->
+                                    <!-- <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type6" id="f_type6">
                                             <label for="f_type6"><span></span>Hybrid</label>
@@ -627,7 +610,7 @@
                                         <div class="counts-box">
                                             <p>27</p>
                                         </div>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                             <div class="car-listing__rating car-listing__sidebar-single">

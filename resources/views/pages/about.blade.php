@@ -4236,7 +4236,7 @@
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="{{ route('car-list-v-1') }}" class="thm-btn">Rent Now<span
+                        <a href="{{ route('self-drive-car') }}" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
