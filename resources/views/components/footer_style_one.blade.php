@@ -11,7 +11,7 @@
                         <div class="footer-widget__about">
                             <div class="footer-widget__about-logo">
                                 <a href="{{ route('index') }}"><img
-                                        src="{{ asset('assets/images/resources/footer-logo(4).png') }}" alt=""></a>
+                                        src="{{ asset('assets/images/resources/footer-logo(3).png') }}" alt=""></a>
                             </div>
                             <p class="footer-widget__about-text">Cars integrate advanced technology and innovation to deliver a modern, efficient, and reliable driving experience.</p>
                             <form class="footer-widget__form">

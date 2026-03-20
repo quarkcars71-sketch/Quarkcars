@@ -61,11 +61,11 @@ Travel with comfort, flexibility, and complete control of your trip.</p>
                                                 <div class="select-box">
                                                     <select class="selectmenu wide">
                                                         <option selected>Enter a Location</option>
-                                                        <option>Enter a Location 01</option>
-                                                        <option>Enter a Location 02</option>
-                                                        <option>Enter a Location 03</option>
-                                                        <option>Enter a Location 04</option>
-                                                        <option>Enter a Location 05</option>
+                                                        <option>Jaipur</option>
+                                                        <option>Sawai Madhopur</option>
+                                                        <option>Kota</option>
+                                                        <option>Dausa</option>
+                                                        <option>Sikar</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -91,11 +91,11 @@ Travel with comfort, flexibility, and complete control of your trip.</p>
                                                 <div class="select-box">
                                                     <select class="selectmenu wide">
                                                         <option selected>Enter a Location</option>
-                                                        <option>Enter a Location 01</option>
-                                                        <option>Enter a Location 02</option>
-                                                        <option>Enter a Location 03</option>
-                                                        <option>Enter a Location 04</option>
-                                                        <option>Enter a Location 05</option>
+                                                       <option>Jaipur</option>
+                                                        <option>Sawai Madhopur</option>
+                                                        <option>Kota</option>
+                                                        <option>Dausa</option>
+                                                        <option>Sikar</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -722,7 +722,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="item">
                     <div class="listing-three__single">
                         <div class="listing-three__img">
-                            <img src="{{ asset('assets/images/listing/listing-3-1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-1(1).jpg') }}" alt="">
                             <div class="listing-three__brand-name">
                                 <p>Maruti</p>
                             </div>
