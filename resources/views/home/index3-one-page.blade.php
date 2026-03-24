@@ -1963,7 +1963,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-1(1).jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -1984,7 +1984,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-2.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-2(1).jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -2005,7 +2005,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-3.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-3(1).jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -2026,7 +2026,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-4.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-4(1).jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
