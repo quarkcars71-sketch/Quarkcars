@@ -1,5 +1,5 @@
 @extends('layouts.layoutCommon')
-@section('title', 'Wishlist || Gorent || Gorent Laravel  Template')
+@section('title', 'Wishlist')
 
 @section('content')
 
