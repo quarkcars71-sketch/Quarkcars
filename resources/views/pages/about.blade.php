@@ -140,9 +140,9 @@
                         <div class="services-one__icon">
                             <span class="icon-taxi"></span>
                         </div>
-                        <h3 class="services-one__title"><a href="{{ route('services') }}">Car rental with driver</a>
+                        <h3 class="services-one__title"><a href="{{ route('services') }}">Car Sharing</a>
                         </h3>
-                        <p class="services-one__text">Professional chauffeur-driven car rental for a comfortable and stress-free journey.</p>
+                        <p class="services-one__text">Earn consistently by sharing your car through a trusted and managed platform.</p>
                     </div>
                 </div>
                 <!--Services One Single End-->

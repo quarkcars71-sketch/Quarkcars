@@ -29,11 +29,11 @@
                         <span class="icon-cuv"></span>
                     </h2>
                 </li>
-                <li>
+                <!-- <li>
                     <h2 data-hover="Worldwide" class="sliding-text__title">Worldwide
                         <span class="icon-jeep"></span>
                     </h2>
-                </li>
+                </li> -->
                 <li>
                     <h2 data-hover="Affordable" class="sliding-text__title">Affordable
                         <span class="icon-cuv"></span>
@@ -255,9 +255,9 @@
                             <span class="icon-taxi"></span>
                         </div>
                         <div class="services-three__content">
-                            <h3 class="services-three__title"><a href="{{ route('services') }}">Car rental with driver</a>
+                            <h3 class="services-three__title"><a href="{{ route('services') }}">Car Sharing</a>
                             </h3>
-                            <p class="services-three__text">Professional chauffeur-driven car rental for a comfortable and stress-free journey.</p>
+                            <p class="services-three__text">Earn consistently by sharing your car through a trusted and managed platform.</p>
                         </div>
                         <div class="services-three__count"></div>
                     </div>

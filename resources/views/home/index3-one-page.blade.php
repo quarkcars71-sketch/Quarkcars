@@ -1480,8 +1480,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
 
     <!-- Video One Start -->
     <section class="video-one">
-        <!-- <div class="video-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
-            style="background-image: url({{ asset('assets/images/backgrounds/video-one-bg.jpg') }});"></div> -->
+        <div class="video-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
+            style="background-image: url({{ asset('assets/images/backgrounds/video-one-bg (2).jpg') }});"></div>
         <div class="container">
             <div class="video-one__inner">
                 <h2 class="video-one__title">Want To Know More About? <br> Play Our Promotional Video Now!</h2>
@@ -1515,10 +1515,10 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="pricing-two__single">
                         <div class="pricing-two__left-content">
                             <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-1.png') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/pricing-2-1.jpeg') }}" alt="">
                             </div>
                             <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Basic</h3>
+                                <h3 class="pricing-two__title">Gold Pack</h3>
                                 <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
                             </div>
                         </div>
@@ -1592,10 +1592,10 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="pricing-two__single">
                         <div class="pricing-two__left-content">
                             <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-2.png') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/pricing-2-2.jpeg') }}" alt="">
                             </div>
                             <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Standard</h3>
+                                <h3 class="pricing-two__title">Smart Pack</h3>
                                 <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
                             </div>
                         </div>
@@ -1672,10 +1672,10 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="pricing-two__single">
                         <div class="pricing-two__left-content">
                             <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-3.png') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/pricing-2-3.jpeg') }}" alt="">
                             </div>
                             <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Premium</h3>
+                                <h3 class="pricing-two__title">Premium Pack</h3>
                                 <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
                             </div>
                         </div>

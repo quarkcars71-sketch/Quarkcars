@@ -23,7 +23,7 @@
                     <div class="col-xl-7 col-lg-7">
                         <div class="team-details__top-right">
                             <div class="team-details__client-box">
-                                <h3 class="team-details__client-name">William Barbara</h3>
+                                <h3 class="team-details__client-name">Rishab Rai</h3>
                                 <span class="team-details__client-sub-title">SR. Driver</span>
                                 <div class="team-details__social">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -31,22 +31,19 @@
                                     <a href="#"><i class="fab fa-pinterest-p"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
-                                <p class="team-details__client-text">Neque porro quisquam est, qui dolorem ipsum
-                                    quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-                                    tempora incidunt ut labore et dolore ma gnam aliquam quaerat voluptatem. Ut enim
-                                    ad minima veniam</p>
+                                <p class="team-details__client-text">Rishab Rai is a skilled and reliable Senior Driver with over 5 years of experience in handling rental vehicles. He has extensive expertise in driving a wide range of cars, ensuring safe, smooth, and professional journeys for every customer. Known for his responsible driving, punctuality, and good knowledge of routes, Rishab consistently maintains high service standards. His experience in the car rental industry makes him a valuable asset in delivering a comfortable and trustworthy travel experience.</p>
                                 <ul class="team-details__client-address list-unstyled">
                                     <li>
                                         <p><span class="icon-pin"></span>Address</p>
-                                        <h5>4140 Parker Rd. Allentown, New Mexico 31134</h5>
+                                        <h5>281, Ganesh Vatika, Sanagner, Jaipur</h5>
                                     </li>
                                     <li>
                                         <p><span class="icon-call"></span>Phone Number</p>
-                                        <h5><a href="tel:2085550112">(208) 555-0112</a></h5>
+                                        <h5><a href="tel:919602805218">+91 9602805218</a></h5>
                                     </li>
                                     <li>
                                         <p><span class="icon-envelope"></span>Email</p>
-                                        <h5><a href="mailto:michael.mitc@example.com">michael.mitc@example.com</a>
+                                        <h5><a href="mailto:rishabraisarkar110@gmail.com">rishabraisarkar110@gmail.com</a>
                                         </h5>
                                     </li>
                                 </ul>
@@ -121,7 +118,7 @@
                             <ul class="team-details__progress-list list-unstyled">
                                 <li>
                                     <div class="team-details__progress">
-                                        <h4 class="team-details__progress-title">Audi A3
+                                        <h4 class="team-details__progress-title">Maruti Swift
                                         </h4>
                                         <div class="bar">
                                             <div class="bar-inner count-bar" data-percent="80%">
@@ -132,8 +129,7 @@
                                 </li>
                                 <li>
                                     <div class="team-details__progress">
-                                        <h4 class="team-details__progress-title">Ferrari
-                                            458 MM Speciale</h4>
+                                        <h4 class="team-details__progress-title">Hyundai Verna</h4>
                                         <div class="bar">
                                             <div class="bar-inner count-bar" data-percent="95%">
                                                 <div class="count-text">95%</div>
@@ -143,8 +139,7 @@
                                 </li>
                                 <li>
                                     <div class="team-details__progress">
-                                        <h4 class="team-details__progress-title">Toyota
-                                            Tacoma 4WD</h4>
+                                        <h4 class="team-details__progress-title">Mahindra Thar</h4>
                                         <div class="bar">
                                             <div class="bar-inner count-bar" data-percent="65%">
                                                 <div class="count-text">65%</div>
