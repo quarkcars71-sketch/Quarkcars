@@ -118,7 +118,7 @@
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="{{ route('cars') }}" class="thm-btn">See All Photo<span
+                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
@@ -185,7 +185,7 @@
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="{{ route('cars') }}" class="thm-btn">See All Photo<span
+                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
@@ -251,7 +251,7 @@
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="{{ route('cars') }}" class="thm-btn">See All Photo<span
+                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
@@ -947,7 +947,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-1(1).jpg') }}" alt="">
-                        <a href="{{ route('cars') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -957,7 +957,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-2(1).jpg') }}" alt="">
-                        <a href="{{ route('cars') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>

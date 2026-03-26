@@ -1256,7 +1256,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-1(1).jpg') }}" alt="">
-                        <a href="{{ route('cars') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -1266,7 +1266,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-2(1).jpg') }}" alt="">
-                        <a href="{{ route('cars') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
