@@ -36,10 +36,10 @@
                     <a href="{{ route('sign-up') }}">Register</a>
                 </div>
                 <div class="main-menu__social">
-                    <a href="#"><i class="icon-facebook"></i></a>
-                    <a href="#"><i class="icon-twitter"></i></a>
-                    <a href="#"><i class="icon-instagram"></i></a>
-                    <a href="#"><i class="icon-youtube"></i></a>
+                    <a href="https://www.facebook.com/people/Quarkcars-Self-Drive-Rental/100087919809854/?mibextid=2JQ9oc" target="_blank"><i class="icon-facebook"></i></a>
+                    <a href="https://twitter.com/quarkcars?t=3EkNp5XO5y-iWU5RpfhrUg&s=09" target="_blank"><i class="icon-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="icon-instagram"></i></a>
+                    <a href="https://www.youtube.com/@quarkcars304" target="_blank"><i class="icon-youtube"></i></a>
                 </div>
             </div>
         </div>
