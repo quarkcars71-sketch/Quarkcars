@@ -104,6 +104,9 @@ Route::get('/blog-details', [PagesController::class, 'blog_details'])
 Route::get('/contact', [PagesController::class, 'contact'])
     ->name('contact');
 
+Route::get('/terms-of-service', [PagesController::class, 'terms_of_service'])
+    ->name('terms-of-service');
+
 Route::fallback(function () {
     return view('pages.404');
 });

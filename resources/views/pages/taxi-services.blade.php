@@ -18,12 +18,11 @@
                                     <div class="listing-three__img">
                                         <img src="{{ asset('assets/images/listing/listing-3-1.jpg') }}" alt="">
                                         <div class="listing-three__brand-name">
-                                            <p>Acura</p>
+                                            <p>Maruti</p>
                                         </div>
                                     </div>
                                     <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Acura
-                                                Sport Version</a></h3>
+                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Maruti Swift VXI (O) CNG</a></h3>
                                         <div class="listing-three__meta-box-info">
                                             <ul class="list-unstyled listing-three__meta">
                                                 <li>
@@ -39,7 +38,7 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>25 KM</p>
+                                                        <p>32 KM/L</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -47,7 +46,7 @@
                                                         <span class="icon-fuel-type"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Diesel</p>
+                                                        <p>CNG</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -65,7 +64,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Age 25</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>

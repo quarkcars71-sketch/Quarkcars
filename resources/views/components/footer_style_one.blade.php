@@ -43,7 +43,7 @@
                                 <li><a href="{{ route('car-sharing') }}">Car Sharing</a></li>
                                 <li><a href="{{ route('taxi-services') }}">Car Subscription</a></li>
                                 <li><a href="{{ route('self-drive-car') }}">Taxi Services</a></li>
-                                <li><a href="{{ route('listing-single') }}">Dash Transport</a></li>
+                                <!-- <li><a href="{{ route('listing-single') }}">Dash Transport</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -84,14 +84,14 @@
                 <div class="col-xl-12">
                     <div class="site-footer__bottom-inner">
                         <div class="site-footer__copyright">
-                            <p class="site-footer__copyright-text">© <?php echo date('Y'); ?> Quarkcars By <a
+                            <p class="site-footer__copyright-text"> <?php echo date('Y'); ?> Quarkcars By <a
                                     href="https://themeforest.net/user/webstall">Webstall.</a> All
                                 Rights
                                 Reserved.</p>
                         </div>
                         <div class="site-footer__bottom-menu-box">
                             <ul class="list-unstyled site-footer__bottom-menu">
-                                <li><a href="{{ route('about') }}">Terms of Service</a></li>
+                                <li><a href="{{ route('terms-of-service') }}">Terms of Service</a></li>
                                 <li><a href="{{ route('about') }}">Privacy policy</a></li>
                             </ul>
                         </div>
