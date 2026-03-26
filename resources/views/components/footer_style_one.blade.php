@@ -93,6 +93,8 @@
                             <ul class="list-unstyled site-footer__bottom-menu">
                                 <li><a href="{{ route('terms-of-service') }}">Terms of Service</a></li>
                                 <li><a href="{{ route('privacy-policy') }}">Privacy policy</a></li>
+                                <li><a href="{{ route('cancellation-policy') }}">Cancellation Policy</a></li>
+                                <li><a href="{{ route('privacy-policy') }}">Customer agreement</a></li>
                             </ul>
                         </div>
                     </div>

@@ -110,6 +110,9 @@ Route::get('/terms-of-service', [PagesController::class, 'terms_of_service'])
 Route::get('/privacy-policy', [PagesController::class, 'privacy_policy'])
     ->name('privacy-policy');
 
+Route::get('/cancellation-policy', [PagesController::class, 'cancellation_policy'])
+    ->name('cancellation-policy');
+
 Route::fallback(function () {
     return view('pages.404');
 });

@@ -145,4 +145,9 @@ class PagesController extends Controller
     {
         return view('pages.privacy-policy');
     }
+
+    public function cancellation_policy()
+    {
+        return view('pages.cancellation-policy');
+    }
 }
