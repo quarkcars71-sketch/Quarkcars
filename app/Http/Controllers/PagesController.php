@@ -150,4 +150,9 @@ class PagesController extends Controller
     {
         return view('pages.cancellation-policy');
     }
+
+    public function customer_agreement()
+    {
+        return view('pages.customer-agreement');
+    }
 }
