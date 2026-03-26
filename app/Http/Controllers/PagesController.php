@@ -140,4 +140,9 @@ class PagesController extends Controller
     {
         return view('pages.terms-of-service');
     }
+
+    public function privacy_policy()
+    {
+        return view('pages.privacy-policy');
+    }
 }

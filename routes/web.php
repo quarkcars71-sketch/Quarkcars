@@ -107,6 +107,9 @@ Route::get('/contact', [PagesController::class, 'contact'])
 Route::get('/terms-of-service', [PagesController::class, 'terms_of_service'])
     ->name('terms-of-service');
 
+Route::get('/privacy-policy', [PagesController::class, 'privacy_policy'])
+    ->name('privacy-policy');
+
 Route::fallback(function () {
     return view('pages.404');
 });

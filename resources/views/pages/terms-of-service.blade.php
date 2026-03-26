@@ -122,4 +122,6 @@
         </div>
     </section>
     <!--Terms Section End-->
+
+     <x-footer_style_one />
 @endsection

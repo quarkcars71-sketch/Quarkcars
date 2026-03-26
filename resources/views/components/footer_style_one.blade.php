@@ -92,7 +92,7 @@
                         <div class="site-footer__bottom-menu-box">
                             <ul class="list-unstyled site-footer__bottom-menu">
                                 <li><a href="{{ route('terms-of-service') }}">Terms of Service</a></li>
-                                <li><a href="{{ route('about') }}">Privacy policy</a></li>
+                                <li><a href="{{ route('privacy-policy') }}">Privacy policy</a></li>
                             </ul>
                         </div>
                     </div>
