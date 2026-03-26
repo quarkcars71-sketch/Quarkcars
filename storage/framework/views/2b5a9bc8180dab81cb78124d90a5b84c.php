@@ -40,6 +40,7 @@
                     <a href="https://twitter.com/quarkcars?t=3EkNp5XO5y-iWU5RpfhrUg&s=09" target="_blank"><i class="icon-twitter"></i></a>
                     <a href="#" target="_blank"><i class="icon-instagram"></i></a>
                     <a href="https://www.youtube.com/@quarkcars304" target="_blank"><i class="icon-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/quarkcars-mobility-969a25263/" target="_blank"><i class="icon-linkedin"></i></a>
                 </div>
             </div>
         </div>
