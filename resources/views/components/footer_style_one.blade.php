@@ -41,8 +41,8 @@
                             <ul class="footer-widget__links-list list-unstyled">
                                 <li><a href="{{ route('self-drive-car') }}">Self Drive Car</a></li>
                                 <li><a href="{{ route('car-sharing') }}">Car Sharing</a></li>
-                                <li><a href="{{ route('cars') }}">Car Subscription</a></li>
-                                <li><a href="{{ route('self-drive-car') }}">Taxi Services</a></li>
+                                <li><a href="{{ route('car-subscription') }}">Car Subscription</a></li>
+                                <li><a href="{{ route('taxi-services') }}">Taxi Services</a></li>
                                 <!-- <li><a href="{{ route('listing-single') }}">Dash Transport</a></li> -->
                             </ul>
                         </div>

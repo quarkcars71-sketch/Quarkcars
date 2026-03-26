@@ -50,8 +50,8 @@ Route::get('/faq', [PagesController::class, 'faq'])
 Route::get('/404', [PagesController::class, 'notFound'])
     ->name('404');
 
-Route::get('/cars', [PagesController::class, 'car_subscription'])
-    ->name('cars');
+Route::get('/car-subscription', [PagesController::class, 'car_subscription'])
+    ->name('car-subscription');
 
 Route::get('/self-drive-car', [PagesController::class, 'self_drive_car'])
     ->name('self-drive-car');

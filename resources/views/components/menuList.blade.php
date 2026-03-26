@@ -35,7 +35,7 @@
     <li class="dropdown">
         <a href="#">Cars</a>
         <ul class="shadow-box">
-             <li><a href="{{ route('cars') }}">Car Subscription</a></li>
+             <li><a href="{{ route('car-subscription') }}">Car Subscription</a></li>
             <li><a href="{{ route('self-drive-car') }}">Self Drive Car</a></li>
             <li><a href="{{ route('car-sharing') }}">Car Sharing</a></li>
             <li><a href="{{ route('taxi-services') }}">Taxi Service</a></li>
