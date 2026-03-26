@@ -3,21 +3,7 @@
 @section('title', 'Terms of Service || Quarkcars || Quarkcars Laravel Template')
 
 @section('content')
-    <!--Page Header Start-->
-    <section class="page-header">
-        <div class="page-header__bg" style="background-image: url({{ asset('assets/images/backgrounds/page-header-bg.jpg') }});"></div>
-        <div class="container">
-            <div class="page-header__inner">
-                <h2>Terms of Service</h2>
-                <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><span>-</span></li>
-                    <li>Terms of Service</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--Page Header End-->
+    <x-pageHeader title="Terms of Service" subtitle="Terms of Service" />
 
     <!--Terms Section Start-->
     <section class="terms-section">

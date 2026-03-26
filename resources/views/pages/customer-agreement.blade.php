@@ -3,22 +3,8 @@
 @section('title', 'Customer Agreement || Quarkcars || Quarkcars Laravel Template')
 
 @section('content')
-    <!--Page Header Start-->
-    <section class="page-header">
-        <div class="page-header__bg" style="background-image: url({{ asset('assets/images/backgrounds/page-header-bg.jpg') }});"></div>
-        <div class="container">
-            <div class="page-header__inner">
-                <h2>Customer Agreement</h2>
-                <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><span>-</span></li>
-                    <li>Customer Agreement</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!--Page Header End-->
-
+    <x-pageHeader title="Customer Agreement" subtitle="Customer Agreement" />
+   
     <!--Customer Agreement Section Start-->
     <section class="agreement-section">
         <div class="container">
