@@ -71,6 +71,9 @@ Route::get('/ertiga-vxi-details', [PagesController::class, 'ertiga_vxi_details']
 Route::get('/swift-lxi-details', [PagesController::class, 'swift_lxi_details'])
     ->name('swift-lxi-details');
 
+Route::get('/mahindra-scorpio-s11-details', [PagesController::class, 'mahindra_scorpio_s11_details'])
+    ->name('mahindra-scorpio-s11-details');
+
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');
 

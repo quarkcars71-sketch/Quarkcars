@@ -81,6 +81,11 @@ class PagesController extends Controller
         return view('pages.SwiftLXIDetails');
     }
 
+    public function mahindra_scorpio_s11_details()
+    {
+        return view('pages.MahindraScorpioS11Details');
+    }
+
     public function products()
     {
         return view('pages.products');

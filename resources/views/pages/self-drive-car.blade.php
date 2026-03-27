@@ -239,7 +239,7 @@
                                             </p>
                                         </div>
                                         <div class="listing-one__btn-box">
-                                            <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                            <a href="{{ route('swift-lxi-details') }}" class="thm-btn">Details Now<span
                                                     class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
@@ -317,7 +317,7 @@
                                             </p>
                                         </div>
                                         <div class="listing-one__btn-box">
-                                            <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                            <a href="{{ route('mahindra-scorpio-s11-details') }}" class="thm-btn">Details Now<span
                                                     class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
