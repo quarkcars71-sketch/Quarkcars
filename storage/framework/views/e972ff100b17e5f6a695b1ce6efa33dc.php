@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'Listing Single || Gorent || Gorent Laravel  Template'); ?>
+<?php $__env->startSection('title', 'SwiftVXIDetails'); ?>
 
 <?php $__env->startSection('content'); ?>
 
@@ -7,14 +7,14 @@
 
     <?php if (isset($component)) { $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c = $attributes; } ?>
-<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.pageHeader','data' => ['title' => 'Listing Single','subtitle' => 'Listing Single']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.pageHeader','data' => ['title' => 'SwiftVXIDetails','subtitle' => 'SwiftVXIDetails']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
 <?php $component->withName('pageHeader'); ?>
 <?php if ($component->shouldRender()): ?>
 <?php $__env->startComponent($component->resolveView(), $component->data()); ?>
 <?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
 <?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
 <?php endif; ?>
-<?php $component->withAttributes(['title' => 'Listing Single','subtitle' => 'Listing Single']); ?>
+<?php $component->withAttributes(['title' => 'SwiftVXIDetails','subtitle' => 'SwiftVXIDetails']); ?>
 <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>
 <?php if (isset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>

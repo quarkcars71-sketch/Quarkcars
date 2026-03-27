@@ -1,12 +1,12 @@
 @extends('layouts.layoutCommon')
-@section('title', 'Listing Single || Gorent || Gorent Laravel  Template')
+@section('title', 'SwiftVXIDetails')
 
 @section('content')
 
 
 
 
-    <x-pageHeader title="Listing Single" subtitle="Listing Single" />
+    <x-pageHeader title="SwiftVXIDetails" subtitle="SwiftVXIDetails" />
 
     <!--Listing Single Start-->
     <section class="listing-single">
