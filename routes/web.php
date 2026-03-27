@@ -89,6 +89,9 @@ Route::get('/maruti-swift-dzire-details', [PagesController::class, 'maruti_swift
 Route::get('/aura-cng-details', [PagesController::class, 'aura_cng_details'])
     ->name('aura-cng-details');
 
+Route::get('/maruti-baleno-details', [PagesController::class, 'maruti_baleno_details'])
+    ->name('maruti-baleno-details');
+
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');
 

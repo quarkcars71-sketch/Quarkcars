@@ -111,6 +111,11 @@ class PagesController extends Controller
         return view('pages.AuraCNGDetails');
     }
 
+    public function maruti_baleno_details()
+    {
+        return view('pages.MarutiBalenoDetails');
+    }
+
     public function products()
     {
         return view('pages.products');
