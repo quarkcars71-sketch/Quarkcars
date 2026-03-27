@@ -106,6 +106,11 @@ class PagesController extends Controller
         return view('pages.MarutiSwiftDzireDetails');
     }
 
+    public function aura_cng_details()
+    {
+        return view('pages.AuraCNGDetails');
+    }
+
     public function products()
     {
         return view('pages.products');
