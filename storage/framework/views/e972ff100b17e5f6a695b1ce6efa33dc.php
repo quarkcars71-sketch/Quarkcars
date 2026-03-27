@@ -1,12 +1,30 @@
-@extends('layouts.layoutCommon')
-@section('title', 'Listing Single || Gorent || Gorent Laravel  Template')
+<?php $__env->startSection('title', 'Listing Single || Gorent || Gorent Laravel  Template'); ?>
 
-@section('content')
-
+<?php $__env->startSection('content'); ?>
 
 
 
-    <x-pageHeader title="Listing Single" subtitle="Listing Single" />
+
+    <?php if (isset($component)) { $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.pageHeader','data' => ['title' => 'Listing Single','subtitle' => 'Listing Single']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('pageHeader'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes(['title' => 'Listing Single','subtitle' => 'Listing Single']); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $attributes = $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $component = $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
 
     <!--Listing Single Start-->
     <section class="listing-single">
@@ -81,7 +99,7 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-1(1).png') }}"
+                                                    <img src="<?php echo e(asset('assets/images/listing/listing-single-1-1(1).png')); ?>"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -118,7 +136,7 @@
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
+                                                        <a href="<?php echo e(route('car-subscription')); ?>" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
@@ -144,7 +162,7 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-2(1).png') }}"
+                                                    <img src="<?php echo e(asset('assets/images/listing/listing-single-1-2(1).png')); ?>"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -185,7 +203,7 @@
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
+                                                        <a href="<?php echo e(route('car-subscription')); ?>" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
@@ -210,7 +228,7 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-3(1).png') }}"
+                                                    <img src="<?php echo e(asset('assets/images/listing/listing-single-1-3(1).png')); ?>"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -251,7 +269,7 @@
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
+                                                        <a href="<?php echo e(route('car-subscription')); ?>" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
@@ -288,21 +306,21 @@
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-1(1).png') }}" alt="">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-thamb-1-1(1).png')); ?>" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-2(1).png') }}" alt="">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-thamb-1-2(1).png')); ?>" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-3(1).png') }}" alt="">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-thamb-1-3(1).png')); ?>" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
@@ -635,7 +653,7 @@
                                             <div class="comment">
                                                 <div class="author-thumb">
                                                     <figure class="thumb"><img
-                                                            src="{{ asset('assets/images/shop/review-1-1.jpg') }}" alt="">
+                                                            src="<?php echo e(asset('assets/images/shop/review-1-1.jpg')); ?>" alt="">
                                                     </figure>
                                                 </div>
 
@@ -673,7 +691,7 @@
                                             <div class="comment">
                                                 <div class="author-thumb">
                                                     <figure class="thumb"><img
-                                                            src="{{ asset('assets/images/shop/review-1-2.jpg') }}" alt="">
+                                                            src="<?php echo e(asset('assets/images/shop/review-1-2.jpg')); ?>" alt="">
                                                     </figure>
                                                 </div>
 
@@ -861,7 +879,7 @@
                                     </div>
                                 </div>
                                 <div class="listing-single__btn-box-2">
-                                    <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Rent Now<span
+                                    <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Rent Now<span
                                             class="fas fa-arrow-right"></span></a>
                                 </div>
                             </div>
@@ -881,7 +899,7 @@
                             <div class="listing-single__seller-info listing-single__single-box">
                                 <div class="listing-single__seller-info-details">
                                     <div class="listing-single__seller-info-img">
-                                        <img src="{{ asset('assets/images/listing/listing-single-seller-info-img-1.jpg') }}"
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-seller-info-img-1.jpg')); ?>"
                                             alt="">
                                     </div>
                                     <div class="listing-single__seller-info-content">
@@ -946,8 +964,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-1(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -956,8 +974,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-2(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -966,8 +984,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-3(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -976,8 +994,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-4(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -986,8 +1004,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-5(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -996,8 +1014,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-6(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -1006,5 +1024,25 @@
     </section>
     <!--Gallery One End -->
 
-    <x-footer_style_one />
-@endsection
+    <?php if (isset($component)) { $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.footer_style_one','data' => []] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('footer_style_one'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $attributes = $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $component = $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.layoutCommon', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH D:\pack-file laravel\Quarkcars\resources\views/pages/SwiftVXIDetails.blade.php ENDPATH**/ ?>
