@@ -101,6 +101,11 @@ class PagesController extends Controller
         return view('pages.Hyundaii10Details');
     }
 
+    public function maruti_swift_dzire_details()
+    {
+        return view('pages.MarutiSwiftDzireDetails');
+    }
+
     public function products()
     {
         return view('pages.products');
