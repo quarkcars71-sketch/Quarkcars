@@ -1,9 +1,27 @@
-@extends('layouts.layoutCommon')
-@section('title', 'Pricing')
+<?php $__env->startSection('title', 'Pricing'); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
-    <x-pageHeader title="Pricing" subtitle="Pricing" />
+    <?php if (isset($component)) { $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.pageHeader','data' => ['title' => 'Pricing','subtitle' => 'Pricing']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('pageHeader'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes(['title' => 'Pricing','subtitle' => 'Pricing']); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $attributes = $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $component = $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
 
     <!-- Pricing One Start -->
     <section class="pricing-one pricing-page-one">
@@ -13,7 +31,7 @@
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box justify-content-center">
                     <div class="section-title__tagline-shape">
-                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
+                        <img src="<?php echo e(asset('assets/images/shapes/section-title-tagline-shape-1.png')); ?>" alt="">
                     </div>
                     <span class="section-title__tagline">Pricing & Plan</span>
                 </div>
@@ -71,7 +89,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                            <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -128,7 +146,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                            <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -185,7 +203,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                            <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -202,7 +220,7 @@
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box justify-content-center">
                     <div class="section-title__tagline-shape">
-                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
+                        <img src="<?php echo e(asset('assets/images/shapes/section-title-tagline-shape-1.png')); ?>" alt="">
                     </div>
                     <span class="section-title__tagline">Pricing & Plan</span>
                 </div>
@@ -213,7 +231,7 @@
                     <div class="pricing-two__single">
                         <div class="pricing-two__left-content">
                             <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-1.jpeg') }}" alt="">
+                                <img src="<?php echo e(asset('assets/images/resources/pricing-2-1.jpeg')); ?>" alt="">
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Gold Pack</h3>
@@ -280,7 +298,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -290,7 +308,7 @@
                     <div class="pricing-two__single">
                         <div class="pricing-two__left-content">
                             <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-2.jpeg') }}" alt="">
+                                <img src="<?php echo e(asset('assets/images/resources/pricing-2-2.jpeg')); ?>" alt="">
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Smart Pack</h3>
@@ -358,7 +376,7 @@
                                 
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -368,7 +386,7 @@
                     <div class="pricing-two__single">
                         <div class="pricing-two__left-content">
                             <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-3.jpeg') }}" alt="">
+                                <img src="<?php echo e(asset('assets/images/resources/pricing-2-3.jpeg')); ?>" alt="">
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Premium Pack</h3>
@@ -435,7 +453,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -445,7 +463,7 @@
                     <div class="pricing-two__single">
                         <div class="pricing-two__left-content">
                             <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-4.png') }}" alt="">
+                                <img src="<?php echo e(asset('assets/images/resources/pricing-2-4.png')); ?>" alt="">
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Vip</h3>
@@ -496,7 +514,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -514,8 +532,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-1(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -524,8 +542,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-2(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -534,8 +552,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-3(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -544,8 +562,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-4(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -554,8 +572,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-5(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -564,8 +582,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-6(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -574,5 +592,25 @@
     </section>
     <!--Gallery One End -->
 
-    <x-footer_style_one />
-@endsection
+    <?php if (isset($component)) { $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.footer_style_one','data' => []] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('footer_style_one'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $attributes = $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $component = $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.layoutCommon', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH D:\pack-file laravel\Quarkcars\resources\views/pages/pricing.blade.php ENDPATH**/ ?>

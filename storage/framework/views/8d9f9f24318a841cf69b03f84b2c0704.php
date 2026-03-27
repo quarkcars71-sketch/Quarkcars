@@ -1,9 +1,27 @@
-@extends('layouts.layoutCommon')
-@section('title', 'Car Sharing')
+<?php $__env->startSection('title', 'Car Sharing'); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
-    <x-pageHeader title="Car Sharing" subtitle="Car Sharing" />
+    <?php if (isset($component)) { $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.pageHeader','data' => ['title' => 'Car Sharing','subtitle' => 'Car Sharing']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('pageHeader'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes(['title' => 'Car Sharing','subtitle' => 'Car Sharing']); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $attributes = $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $component = $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
 
     <!--Car Listing page One Start -->
     <section class="car-listing-page-two">
@@ -17,12 +35,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-1(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-1(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI </p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Dausa</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Dausa</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -30,7 +48,7 @@
                                                 <p>120 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -42,12 +60,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-2(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-2(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Alwar</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Alwar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -55,7 +73,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -67,12 +85,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-3(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-3(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Bharatpur</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Bharatpur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -80,7 +98,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -92,12 +110,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-4(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-4(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Ajmer</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Ajmer</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -105,7 +123,7 @@
                                                 <p>299 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -117,12 +135,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-5(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-5(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Sawai Madhopur </a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Sawai Madhopur </a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -130,7 +148,7 @@
                                                 <p>499 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -142,12 +160,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-6(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-6(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Khatu Shyam Ji</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Khatu Shyam Ji</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -155,7 +173,7 @@
                                                 <p>199 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -167,12 +185,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-7(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-7(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Tonk</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Tonk</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -180,7 +198,7 @@
                                                 <p>229 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -192,12 +210,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-8(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-8(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Sikar</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Sikar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -205,7 +223,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -217,12 +235,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-9(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-9(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Nagaur</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Nagaur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -230,7 +248,7 @@
                                                 <p>549 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -242,12 +260,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-10(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-10(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur -  Mahuwa</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur -  Mahuwa</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -255,7 +273,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -267,12 +285,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-11(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-11(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur
                                              - sariska
                                         </a>
                                         </h3>
@@ -282,7 +300,7 @@
                                                 <p>329 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -294,12 +312,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-12(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-12(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Pushkar</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Pushkar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -307,7 +325,7 @@
                                                 <p>379 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -319,12 +337,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-13(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-13(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Kishangarh</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Kishangarh</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -332,7 +350,7 @@
                                                 <p>249 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -344,12 +362,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-14(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-14(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - udaipur</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - udaipur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -357,7 +375,7 @@
                                                 <p>899 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -369,12 +387,12 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-15(1).png') }}" alt="">
+                                            <img src="<?php echo e(asset('assets/images/listing/listing-2-15(1).png')); ?>" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Delhi</a>
+                                        <h3 class="listing-two__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Jaipur - Delhi</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -382,7 +400,7 @@
                                                 <p>799 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -696,8 +714,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-1(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -706,8 +724,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-2(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -716,8 +734,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-3(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -726,8 +744,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-4(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -736,8 +754,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-5(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -746,8 +764,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-6(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -756,5 +774,25 @@
     </section>
     <!--Gallery One End -->
 
-    <x-footer_style_one />
-@endsection
+    <?php if (isset($component)) { $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.footer_style_one','data' => []] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('footer_style_one'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $attributes = $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $component = $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.layoutCommon', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH D:\pack-file laravel\Quarkcars\resources\views/pages/car-sharing.blade.php ENDPATH**/ ?>
