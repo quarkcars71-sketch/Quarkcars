@@ -63,12 +63,12 @@
                         <div class="main-menu__search-box">
                             <a href="#" class="main-menu__search search-toggler icon-search"></a>
                         </div>
-                        <div class="main-menu__cart-box">
+                        <!-- <div class="main-menu__cart-box">
                             <a href="{{ route('cart') }}" class="main-menu__cart">
                                 <span class="far fa-shopping-cart"></span>
                                 <span class="main-menu__cart-count">02</span>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="main-menu__right">

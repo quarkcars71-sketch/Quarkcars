@@ -9,14 +9,14 @@
     <x-pageHeader title="Listing Single" subtitle="Listing Single" />
 
     <!--Listing Single Start-->
-    <section class="listing-single">
+    <section class="swift-vxi-details">
         <div class="container">
-            <div class="listing-single__top">
-                <div class="listing-single__top-left">
-                    <h3 class="listing-single__title">Maruti Swift VXI (O) CNG</h3>
-                    <p class="listing-single__sub-title">1.2L VXI (O) CNG 5dr FWD Manual Hatchback</p>
-                    <div class="listing-single__car-details-box">
-                        <ul class="list-unstyled listing-single__car-details">
+            <div class="swift-vxi-details__top">
+                <div class="swift-vxi-details__top-left">
+                    <h3 class="swift-vxi-details__title">Maruti Swift VXI (O) CNG</h3>
+                    <p class="swift-vxi-details__sub-title">1.2L VXI (O) CNG 5dr FWD Manual Hatchback</p>
+                    <div class="swift-vxi-details__car-details-box">
+                        <ul class="list-unstyled swift-vxi-details__car-details">
                             <li>
                                 <span class="icon-date"></span>
                                 <p>2023</p>
@@ -34,7 +34,7 @@
                                 <p>CNG</p>
                             </li>
                         </ul>
-                        <ul class="list-unstyled listing-single__car-details">
+                        <ul class="list-unstyled swift-vxi-details__car-details">
                             <li>
                                 <span class="icon-seat"></span>
                                 <p>5 Seats</p>
@@ -54,14 +54,14 @@
                         </ul>
                     </div>
                 </div>
-                <div class="listing-single__top-right">
-                    <div class="listing-single__tag">
+                <div class="swift-vxi-details__top-right">
+                    <div class="swift-vxi-details__tag">
                         <a href="#">Share <span class="icon-arrow-up-from"></span> </a>
                         <a href="#">Save <span class="icon-bookmark"></span> </a>
                         <a href="#">Compare <span class="icon-compress"></span> </a>
                     </div>
-                    <!-- <h2 class="listing-single__price">$150,000</h2> -->
-                    <!-- <div class="listing-single__offer-price">
+                    <!-- <h2 class="swift-vxi-details__price">$150,000</h2> -->
+                    <!-- <div class="swift-vxi-details__offer-price">
                         <div class="icon">
                             <span class="icon-tag-2"></span>
                         </div>
@@ -71,26 +71,26 @@
                     </div> -->
                 </div>
             </div>
-            <div class="listing-single__inner">
-                <div class="listing-single__main-content">
-                    <div class="swiper-container" id="listing-single__carousel">
+            <div class="swift-vxi-details__inner">
+                <div class="swift-vxi-details__main-content">
+                    <div class="swiper-container" id="swift-vxi-details__carousel">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="listing-single__main-content-inner">
+                                <div class="swift-vxi-details__main-content-inner">
                                     <div class="row">
                                         <div class="col-xl-5 col-lg-5">
-                                            <div class="listing-single__left">
-                                                <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-1(1).png') }}"
+                                            <div class="swift-vxi-details__left">
+                                                <div class="swift-vxi-details__img">
+                                                    <img src="{{ asset('assets/images/listing/swift-vxi-details-1-1(1).png') }}"
                                                         alt="">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
-                                            <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Swift VXI (O) CNG – Features, Mileage & City Drive Performance</h3>
-                                                <p class="listing-single__text">The Maruti Swift VXI (O) CNG is a smart and fuel-efficient hatchback designed for everyday driving and budget-conscious travelers. Known for its reliable performance and low running cost, this CNG variant of the Swift offers a perfect balance of comfort, practicality, and economy.</p>
-                                                <ul class="list-unstyled listing-single__meta">
+                                            <div class="swift-vxi-details__right">
+                                                <h3 class="swift-vxi-details__title-two">Maruti Swift VXI (O) CNG – Features, Mileage & City Drive Performance</h3>
+                                                <p class="swift-vxi-details__text">The Maruti Swift VXI (O) CNG is a smart and fuel-efficient hatchback designed for everyday driving and budget-conscious travelers. Known for its reliable performance and low running cost, this CNG variant of the Swift offers a perfect balance of comfort, practicality, and economy.</p>
+                                                <ul class="list-unstyled swift-vxi-details__meta">
                                                     <li>
                                                         <div class="icon">
                                                             <span class="fas fa-map-marker-alt"></span>
@@ -116,20 +116,20 @@
                                                         </div>
                                                     </li>
                                                 </ul>
-                                                <div class="listing-single__btn-and-video-box">
-                                                    <div class="listing-single__btn-box">
+                                                <div class="swift-vxi-details__btn-and-video-box">
+                                                    <div class="swift-vxi-details__btn-box">
                                                         <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
-                                                    <div class="listing-single__video-link">
+                                                    <div class="swift-vxi-details__video-link">
                                                         <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ"
                                                             class="video-popup">
-                                                            <div class="listing-single__video-icon">
+                                                            <div class="swift-vxi-details__video-icon">
                                                                 <span class="icon-play-2"></span>
                                                                 <i class="ripple"></i>
                                                             </div>
                                                         </a>
-                                                        <h4 class="listing-single__video-title">Watch Video</h4>
+                                                        <h4 class="swift-vxi-details__video-title">Watch Video</h4>
                                                     </div>
                                                     <br> 
                                                 </div>
@@ -139,25 +139,25 @@
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
-                                <div class="listing-single__main-content-inner">
+                                <div class="swift-vxi-details__main-content-inner">
                                     <div class="row">
                                         <div class="col-xl-5 col-lg-5">
-                                            <div class="listing-single__left">
-                                                <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-2(1).png') }}"
+                                            <div class="swift-vxi-details__left">
+                                                <div class="swift-vxi-details__img">
+                                                    <img src="{{ asset('assets/images/listing/swift-vxi-details-1-2(1).png') }}"
                                                         alt="">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
-                                            <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Hyundai Accent 2025 - Modern
+                                            <div class="swift-vxi-details__right">
+                                                <h3 class="swift-vxi-details__title-two">Hyundai Accent 2025 - Modern
                                                     compact sedan in blue color car.</h3>
-                                                <p class="listing-single__text">The Toyota Corolla Hybrid is the
+                                                <p class="swift-vxi-details__text">The Toyota Corolla Hybrid is the
                                                     high-performance
                                                     version of the 2 Series 2-door coupé. The first generation of
                                                     the M2 is the F87 coupé and is powered by turbocharged.</p>
-                                                <ul class="list-unstyled listing-single__meta">
+                                                <ul class="list-unstyled swift-vxi-details__meta">
                                                     <li>
                                                         <div class="icon">
                                                             <span class="fas fa-map-marker-alt"></span>
@@ -183,20 +183,20 @@
                                                         </div>
                                                     </li>
                                                 </ul>
-                                                <div class="listing-single__btn-and-video-box">
-                                                    <div class="listing-single__btn-box">
+                                                <div class="swift-vxi-details__btn-and-video-box">
+                                                    <div class="swift-vxi-details__btn-box">
                                                         <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
-                                                    <div class="listing-single__video-link">
+                                                    <div class="swift-vxi-details__video-link">
                                                         <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ"
                                                             class="video-popup">
-                                                            <div class="listing-single__video-icon">
+                                                            <div class="swift-vxi-details__video-icon">
                                                                 <span class="icon-play-2"></span>
                                                                 <i class="ripple"></i>
                                                             </div>
                                                         </a>
-                                                        <h4 class="listing-single__video-title">Watch Video</h4>
+                                                        <h4 class="swift-vxi-details__video-title">Watch Video</h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -205,25 +205,25 @@
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
-                                <div class="listing-single__main-content-inner">
+                                <div class="swift-vxi-details__main-content-inner">
                                     <div class="row">
                                         <div class="col-xl-5 col-lg-5">
-                                            <div class="listing-single__left">
-                                                <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-3(1).png') }}"
+                                            <div class="swift-vxi-details__left">
+                                                <div class="swift-vxi-details__img">
+                                                    <img src="{{ asset('assets/images/listing/swift-vxi-details-1-3(1).png') }}"
                                                         alt="">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
-                                            <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">2025 Toyota Corolla Hybrid
+                                            <div class="swift-vxi-details__right">
+                                                <h3 class="swift-vxi-details__title-two">2025 Toyota Corolla Hybrid
                                                     Best Reviews and Specs</h3>
-                                                <p class="listing-single__text">The Toyota Corolla Hybrid is the
+                                                <p class="swift-vxi-details__text">The Toyota Corolla Hybrid is the
                                                     high-performance
                                                     version of the 2 Series 2-door coupé. The first generation of
                                                     the M2 is the F87 coupé and is powered by turbocharged.</p>
-                                                <ul class="list-unstyled listing-single__meta">
+                                                <ul class="list-unstyled swift-vxi-details__meta">
                                                     <li>
                                                         <div class="icon">
                                                             <span class="fas fa-map-marker-alt"></span>
@@ -249,20 +249,20 @@
                                                         </div>
                                                     </li>
                                                 </ul>
-                                                <div class="listing-single__btn-and-video-box">
-                                                    <div class="listing-single__btn-box">
+                                                <div class="swift-vxi-details__btn-and-video-box">
+                                                    <div class="swift-vxi-details__btn-box">
                                                         <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
-                                                    <div class="listing-single__video-link">
+                                                    <div class="swift-vxi-details__video-link">
                                                         <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ"
                                                             class="video-popup">
-                                                            <div class="listing-single__video-icon">
+                                                            <div class="swift-vxi-details__video-icon">
                                                                 <span class="icon-play-2"></span>
                                                                 <i class="ripple"></i>
                                                             </div>
                                                         </a>
-                                                        <h4 class="listing-single__video-title">Watch Video</h4>
+                                                        <h4 class="swift-vxi-details__video-title">Watch Video</h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -272,37 +272,37 @@
                             </div><!-- /.swiper-slide -->
                         </div>
                     </div>
-                    <div class="listing-single__nav">
-                        <div class="swiper-button-next" id="listing-single__swiper-button-prev">
+                    <div class="swift-vxi-details__nav">
+                        <div class="swiper-button-next" id="swift-vxi-details__swiper-button-prev">
                             <i class="far fa-long-arrow-left"></i>
                         </div>
-                        <div class="swiper-button-prev" id="listing-single__swiper-button-next">
+                        <div class="swiper-button-prev" id="swift-vxi-details__swiper-button-next">
                             <i class="far fa-long-arrow-right"></i>
                         </div>
                     </div>
                 </div>
 
-                <div class="listing-single__thumb-box">
-                    <div class="swiper-container" id="listing-single__thumb">
+                <div class="swift-vxi-details__thumb-box">
+                    <div class="swiper-container" id="swift-vxi-details__thumb">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="listing-single__img-holder-box">
-                                    <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-1(1).png') }}" alt="">
+                                <div class="swift-vxi-details__img-holder-box">
+                                    <div class="swift-vxi-details__img-holder">
+                                        <img src="{{ asset('assets/images/listing/swift-vxi-details-thamb-1-1(1).png') }}" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
-                                <div class="listing-single__img-holder-box">
-                                    <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-2(1).png') }}" alt="">
+                                <div class="swift-vxi-details__img-holder-box">
+                                    <div class="swift-vxi-details__img-holder">
+                                        <img src="{{ asset('assets/images/listing/swift-vxi-details-thamb-1-2(1).png') }}" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
-                                <div class="listing-single__img-holder-box">
-                                    <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-3(1).png') }}" alt="">
+                                <div class="swift-vxi-details__img-holder-box">
+                                    <div class="swift-vxi-details__img-holder">
+                                        <img src="{{ asset('assets/images/listing/swift-vxi-details-thamb-1-3(1).png') }}" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
@@ -310,145 +310,145 @@
                     </div>
                 </div>
             </div>
-            <div class="listing-single__bottom">
+            <div class="swift-vxi-details__bottom">
                 <div class="row">
                     <div class="col-xl-8 col-lg-7">
-                        <div class="listing-single__bottom-left">
-                            <div class="listing-single__car-overview">
-                                <h3 class="listing-single__car-overview-title">Car Overview</h3>
-                                <div class="listing-single__car-overview-points-box">
-                                    <ul class="list-unstyled listing-single__car-overview-point">
+                        <div class="swift-vxi-details__bottom-left">
+                            <div class="swift-vxi-details__car-overview">
+                                <h3 class="swift-vxi-details__car-overview-title">Car Overview</h3>
+                                <div class="swift-vxi-details__car-overview-points-box">
+                                    <ul class="list-unstyled swift-vxi-details__car-overview-point">
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-car1"></i>
                                                 <p>Body</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>SUV</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-mileage"></i>
                                                 <p>Mileage</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>50</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-fuel-type"></i>
                                                 <p>Fuel Type</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>Petrol</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-date"></i>
                                                 <p>Year</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>2024</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-Carrier"></i>
                                                 <p>Transmission</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>Automatic</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-test-drive"></i>
                                                 <p>Drive Type</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>Drive (AWD/4WD)</p>
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul class="list-unstyled listing-single__car-overview-point">
+                                    <ul class="list-unstyled swift-vxi-details__car-overview-point">
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-avatar"></i>
                                                 <p>Condition</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>New</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-engine"></i>
                                                 <p>Engine Size</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>4.5</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-door"></i>
                                                 <p>Door</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>4 Doors</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-range"></i>
                                                 <p>Range</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>$1700</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-color"></i>
                                                 <p>Color</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>Blue, Gold, Red</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="listing-single__car-overview-point-left">
+                                            <div class="swift-vxi-details__car-overview-point-left">
                                                 <i class="icon-seat"></i>
                                                 <p>Seats</p>
                                             </div>
-                                            <div class="listing-single__car-overview-point-right">
+                                            <div class="swift-vxi-details__car-overview-point-right">
                                                 <p>05</p>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="listing-single__description">
-                                <h3 class="listing-single__description-title">Description</h3>
-                                <p class="listing-single__description-text-1">Lorem ipsum is simply ipun txns mane
+                            <div class="swift-vxi-details__description">
+                                <h3 class="swift-vxi-details__description-title">Description</h3>
+                                <p class="swift-vxi-details__description-text-1">Lorem ipsum is simply ipun txns mane
                                     so dummy text of free available in market the printing and typesetting industry
                                     has been the industry's standard dummy text ever. Lorem ipsum is simply ipun
                                     txns mane. Lorem ipsum is simply ipun txns mane
                                     so dummy text of free available in market the printing and typesetting industry
                                     has been the industry's standard dummy text ever.</p>
-                                <p class="listing-single__description-text-2">Lorem ipsum is simply ipun txns mane
+                                <p class="swift-vxi-details__description-text-2">Lorem ipsum is simply ipun txns mane
                                     so dummy text of free available in market the printing and typesetting industry
                                     has been the industry's standard dummy text ever.</p>
                             </div>
-                            <div class="listing-single__feature">
-                                <h3 class="listing-single__feature-title">Features</h3>
-                                <div class="listing-single__feature-points-box">
-                                    <div class="listing-single__feature-point-single">
-                                        <h4 class="listing-single__feature-point-title">Interior</h4>
-                                        <ul class="list-unstyled listing-single__feature-point">
+                            <div class="swift-vxi-details__feature">
+                                <h3 class="swift-vxi-details__feature-title">Features</h3>
+                                <div class="swift-vxi-details__feature-points-box">
+                                    <div class="swift-vxi-details__feature-point-single">
+                                        <h4 class="swift-vxi-details__feature-point-title">Interior</h4>
+                                        <ul class="list-unstyled swift-vxi-details__feature-point">
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-cheack"></span>
@@ -507,9 +507,9 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="listing-single__feature-point-single">
-                                        <h4 class="listing-single__feature-point-title">Safety</h4>
-                                        <ul class="list-unstyled listing-single__feature-point">
+                                    <div class="swift-vxi-details__feature-point-single">
+                                        <h4 class="swift-vxi-details__feature-point-title">Safety</h4>
+                                        <ul class="list-unstyled swift-vxi-details__feature-point">
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-cheack"></span>
@@ -568,9 +568,9 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="listing-single__feature-point-single">
-                                        <h4 class="listing-single__feature-point-title">Comfort & Convenience</h4>
-                                        <ul class="list-unstyled listing-single__feature-point">
+                                    <div class="swift-vxi-details__feature-point-single">
+                                        <h4 class="swift-vxi-details__feature-point-title">Comfort & Convenience</h4>
+                                        <ul class="list-unstyled swift-vxi-details__feature-point">
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-cheack"></span>
@@ -623,7 +623,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="listing-single__review-and-comment">
+                            <div class="swift-vxi-details__review-and-comment">
                                 <!--Review One Start-->
                                 <div class="review-one">
                                     <div class="comments-area">
@@ -761,35 +761,35 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-5">
-                        <div class="listing-single__sidebar">
-                            <div class="listing-single__rent-car-daily-price listing-single__single-box">
+                        <div class="swift-vxi-details__sidebar">
+                            <div class="swift-vxi-details__rent-car-daily-price swift-vxi-details__single-box">
                                 <p>Daily rate</p>
                                 <h3>$150</h3>
                             </div>
-                            <div class="listing-single__rent-car listing-single__single-box">
-                                <h3 class="listing-single__rent-car-title">Rent This Car</h3>
-                                <div class="listing-single__rent-car-content">
-                                    <div class="listing-single__rent-car-content-form">
-                                        <div class="listing-single__rent-car-date-box">
-                                            <p class="listing-single__rent-car-date-title">Pick-Up
+                            <div class="swift-vxi-details__rent-car swift-vxi-details__single-box">
+                                <h3 class="swift-vxi-details__rent-car-title">Rent This Car</h3>
+                                <div class="swift-vxi-details__rent-car-content">
+                                    <div class="swift-vxi-details__rent-car-content-form">
+                                        <div class="swift-vxi-details__rent-car-date-box">
+                                            <p class="swift-vxi-details__rent-car-date-title">Pick-Up
                                             </p>
-                                            <div class="listing-single__rent-car-date-time-box">
+                                            <div class="swift-vxi-details__rent-car-date-time-box">
                                                 <input type="text" placeholder="mm/dd/yyy" name="date" id="datepicker">
                                                 <input type="text" name="time" placeholder="Time"
-                                                    class="listing-single__rent-car-time-box">
+                                                    class="swift-vxi-details__rent-car-time-box">
                                             </div>
                                         </div>
-                                        <div class="listing-single__rent-car-date-box">
-                                            <p class="listing-single__rent-car-date-title">Drop-Off
+                                        <div class="swift-vxi-details__rent-car-date-box">
+                                            <p class="swift-vxi-details__rent-car-date-title">Drop-Off
                                             </p>
-                                            <div class="listing-single__rent-car-date-time-box">
+                                            <div class="swift-vxi-details__rent-car-date-time-box">
                                                 <input type="text" placeholder="mm/dd/yyy" name="date" id="datepicker-2">
                                                 <input type="text" name="time" placeholder="Time"
-                                                    class="listing-single__rent-car-time-box">
+                                                    class="swift-vxi-details__rent-car-time-box">
                                             </div>
                                         </div>
-                                        <div class="listing-single__rent-car-extra">
-                                            <h3 class="listing-single__rent-car-extra-title">Add Extra:</h3>
+                                        <div class="swift-vxi-details__rent-car-extra">
+                                            <h3 class="swift-vxi-details__rent-car-extra-title">Add Extra:</h3>
                                             <ul class="list-unstyled">
                                                 <li>
                                                     <div class="checked-box">
@@ -830,7 +830,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-single__rent-car-price-box">
+                                        <div class="swift-vxi-details__rent-car-price-box">
                                             <ul class="list-unstyled">
                                                 <li>
                                                     <div class="title">
@@ -860,37 +860,37 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="listing-single__btn-box-2">
-                                    <a href="{{ route('listing-single') }}" class="thm-btn">Rent Now<span
+                                <div class="swift-vxi-details__btn-box-2">
+                                    <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Rent Now<span
                                             class="fas fa-arrow-right"></span></a>
                                 </div>
                             </div>
-                            <div class="listing-single__contact-info listing-single__single-box">
-                                <div class="listing-single__contact-phone">
-                                    <a href="tel:15502505260" class="listing-single__contact-phone-number"> <span
+                            <div class="swift-vxi-details__contact-info swift-vxi-details__single-box">
+                                <div class="swift-vxi-details__contact-phone">
+                                    <a href="tel:15502505260" class="swift-vxi-details__contact-phone-number"> <span
                                             class="icon-call-3"></span> 1 (550) 250 5260</a>
-                                    <p class="listing-single__contact-phone-text">Click here to reveal phone number.
+                                    <p class="swift-vxi-details__contact-phone-text">Click here to reveal phone number.
                                     </p>
                                 </div>
-                                <div class="listing-single__contact-btn-box">
+                                <div class="swift-vxi-details__contact-btn-box">
                                     <a href="#"> <i class="icon-steering-wheel"></i>Schedule Test Drive </a>
                                     <a href="#"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
                                     <a href="#"> <i class="far fa-envelope"></i>Email Address</a>
                                 </div>
                             </div>
-                            <div class="listing-single__seller-info listing-single__single-box">
-                                <div class="listing-single__seller-info-details">
-                                    <div class="listing-single__seller-info-img">
-                                        <img src="{{ asset('assets/images/listing/listing-single-seller-info-img-1.jpg') }}"
+                            <div class="swift-vxi-details__seller-info swift-vxi-details__single-box">
+                                <div class="swift-vxi-details__seller-info-details">
+                                    <div class="swift-vxi-details__seller-info-img">
+                                        <img src="{{ asset('assets/images/listing/swift-vxi-details-seller-info-img-1.jpg') }}"
                                             alt="">
                                     </div>
-                                    <div class="listing-single__seller-info-content">
+                                    <div class="swift-vxi-details__seller-info-content">
                                         <p>Add by:</p>
                                         <h5>Kevin Obrain <span class="icon-cheack"></span> </h5>
                                     </div>
                                 </div>
-                                <div class="listing-single__seller-contact-info">
-                                    <ul class="list-unstyled listing-single__seller-contact-info-list">
+                                <div class="swift-vxi-details__seller-contact-info">
+                                    <ul class="list-unstyled swift-vxi-details__seller-contact-info-list">
                                         <li>
                                             <div class="icon">
                                                 <i class="far fa-phone"></i>
@@ -927,7 +927,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="listing-single__seller-profile">
+                                <div class="swift-vxi-details__seller-profile">
                                     <a href="#" class="thm-btn">View Profile <span class="fas fa-arrow-right"></span></a>
                                 </div>
                             </div>

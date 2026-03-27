@@ -22,7 +22,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI </p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Dausa</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Dausa</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -30,7 +30,7 @@
                                                 <p>120 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Alwar</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Alwar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -55,7 +55,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -72,7 +72,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Bharatpur</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Bharatpur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -80,7 +80,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -97,7 +97,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Ajmer</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Ajmer</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -105,7 +105,7 @@
                                                 <p>299 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +122,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Sawai Madhopur </a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Sawai Madhopur </a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -130,7 +130,7 @@
                                                 <p>499 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -147,7 +147,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Khatu Shyam Ji</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Khatu Shyam Ji</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -155,7 +155,7 @@
                                                 <p>199 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -172,7 +172,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Tonk</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Tonk</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -180,7 +180,7 @@
                                                 <p>229 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -197,7 +197,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Sikar</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Sikar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -205,7 +205,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -222,7 +222,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Nagaur</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Nagaur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -230,7 +230,7 @@
                                                 <p>549 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -247,7 +247,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur -  Mahuwa</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur -  Mahuwa</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -255,7 +255,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -272,7 +272,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur
                                              - sariska
                                         </a>
                                         </h3>
@@ -282,7 +282,7 @@
                                                 <p>329 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -299,7 +299,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Pushkar</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Pushkar</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -307,7 +307,7 @@
                                                 <p>379 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -324,7 +324,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Kishangarh</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Kishangarh</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -332,7 +332,7 @@
                                                 <p>249 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -349,7 +349,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - udaipur</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - udaipur</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -357,7 +357,7 @@
                                                 <p>899 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -374,7 +374,7 @@
                                     </div>
                                     <div class="listing-two__content">
                                         <p class="listing-two__sub-title">Maruti Swift VXI</p>
-                                        <h3 class="listing-two__title"><a href="{{ route('listing-single') }}">Jaipur - Delhi</a>
+                                        <h3 class="listing-two__title"><a href="{{ route('swift-vxi-details') }}">Jaipur - Delhi</a>
                                         </h3>
                                         <div class="listing-two__price-and-btn">
                                             <div class="listing-two__price-box">
@@ -382,7 +382,7 @@
                                                 <p>799 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>

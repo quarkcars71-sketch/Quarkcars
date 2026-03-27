@@ -16,13 +16,13 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-1.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-8(1).png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Maruti</p>
                                         </div>
                                     </div>
                                     <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Maruti Swift VXI (O) CNG</a></h3>
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift Dzire</a></h3>
                                         <div class="listing-three__meta-box-info">
                                             <ul class="list-unstyled listing-three__meta">
                                                 <li>
@@ -38,7 +38,7 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>32 KM/L</p>
+                                                        <p>11 INR/KM</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -64,7 +64,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Age 21</p>
+                                                        <p>Driver Charge</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -78,9 +78,9 @@
                                             </ul>
                                         </div>
                                         <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
                                             <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
                                                         class="icon-right-arrow-1"></span></a>
                                             </div>
                                         </div>
@@ -92,14 +92,89 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-2.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-2(1).png') }}" alt="">
                                         <div class="listing-three__brand-name">
-                                            <p>Acura</p>
+                                            <p>Maruti</p>
                                         </div>
                                     </div>
                                     <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Kia Soul
-                                                2025</a></h3>
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
+                                        <div class="listing-three__meta-box-info">
+                                            <ul class="list-unstyled listing-three__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>14 INR/KM</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>CNG</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Basic</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Driver Charge</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-three__car-rent-and-btn-box">
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
+                                            <div class="listing-three__btn-box">
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                                        class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="listing-three__single">
+                                    <div class="listing-three__img">
+                                        <img src="{{ asset('assets/images/listing/listing-3-4(1).png') }}" alt="">
+                                        <div class="listing-three__brand-name">
+                                            <p>Mahindra</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-three__content">
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Scorpio S11</a></h3>
                                         <div class="listing-three__meta-box-info">
                                             <ul class="list-unstyled listing-three__meta">
                                                 <li>
@@ -141,7 +216,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Age 25</p>
+                                                        <p>Driver Charge</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -155,9 +230,9 @@
                                             </ul>
                                         </div>
                                         <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
                                             <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
                                                         class="icon-right-arrow-1"></span></a>
                                             </div>
                                         </div>
@@ -169,14 +244,317 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-3.jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-6(1).png') }}" alt="">
                                         <div class="listing-three__brand-name">
-                                            <p>Acura</p>
+                                            <p>Hyundai</p>
                                         </div>
                                     </div>
                                     <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Audi A3
-                                                2025 New</a></h3>
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Hyundai verna Petrol</a></h3>
+                                        <div class="listing-three__meta-box-info">
+                                            <ul class="list-unstyled listing-three__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>25 KM</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Petrol</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Basic</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Driver Charge</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-three__car-rent-and-btn-box">
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
+                                            <div class="listing-three__btn-box">
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                                        class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="listing-three__single">
+                                    <div class="listing-three__img">
+                                        <img src="{{ asset('assets/images/listing/listing-1-9(1).png') }}" alt="">
+                                        <div class="listing-three__brand-name">
+                                            <p>Hyundai</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-three__content">
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Aura CNG</a></h3>
+                                        <div class="listing-three__meta-box-info">
+                                            <ul class="list-unstyled listing-three__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>11 INR/KM</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>CNG</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Basic</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Driver Charge</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-three__car-rent-and-btn-box">
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
+                                            <div class="listing-three__btn-box">
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                                        class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="listing-three__single">
+                                    <div class="listing-three__img">
+                                        <img src="{{ asset('assets/images/listing/listing-1-13(1).png') }}" alt="">
+                                        <div class="listing-three__brand-name">
+                                            <p>Toyota</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-three__content">
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Innova</a></h3>
+                                        <div class="listing-three__meta-box-info">
+                                            <ul class="list-unstyled listing-three__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>16 INR/KM</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Petrol</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Basic</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Driver Charge</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-three__car-rent-and-btn-box">
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
+                                            <div class="listing-three__btn-box">
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                                        class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="listing-three__single">
+                                    <div class="listing-three__img">
+                                        <img src="{{ asset('assets/images/listing/listing-1-14(1).png') }}" alt="">
+                                        <div class="listing-three__brand-name">
+                                            <p>Toyota</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-three__content">
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Innova Crysta</a></h3>
+                                        <div class="listing-three__meta-box-info">
+                                            <ul class="list-unstyled listing-three__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>18 INR/KM</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Petrol</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Basic</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Driver Charge</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-three__car-rent-and-btn-box">
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
+                                            <div class="listing-three__btn-box">
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                                        class="icon-right-arrow-1"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="listing-three__single">
+                                    <div class="listing-three__img">
+                                        <img src="{{ asset('assets/images/listing/listing-1-15(1).png') }}" alt="">
+                                        <div class="listing-three__brand-name">
+                                            <p>Toyota</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-three__content">
+                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Toyota Fortuner</a></h3>
                                         <div class="listing-three__meta-box-info">
                                             <ul class="list-unstyled listing-three__meta">
                                                 <li>
@@ -218,7 +596,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Age 25</p>
+                                                        <p>Driver Charge</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -232,394 +610,9 @@
                                             </ul>
                                         </div>
                                         <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
+                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
                                             <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Listing One Single End -->
-                            <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-4.jpg') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Acura</p>
-                                        </div>
-                                    </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Ferrari
-                                                458 MM Speciale</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-manual"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Manual</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-mileage"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>25 KM</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-fuel-type"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Diesel</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-test-drive"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Basic</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-avatar"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Age 25</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-in-person"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>5 Persons</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Listing One Single End -->
-                            <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-5.jpg') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Acura</p>
-                                        </div>
-                                    </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Audi Sport
-                                                Version</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-manual"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Manual</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-mileage"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>25 KM</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-fuel-type"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Diesel</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-test-drive"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Basic</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-avatar"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Age 25</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-in-person"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>5 Persons</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Listing One Single End -->
-                            <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Acura</p>
-                                        </div>
-                                    </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Toyota
-                                                Tacoma 4WD</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-manual"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Manual</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-mileage"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>25 KM</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-fuel-type"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Diesel</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-test-drive"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Basic</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-avatar"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Age 25</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-in-person"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>5 Persons</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Listing One Single End -->
-                            <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-1.jpg') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Acura</p>
-                                        </div>
-                                    </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Acura
-                                                Sport Version</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-manual"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Manual</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-mileage"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>25 KM</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-fuel-type"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Diesel</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-test-drive"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Basic</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-avatar"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Age 25</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-in-person"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>5 Persons</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Listing One Single End -->
-                            <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-2.jpg') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Acura</p>
-                                        </div>
-                                    </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('listing-single') }}">Kia Soul
-                                                2025</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-manual"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Manual</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-mileage"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>25 KM</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-fuel-type"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Diesel</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-test-drive"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Basic</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-avatar"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Age 25</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-in-person"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>5 Persons</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>$100/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="listing-three__btn"><span
+                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
                                                         class="icon-right-arrow-1"></span></a>
                                             </div>
                                         </div>

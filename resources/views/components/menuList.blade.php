@@ -39,10 +39,10 @@
             <li><a href="{{ route('self-drive-car') }}">Self Drive Car</a></li>
             <li><a href="{{ route('car-sharing') }}">Car Sharing</a></li>
             <li><a href="{{ route('taxi-services') }}">Taxi Service</a></li>
-            <!-- <li><a href="{{ route('listing-single') }}">Car Listing Single</a></li> -->
+            <!-- <li><a href="{{ route('swift-vxi-details') }}">Car Listing Single</a></li> -->
         </ul>
     </li>
-    <li class="dropdown">
+    <!-- <li class="dropdown">
         <a href="#">Shop</a>
         <ul class="shadow-box">
             <li><a href="{{ route('products') }}">Products</a></li>
@@ -53,14 +53,14 @@
             <li><a href="{{ route('sign-up') }}">Sign Up</a></li>
             <li><a href="{{ route('login') }}">Login</a></li>
         </ul>
-    </li>
+    </li> -->
     <li class="dropdown">
         <a href="#">Blog</a>
         <ul class="shadow-box">
             <li><a href="{{ route('blog') }}">Blog</a></li>
-            <li><a href="{{ route('blog-standard') }}">Blog Standard</a></li>
+            <!-- <li><a href="{{ route('blog-standard') }}">Blog Standard</a></li>
             <li><a href="{{ route('blog-left-sidebar') }}">Blog Left Sidebar</a></li>
-            <li><a href="{{ route('blog-right-sidebar') }}">Blog Right Sidebar</a></li>
+            <li><a href="{{ route('blog-right-sidebar') }}">Blog Right Sidebar</a></li> -->
             <li><a href="{{ route('blog-details') }}">Blog Details</a></li>
         </ul>
     </li>

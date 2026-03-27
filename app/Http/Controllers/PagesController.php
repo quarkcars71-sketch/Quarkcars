@@ -66,9 +66,9 @@ class PagesController extends Controller
         return view('pages.taxi-services');
     }
 
-    public function listing_single()
+    public function swift_vxi_details()
     {
-        return view('pages.listing-single');
+        return view('pages.SwiftVXIDetails');
     }
 
     public function products()

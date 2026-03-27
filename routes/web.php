@@ -62,8 +62,8 @@ Route::get('/car-sharing', [PagesController::class, 'car_list_v_2'])
 Route::get('/taxi-services', [PagesController::class, 'car_list_v_3'])
     ->name('taxi-services');
 
-Route::get('/listing-single', [PagesController::class, 'listing_single'])
-    ->name('listing-single');
+Route::get('/swift-vxi-details', [PagesController::class, 'swift_vxi_details'])
+    ->name('swift-vxi-details');
 
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');

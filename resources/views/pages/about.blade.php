@@ -320,7 +320,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Maruti Swift VXI (O) CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift VXI (O) CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -381,7 +381,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -398,7 +398,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Maruti Ertiga VXI CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -459,7 +459,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -476,7 +476,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Maruti Swift LXI</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift LXI</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -537,7 +537,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -554,7 +554,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Mahindra Scorpio S11</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Scorpio S11</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -615,7 +615,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -632,7 +632,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Mahindra Thar 4x4 Diesel</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Thar 4x4 Diesel</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -693,7 +693,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -710,7 +710,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Hyundai Verna Petrol</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai Verna Petrol</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -771,7 +771,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -788,7 +788,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Hyundai i20</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i20</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -849,7 +849,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -865,7 +865,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Hyundai i10</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i10</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -926,7 +926,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -942,7 +942,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Maruti Swift Dzire</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift Dzire</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -1003,7 +1003,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1019,7 +1019,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Aura CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Aura CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -1080,7 +1080,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1105,7 +1105,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1167,7 +1167,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1184,7 +1184,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1246,7 +1246,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1263,7 +1263,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1325,7 +1325,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1342,7 +1342,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1404,7 +1404,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1421,7 +1421,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -1484,7 +1484,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1501,7 +1501,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1563,7 +1563,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1580,7 +1580,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1642,7 +1642,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1667,7 +1667,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1729,7 +1729,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1746,7 +1746,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1808,7 +1808,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1825,7 +1825,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1887,7 +1887,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1904,7 +1904,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1966,7 +1966,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1983,7 +1983,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -2046,7 +2046,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2063,7 +2063,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2125,7 +2125,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2142,7 +2142,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2204,7 +2204,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2229,7 +2229,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2291,7 +2291,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2308,7 +2308,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2370,7 +2370,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2387,7 +2387,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2449,7 +2449,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2466,7 +2466,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2528,7 +2528,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2545,7 +2545,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -2608,7 +2608,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2625,7 +2625,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2687,7 +2687,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2704,7 +2704,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2766,7 +2766,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2791,7 +2791,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2853,7 +2853,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2870,7 +2870,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2932,7 +2932,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2949,7 +2949,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3011,7 +3011,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3028,7 +3028,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3090,7 +3090,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3107,7 +3107,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -3170,7 +3170,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3187,7 +3187,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3249,7 +3249,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3266,7 +3266,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3328,7 +3328,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3353,7 +3353,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3415,7 +3415,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3432,7 +3432,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3494,7 +3494,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3511,7 +3511,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3573,7 +3573,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3590,7 +3590,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3652,7 +3652,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3669,7 +3669,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -3732,7 +3732,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3749,7 +3749,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3811,7 +3811,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3828,7 +3828,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3890,7 +3890,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
