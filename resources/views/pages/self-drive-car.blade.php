@@ -629,7 +629,7 @@
                                             </p>
                                         </div>
                                         <div class="listing-one__btn-box">
-                                            <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                            <a href="{{ route('maruti-swift-dzire-details') }}" class="thm-btn">Details Now<span
                                                     class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
