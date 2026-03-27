@@ -116,6 +116,11 @@ class PagesController extends Controller
         return view('pages.MarutiBalenoDetails');
     }
 
+    public function maruti_dzire_tour_cng_details()
+    {
+        return view('pages.MarutiDzireTourCNGDetails');
+    }
+
     public function products()
     {
         return view('pages.products');
