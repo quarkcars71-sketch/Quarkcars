@@ -569,7 +569,7 @@
                                             </p>
                                         </div>
                                         <div class="listing-one__btn-box">
-                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                            <a href="<?php echo e(route('hyundai-i10-details')); ?>" class="thm-btn">Details Now<span
                                                     class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>

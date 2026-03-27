@@ -80,6 +80,9 @@ Route::get('/mahindra-thar-4x4-details', [PagesController::class, 'mahindra_thar
 Route::get('/hyundai-i20-details', [PagesController::class, 'hyundai_i20_details'])
     ->name('hyundai-i20-details');
 
+Route::get('/hyundai-i10-details', [PagesController::class, 'hyundai_i10_details'])
+    ->name('hyundai-i10-details');
+
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');
 
