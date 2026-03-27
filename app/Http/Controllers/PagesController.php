@@ -86,6 +86,11 @@ class PagesController extends Controller
         return view('pages.MahindraScorpioS11Details');
     }
 
+    public function mahindra_thar_4x4_details()
+    {
+        return view('pages.MahindraThar4X4Details');
+    }
+
     public function products()
     {
         return view('pages.products');
