@@ -1,30 +1,48 @@
-@extends('layouts.layoutCommon')
-@section('title', 'Taxi Services')
+<?php $__env->startSection('title', 'Self Drive Car'); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
-    <x-pageHeader title="Taxi Services" subtitle="Taxi Services" />
+    <?php if (isset($component)) { $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.pageHeader','data' => ['title' => 'Self Drive Car','subtitle' => 'Self Drive Car']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('pageHeader'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes(['title' => 'Self Drive Car','subtitle' => 'Self Drive Car']); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $attributes = $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
+<?php $component = $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
+<?php unset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
+<?php endif; ?>
 
     <!--Car Listing page One Start -->
-    <section class="car-listing-page-three">
+    <section class="car-listing-page-one">
         <div class="container">
             <div class="row">
                 <div class="col-xl-9">
-                    <div class="car-listing-page-three__left">
+                    <div class="car-listing-page-one__left">
                         <div class="row">
                             <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-8(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-1(1).jpg')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
                                     </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift Dzire</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Maruti Swift VXI (O) CNG</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-manual"></span>
@@ -38,7 +56,7 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>11 INR/KM</p>
+                                                        <p>32 KM/L</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -50,7 +68,7 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-test-drive"></span>
@@ -64,7 +82,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Driver Charge</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -77,30 +95,32 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2800 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Listing One Single End -->
                             <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-2(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-2(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
                                     </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('ertiga-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Maruti Ertiga VXI CNG</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-manual"></span>
@@ -114,7 +134,7 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>14 INR/KM</p>
+                                                        <p>26 KM/KG</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -126,7 +146,85 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>MPV</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Age 21</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>7 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>3500 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('ertiga-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-3-3(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Maruti</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Maruti Swift LXI</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>23 KM/L</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Petrol</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-test-drive"></span>
@@ -140,7 +238,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Driver Charge</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -153,30 +251,32 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('ertiga-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2500 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Listing One Single End -->
                             <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-4(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-3-4(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
                                             <p>Mahindra</p>
                                         </div>
                                     </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Scorpio S11</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Mahindra Scorpio S11</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-manual"></span>
@@ -190,7 +290,7 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>25 KM</p>
+                                                        <p>18 KM/L</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -202,13 +302,13 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-test-drive"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Basic</p>
+                                                        <p>SUV</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -216,7 +316,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Driver Charge</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -224,35 +324,37 @@
                                                         <span class="icon-in-person"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>5 Persons</p>
+                                                        <p>7 Persons</p>
                                                     </div>
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>5500 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Listing One Single End -->
                             <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-6(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Hyundai</p>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-5(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Mahindra</p>
                                         </div>
                                     </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Hyundai verna Petrol</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Mahindra Thar 4X4</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-manual"></span>
@@ -266,7 +368,85 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>25 KM</p>
+                                                        <p>18 KM/L</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Diesel</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>SUV</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Age 21</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>4 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>5000 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-6(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Hyundai</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Hyundai i20</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>20 KM/L</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -278,13 +458,13 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-test-drive"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Basic</p>
+                                                        <p>Hatchb.</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -292,7 +472,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Driver Charge</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -305,30 +485,32 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2800 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Listing One Single End -->
                             <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-9(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-7(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
                                             <p>Hyundai</p>
                                         </div>
                                     </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Aura CNG</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Hyundai i10</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-manual"></span>
@@ -342,7 +524,163 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>11 INR/KM</p>
+                                                        <p>19 KM/L</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Petrol</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Hatchb.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Age 21</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2500 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-8(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Maruti</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Maruti Swift Dzire</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>22 KM/L</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Petrol</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Basic</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Age 21</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2700 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-9(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Hyundai</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Aura CNG</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>25 KM/L</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -354,13 +692,13 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-test-drive"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Basic</p>
+                                                        <p>Sedan</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -368,7 +706,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Driver Charge</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -381,30 +719,32 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2500 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Listing One Single End -->
                             <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-13(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Toyota</p>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-10(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Maruti</p>
                                         </div>
                                     </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Innova</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Maruti Baleno</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-manual"></span>
@@ -418,7 +758,7 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>16 INR/KM</p>
+                                                        <p>22 KM/L</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -430,13 +770,13 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-test-drive"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Basic</p>
+                                                        <p>Hatchb.</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -444,7 +784,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Driver Charge</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -457,30 +797,32 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2800 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Listing One Single End -->
                             <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-14(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Toyota</p>
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-11(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Maruti</p>
                                         </div>
                                     </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Innova Crysta</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Maruti Dzire Tour CNG</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-manual"></span>
@@ -494,7 +836,85 @@
                                                         <span class="icon-mileage"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>18 INR/KM</p>
+                                                        <p>31 KM/KG</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-fuel-type"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>CNG</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-test-drive"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Sedan</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-avatar"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Age 21</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-in-person"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>5 Persons</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>2800 INR/</span> Day
+                                            </p>
+                                        </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Listing One Single End -->
+                            <!-- Listing One Single Start -->
+                            <div class="col-xl-4 col-lg-4 col-md-6">
+                                <div class="listing-one__single">
+                                    <div class="listing-one__img">
+                                        <img src="<?php echo e(asset('assets/images/listing/listing-1-12(1).png')); ?>" alt="">
+                                        <div class="listing-one__brand-name">
+                                            <p>Maruti</p>
+                                        </div>
+                                    </div>
+                                    <div class="listing-one__content">
+                                        <h3 class="listing-one__title"><a href="<?php echo e(route('swift-vxi-details')); ?>">Maruti Brezza</a></h3>
+                                        <div class="listing-one__meta-box-info">
+                                            <ul class="list-unstyled listing-one__meta">
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-manual"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>Manual</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <span class="icon-mileage"></span>
+                                                    </div>
+                                                    <div class="text">
+                                                        <p>20 KM/L</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -506,13 +926,13 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
+                                            <ul class="list-unstyled listing-one__meta listing-one__meta--two">
                                                 <li>
                                                     <div class="icon">
                                                         <span class="icon-test-drive"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Basic</p>
+                                                        <p>SUV</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -520,7 +940,7 @@
                                                         <span class="icon-avatar"></span>
                                                     </div>
                                                     <div class="text">
-                                                        <p>Driver Charge</p>
+                                                        <p>Age 21</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -533,88 +953,14 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__car-rent-box">
+                                            <p class="listing-one__car-rent">Starting From
+                                                <span>3200 INR/</span> Day
+                                            </p>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Listing One Single End -->
-                            <!-- Listing One Single Start -->
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="listing-three__single">
-                                    <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-15(1).png') }}" alt="">
-                                        <div class="listing-three__brand-name">
-                                            <p>Toyota</p>
-                                        </div>
-                                    </div>
-                                    <div class="listing-three__content">
-                                        <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Toyota Fortuner</a></h3>
-                                        <div class="listing-three__meta-box-info">
-                                            <ul class="list-unstyled listing-three__meta">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-manual"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Manual</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-mileage"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>25 KM</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-fuel-type"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Diesel</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <ul class="list-unstyled listing-three__meta listing-three__meta--two">
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-test-drive"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Basic</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-avatar"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>Driver Charge</p>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="icon">
-                                                        <span class="icon-in-person"></span>
-                                                    </div>
-                                                    <div class="text">
-                                                        <p>5 Persons</p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="listing-three__car-rent-and-btn-box">
-                                            <p class="listing-three__car-rent"><span>250 KM/</span> Day</p>
-                                            <div class="listing-three__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
-                                                        class="icon-right-arrow-1"></span></a>
-                                            </div>
+                                        <div class="listing-one__btn-box">
+                                            <a href="<?php echo e(route('swift-vxi-details')); ?>" class="thm-btn">Details Now<span
+                                                    class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -638,7 +984,7 @@
                     </div>
                 </div>
                 <div class="col-xl-3">
-                    <div class="car-listing-page-three__right">
+                    <div class="car-listing-page-one__right">
                         <div class="car-listing__sidebar">
                             <div class="car-listing__search car-listing__sidebar-single">
                                 <form action="#">
@@ -673,7 +1019,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper2" id="skipper2" checked="">
-                                            <label for="skipper2"><span></span>sport cars</label>
+                                            <label for="skipper2"><span></span>SUV</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>50</p>
@@ -682,7 +1028,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper3" id="skipper3">
-                                            <label for="skipper3"><span></span>sedan</label>
+                                            <label for="skipper3"><span></span>Sedan</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>100</p>
@@ -700,7 +1046,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper5" id="skipper5">
-                                            <label for="skipper5"><span></span>Minibus</label>
+                                            <label for="skipper5"><span></span>Hatchbacks</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>80</p>
@@ -709,7 +1055,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper6" id="skipper6">
-                                            <label for="skipper6"><span></span>Coupes</label>
+                                            <label for="skipper6"><span></span>MUV / MPV</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>60</p>
@@ -718,7 +1064,7 @@
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="skipper7" id="skipper7">
-                                            <label for="skipper7"><span></span>Trucks</label>
+                                            <label for="skipper7"><span></span>Crossover</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>90</p>
@@ -797,7 +1143,7 @@
                                             <p>20</p>
                                         </div>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type2" id="f_type2" checked="">
                                             <label for="f_type2"><span></span>Gasoline</label>
@@ -805,7 +1151,7 @@
                                         <div class="counts-box">
                                             <p>25</p>
                                         </div>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type3" id="f_type3">
@@ -824,7 +1170,7 @@
                                             <p>40</p>
                                         </div>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type5" id="f_type5">
                                             <label for="f_type5"><span></span>Ethanol</label>
@@ -832,11 +1178,11 @@
                                         <div class="counts-box">
                                             <p>20</p>
                                         </div>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <div class="checked-box">
                                             <input type="checkbox" name="f_type6" id="f_type6">
-                                            <label for="f_type6"><span></span>Hybrid</label>
+                                            <label for="f_type6"><span></span>Petrol + CNG</label>
                                         </div>
                                         <div class="counts-box">
                                             <p>27</p>
@@ -927,8 +1273,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-1(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -937,8 +1283,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(1).jpg') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-2(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('car-subscription')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -947,8 +1293,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-3(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -957,8 +1303,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-4(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -967,8 +1313,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-5(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -977,8 +1323,8 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(1).jpg') }}" alt="">
-                        <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
+                        <img src="<?php echo e(asset('assets/images/gallery/gallery-1-6(1).jpg')); ?>" alt="">
+                        <a href="<?php echo e(route('cart')); ?>"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -987,5 +1333,25 @@
     </section>
     <!--Gallery One End -->
 
-    <x-footer_style_one />
-@endsection
+    <?php if (isset($component)) { $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.footer_style_one','data' => []] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
+<?php $component->withName('footer_style_one'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
+<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
+<?php endif; ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $attributes = $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
+<?php $component = $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
+<?php unset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
+<?php endif; ?>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.layoutCommon', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH D:\pack-file laravel\Quarkcars\resources\views/pages/self-drive-car.blade.php ENDPATH**/ ?>

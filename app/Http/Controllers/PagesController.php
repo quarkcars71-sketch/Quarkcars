@@ -71,6 +71,11 @@ class PagesController extends Controller
         return view('pages.SwiftVXIDetails');
     }
 
+    public function ertiga_vxi_details()
+    {
+        return view('pages.ErtigaVXIDetails');
+    }
+
     public function products()
     {
         return view('pages.products');

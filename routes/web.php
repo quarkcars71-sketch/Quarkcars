@@ -65,6 +65,9 @@ Route::get('/taxi-services', [PagesController::class, 'car_list_v_3'])
 Route::get('/swift-vxi-details', [PagesController::class, 'swift_vxi_details'])
     ->name('swift-vxi-details');
 
+Route::get('/ertiga-vxi-details', [PagesController::class, 'ertiga_vxi_details'])
+    ->name('ertiga-vxi-details');
+
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');
 
