@@ -100,7 +100,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('ertiga-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -178,7 +178,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift LXI</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('swift-lxi-details') }}">Maruti Swift LXI</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -256,7 +256,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Scorpio S11</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('mahindra-scorpio-s11-details') }}">Mahindra Scorpio S11</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -334,7 +334,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Thar 4X4</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('mahindra-thar-4x4-details') }}">Mahindra Thar 4X4</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -412,7 +412,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i20</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('hyundai-i20-details') }}">Hyundai i20</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -490,7 +490,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i10</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('hyundai-i10-details') }}">Hyundai i10</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -568,7 +568,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift Dzire</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('maruti-swift-dzire-details') }}">Maruti Swift Dzire</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -646,7 +646,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Aura CNG</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('aura-cng-details') }}">Aura CNG</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -724,7 +724,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Baleno</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('maruti-baleno-details') }}">Maruti Baleno</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -802,7 +802,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Dzire Tour CNG</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('maruti-dzire-tour-cng-details') }}">Maruti Dzire Tour CNG</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -880,7 +880,7 @@
                                         </div>
                                     </div>
                                     <div class="listing-one__content">
-                                        <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Brezza</a></h3>
+                                        <h3 class="listing-one__title"><a href="{{ route('maruti-brezza-details') }}">Maruti Brezza</a></h3>
                                         <div class="listing-one__meta-box-info">
                                             <ul class="list-unstyled listing-one__meta">
                                                 <li>
@@ -941,7 +941,7 @@
                                             </p>
                                         </div>
                                         <div class="listing-one__btn-box">
-                                            <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                            <a href="{{ route('maruti-brezza-details') }}" class="thm-btn">Details Now<span
                                                     class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>

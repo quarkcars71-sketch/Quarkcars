@@ -121,6 +121,11 @@ class PagesController extends Controller
         return view('pages.MarutiDzireTourCNGDetails');
     }
 
+    public function maruti_brezza_details()
+    {
+        return view('pages.MarutiBrezzaDetails');
+    }
+
     public function products()
     {
         return view('pages.products');

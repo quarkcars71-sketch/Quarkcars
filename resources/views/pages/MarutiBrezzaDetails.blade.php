@@ -1,38 +1,20 @@
-<?php $__env->startSection('title', 'Swift LXI Details || Quarkcars'); ?>
+@extends('layouts.layoutCommon')
+@section('title', 'Maruti Brezza Details || Quarkcars')
 
-<?php $__env->startSection('content'); ?>
+@section('content')
 
 
 
 
-    <?php if (isset($component)) { $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c = $component; } ?>
-<?php if (isset($attributes)) { $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c = $attributes; } ?>
-<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.pageHeader','data' => ['title' => 'Swift LXI Details','subtitle' => 'Swift LXI Petrol']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
-<?php $component->withName('pageHeader'); ?>
-<?php if ($component->shouldRender()): ?>
-<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
-<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
-<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
-<?php endif; ?>
-<?php $component->withAttributes(['title' => 'Swift LXI Details','subtitle' => 'Swift LXI Petrol']); ?>
-<?php echo $__env->renderComponent(); ?>
-<?php endif; ?>
-<?php if (isset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
-<?php $attributes = $__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
-<?php unset($__attributesOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
-<?php endif; ?>
-<?php if (isset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c)): ?>
-<?php $component = $__componentOriginalf5606eea0f9c25be0d1717ad67ba232c; ?>
-<?php unset($__componentOriginalf5606eea0f9c25be0d1717ad67ba232c); ?>
-<?php endif; ?>
+    <x-pageHeader title="Maruti Brezza" subtitle="Brezza ZXI Petrol" />
 
     <!--Listing Single Start-->
     <section class="listing-single">
         <div class="container">
             <div class="listing-single__top">
                 <div class="listing-single__top-left">
-                    <h3 class="listing-single__title">Maruti Swift LXI</h3>
-                    <p class="listing-single__sub-title">1.2L LXI 5dr FWD Manual Hatchback</p>
+                    <h3 class="listing-single__title">Maruti Brezza</h3>
+                    <p class="listing-single__sub-title">1.5L ZXI 5dr FWD Manual SUV</p>
                     <div class="listing-single__car-details-box">
                         <ul class="list-unstyled listing-single__car-details">
                             <li>
@@ -41,7 +23,7 @@
                             </li>
                             <li>
                                 <span class="icon-mileage"></span>
-                                <p>22.38 km/l</p>
+                                <p>17.5 km/l</p>
                             </li>
                             <li>
                                 <span class="icon-Carrier"></span>
@@ -63,11 +45,11 @@
                             </li>
                             <li>
                                 <span class="icon-fuel-type"></span>
-                                <p>1.2L</p>
+                                <p>1.5L</p>
                             </li>
                             <li>
                                 <span class="icon-car-insurance"></span>
-                                <p>2 Large bags</p>
+                                <p>3 Large bags</p>
                             </li>
                         </ul>
                     </div>
@@ -90,15 +72,15 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="<?php echo e(asset('assets/images/listing/listing-single-1-1(1).png')); ?>"
-                                                        alt="Maruti Swift LXI">
+                                                    <img src="{{ asset('assets/images/listing/listing-3-13.png') }}"
+                                                        alt="Maruti Brezza">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Swift LXI – Affordable Hatchback with Great Mileage</h3>
-                                                <p class="listing-single__text">The Maruti Swift LXI is the perfect entry-level hatchback for city commuting and budget-conscious drivers. With its peppy 1.2L K-Series engine delivering 89 bhp, this petrol variant offers an excellent balance of performance and fuel economy at 22.38 km/l. The Swift LXI comes with all essential features making it an ideal choice for daily travel.</p>
+                                                <h3 class="listing-single__title-two">Maruti Brezza – India's Most Loved Compact SUV</h3>
+                                                <p class="listing-single__text">The Maruti Brezza is India's favorite compact SUV, offering the perfect blend of style, performance, and practicality. With its bold and muscular design, the Brezza makes a strong presence on the road. The 1.5L K-Series petrol engine delivers 103 bhp of power with impressive fuel efficiency. Featuring a spacious cabin, premium interiors, and Maruti's trusted reliability, the Brezza is perfect for city drives and weekend getaways alike.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
                                                         <div class="icon">
@@ -121,13 +103,13 @@
                                                             <span class="fas fa-map"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Fleet Code:<a href="#"><span>QC-SWIFT-LXI-01</span></a></p>
+                                                            <p>Fleet Code:<a href="#"><span>QC-BREZZA-01</span></a></p>
                                                         </div>
                                                     </li>
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="<?php echo e(route('car-subscription')); ?>" class="thm-btn">See All Photo<span
+                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
@@ -165,21 +147,7 @@
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-thamb-1-1(1).png')); ?>" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="listing-single__img-holder-box">
-                                    <div class="listing-single__img-holder">
-                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-thamb-1-2(1).png')); ?>" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="listing-single__img-holder-box">
-                                    <div class="listing-single__img-holder">
-                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-thamb-1-3(1).png')); ?>" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-13.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -201,7 +169,7 @@
                                                 <p>Body</p>
                                             </div>
                                             <div class="listing-single__car-overview-point-right">
-                                                <p>Hatchback</p>
+                                                <p>SUV</p>
                                             </div>
                                         </li>
                                         <li>
@@ -210,7 +178,7 @@
                                                 <p>Mileage</p>
                                             </div>
                                             <div class="listing-single__car-overview-point-right">
-                                                <p>22.38 km/l</p>
+                                                <p>17.5 km/l</p>
                                             </div>
                                         </li>
                                         <li>
@@ -266,7 +234,7 @@
                                                 <p>Engine Size</p>
                                             </div>
                                             <div class="listing-single__car-overview-point-right">
-                                                <p>1.2L</p>
+                                                <p>1.5L</p>
                                             </div>
                                         </li>
                                         <li>
@@ -284,7 +252,7 @@
                                                 <p>Power</p>
                                             </div>
                                             <div class="listing-single__car-overview-point-right">
-                                                <p>89 bhp</p>
+                                                <p>103 bhp</p>
                                             </div>
                                         </li>
                                         <li>
@@ -293,7 +261,7 @@
                                                 <p>Color</p>
                                             </div>
                                             <div class="listing-single__car-overview-point-right">
-                                                <p>Solid Fire Red</p>
+                                                <p>Brave Khaki</p>
                                             </div>
                                         </li>
                                         <li>
@@ -310,8 +278,8 @@
                             </div>
                             <div class="listing-single__description">
                                 <h3 class="listing-single__description-title">Description</h3>
-                                <p class="listing-single__description-text-1">The Maruti Swift LXI is the entry-level variant of India's favorite hatchback. Powered by the reliable 1.2L K-Series Dual Jet engine, it delivers an impressive 89 bhp power output while maintaining excellent fuel efficiency of 22.38 km/l. The 5-speed manual transmission offers smooth gear shifts and an engaging driving experience.</p>
-                                <p class="listing-single__description-text-2">With its sporty design, spacious interiors, and Maruti's trusted reliability, the Swift LXI is perfect for city commutes, weekend getaways, and budget-conscious travelers who don't want to compromise on style and performance.</p>
+                                <p class="listing-single__description-text-1">The Maruti Brezza has been India's most loved compact SUV since its introduction, setting benchmarks in the segment with its winning combination of bold design, spacious cabin, and reliable performance. The muscular stance, sculpted hood, and sporty LED DRLs give the Brezza a commanding road presence. The elevated seating position provides excellent visibility, making it ideal for both city navigation and highway cruising.</p>
+                                <p class="listing-single__description-text-2">Powered by the proven 1.5L K-Series DualJet VVT petrol engine with progressive smart hybrid technology, the Brezza delivers 103 bhp with excellent fuel efficiency of 17.5 km/l. The refined powertrain offers smooth performance across all rev ranges, while the well-tuned suspension absorbs road imperfections with ease. Inside, the Brezza offers a premium experience with a dual-tone dashboard, 9-inch SmartPlay Pro+ touchscreen, and spacious seating for five adults with 328 liters of boot space.</p>
                             </div>
                             <div class="listing-single__feature">
                                 <h3 class="listing-single__feature-title">Features</h3>
@@ -324,7 +292,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Dual Tone Interior</p>
+                                                    <p>Premium Dual Tone Interior</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -340,7 +308,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Manual AC</p>
+                                                    <p>Automatic Climate Control</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -348,7 +316,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Power Steering</p>
+                                                    <p>Height Adjustable Driver Seat</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -356,7 +324,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Front Power Windows</p>
+                                                    <p>9-inch SmartPlay Pro+ Display</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -364,7 +332,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Adjustable Steering Wheel</p>
+                                                    <p>Android Auto & Apple CarPlay</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -393,7 +361,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Reverse Parking Sensors</p>
+                                                    <p>Electronic Stability Program</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -401,7 +369,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>ISOFIX Child Seat Anchors</p>
+                                                    <p>Hill Hold Assist</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -409,7 +377,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>High Speed Alert</p>
+                                                    <p>Reverse Parking Camera</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -417,7 +385,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Seat Belt Reminder</p>
+                                                    <p>ISOFIX Child Anchors</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -430,7 +398,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Remote Keyless Entry</p>
+                                                    <p>Push Button Start/Stop</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -438,7 +406,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Front Power Windows</p>
+                                                    <p>Electric Sunroof</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -446,7 +414,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Electrically Adjustable ORVMs</p>
+                                                    <p>Rear AC Vents</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -454,7 +422,7 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>12V Power Outlet</p>
+                                                    <p>Cruise Control</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -462,7 +430,15 @@
                                                     <span class="icon-cheack"></span>
                                                 </div>
                                                 <div class="text">
-                                                    <p>Rear Parcel Tray</p>
+                                                    <p>Smart Hybrid Technology</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <span class="icon-cheack"></span>
+                                                </div>
+                                                <div class="text">
+                                                    <p>328L Boot Space</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -475,7 +451,7 @@
                         <div class="listing-single__sidebar">
                             <div class="listing-single__rent-car-daily-price listing-single__single-box">
                                 <p>Daily rate</p>
-                                <h3>₹1,800</h3>
+                                <h3>₹2,500</h3>
                             </div>
                             <div class="listing-single__rent-car listing-single__single-box">
                                 <h3 class="listing-single__rent-car-title">Rent This Car</h3>
@@ -523,11 +499,10 @@
                                                 <li>
                                                     <div class="checked-box">
                                                         <input type="checkbox" name="f_extra3" id="f_extra3">
-                                                        <label for="f_extra3"><span></span>Additional Driver
-                                                        </label>
+                                                        <label for="f_extra3"><span></span>Child Seat</label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>₹500</p>
+                                                        <p>₹400</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -539,7 +514,7 @@
                                                         <p>Subtotal</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹1,800.00</p>
+                                                        <p>₹2,500.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -547,7 +522,7 @@
                                                         <p>Driver Charges</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹300.00</p>
+                                                        <p>₹350.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -555,7 +530,7 @@
                                                         <p>Total Payable</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹2,100.00</p>
+                                                        <p>₹2,850.00</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -563,7 +538,7 @@
                                     </div>
                                 </div>
                                 <div class="listing-single__btn-box-2">
-                                    <a href="<?php echo e(route('swift-lxi-details')); ?>" class="thm-btn">Rent Now<span
+                                    <a href="{{ route('maruti-brezza-details') }}" class="thm-btn">Rent Now<span
                                             class="fas fa-arrow-right"></span></a>
                                 </div>
                             </div>
@@ -583,7 +558,7 @@
                             <div class="listing-single__seller-info listing-single__single-box">
                                 <div class="listing-single__seller-info-details">
                                     <div class="listing-single__seller-info-img">
-                                        <img src="<?php echo e(asset('assets/images/listing/listing-single-seller-info-img-1.jpg')); ?>"
+                                        <img src="{{ asset('assets/images/listing/listing-single-seller-info-img-1.jpg') }}"
                                             alt="">
                                     </div>
                                     <div class="listing-single__seller-info-content">
@@ -633,26 +608,5 @@
     </section>
     <!--Listing Single End-->
 
-    <?php if (isset($component)) { $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $component; } ?>
-<?php if (isset($attributes)) { $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6 = $attributes; } ?>
-<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.footer_style_one','data' => []] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
-<?php $component->withName('footer_style_one'); ?>
-<?php if ($component->shouldRender()): ?>
-<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
-<?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag): ?>
-<?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
-<?php endif; ?>
-<?php $component->withAttributes([]); ?>
-<?php echo $__env->renderComponent(); ?>
-<?php endif; ?>
-<?php if (isset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
-<?php $attributes = $__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
-<?php unset($__attributesOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
-<?php endif; ?>
-<?php if (isset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6)): ?>
-<?php $component = $__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6; ?>
-<?php unset($__componentOriginal0ce0d897570c8cee83bad0dd5b037fc6); ?>
-<?php endif; ?>
-<?php $__env->stopSection(); ?>
-
-<?php echo $__env->make('layouts.layoutCommon', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH D:\pack-file laravel\Quarkcars\resources\views/pages/SwiftLXIDetails.blade.php ENDPATH**/ ?>
+    <x-footer_style_one />
+@endsection
