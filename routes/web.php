@@ -68,6 +68,9 @@ Route::get('/swift-vxi-details', [PagesController::class, 'swift_vxi_details'])
 Route::get('/ertiga-vxi-details', [PagesController::class, 'ertiga_vxi_details'])
     ->name('ertiga-vxi-details');
 
+Route::get('/swift-lxi-details', [PagesController::class, 'swift_lxi_details'])
+    ->name('swift-lxi-details');
+
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');
 
