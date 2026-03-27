@@ -473,7 +473,7 @@
                                             </p>
                                         </div>
                                         <div class="listing-one__btn-box">
-                                            <a href="{{ route('mahindra-thar-4x4-details') }}" class="thm-btn">Details Now<span
+                                            <a href="{{ route('hyundai-i20-details') }}" class="thm-btn">Details Now<span
                                                     class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>

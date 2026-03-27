@@ -491,7 +491,7 @@
                                             </p>
                                         </div>
                                         <div class="listing-one__btn-box">
-                                            <a href="<?php echo e(route('mahindra-thar-4x4-details')); ?>" class="thm-btn">Details Now<span
+                                            <a href="<?php echo e(route('hyundai-i20-details')); ?>" class="thm-btn">Details Now<span
                                                     class="fas fa-arrow-right"></span></a>
                                         </div>
                                     </div>

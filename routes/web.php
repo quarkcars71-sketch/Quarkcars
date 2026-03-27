@@ -77,6 +77,9 @@ Route::get('/mahindra-scorpio-s11-details', [PagesController::class, 'mahindra_s
 Route::get('/mahindra-thar-4x4-details', [PagesController::class, 'mahindra_thar_4x4_details'])
     ->name('mahindra-thar-4x4-details');
 
+Route::get('/hyundai-i20-details', [PagesController::class, 'hyundai_i20_details'])
+    ->name('hyundai-i20-details');
+
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');
 

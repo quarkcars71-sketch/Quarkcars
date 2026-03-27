@@ -91,6 +91,11 @@ class PagesController extends Controller
         return view('pages.MahindraThar4X4Details');
     }
 
+    public function hyundai_i20_details()
+    {
+        return view('pages.Hyundaii20Details');
+    }
+
     public function products()
     {
         return view('pages.products');
