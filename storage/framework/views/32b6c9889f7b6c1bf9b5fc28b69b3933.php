@@ -89,7 +89,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
+                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
+                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
+                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -376,7 +376,7 @@
                                 
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -453,7 +453,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -514,7 +514,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="<?php echo e(route('pricing')); ?>" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
