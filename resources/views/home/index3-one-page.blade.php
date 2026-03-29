@@ -1182,7 +1182,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             </div>
                         </div>
                         <div class="listing-three__content">
-                            <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i20</a></h3>
+                            <h3 class="listing-three__title"><a href="{{ route('hyundai-i20-details') }}">Hyundai i20</a></h3>
                             <div class="listing-three__meta-box-info">
                                 <ul class="list-unstyled listing-three__meta">
                                     <li>
@@ -1240,7 +1240,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="listing-three__car-rent-and-btn-box">
                                 <p class="listing-three__car-rent"><span>2800 INR/</span> Day</p>
                                 <div class="listing-three__btn-box">
-                                    <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                    <a href="{{ route('hyundai-i20-details') }}" class="listing-three__btn"><span
                                             class="icon-right-arrow-1"></span></a>
                                 </div>
                             </div>
@@ -1257,7 +1257,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             </div>
                         </div>
                         <div class="listing-three__content">
-                            <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i10</a></h3>
+                            <h3 class="listing-three__title"><a href="{{ route('hyundai-i10-details') }}">Hyundai i10</a></h3>
                             <div class="listing-three__meta-box-info">
                                 <ul class="list-unstyled listing-three__meta">
                                     <li>
@@ -1315,7 +1315,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="listing-three__car-rent-and-btn-box">
                                 <p class="listing-three__car-rent"><span>2500 INR/</span> Day</p>
                                 <div class="listing-three__btn-box">
-                                    <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                    <a href="{{ route('hyundai-i10-details') }}" class="listing-three__btn"><span
                                             class="icon-right-arrow-1"></span></a>
                                 </div>
                             </div>
@@ -1332,7 +1332,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             </div>
                         </div>
                         <div class="listing-three__content">
-                            <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift Dzire</a></h3>
+                            <h3 class="listing-three__title"><a href="{{ route('maruti-swift-dzire-details') }}">Maruti Swift Dzire</a></h3>
                             <div class="listing-three__meta-box-info">
                                 <ul class="list-unstyled listing-three__meta">
                                     <li>
@@ -1390,7 +1390,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="listing-three__car-rent-and-btn-box">
                                 <p class="listing-three__car-rent"><span>2700 INR/</span> Day</p>
                                 <div class="listing-three__btn-box">
-                                    <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                    <a href="{{ route('maruti-swift-dzire-details') }}" class="listing-three__btn"><span
                                             class="icon-right-arrow-1"></span></a>
                                 </div>
                             </div>
@@ -1407,7 +1407,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             </div>
                         </div>
                         <div class="listing-three__content">
-                            <h3 class="listing-three__title"><a href="{{ route('swift-vxi-details') }}">Aura CNG</a></h3>
+                            <h3 class="listing-three__title"><a href="{{ route('aura-cng-details') }}">Aura CNG</a></h3>
                             <div class="listing-three__meta-box-info">
                                 <ul class="list-unstyled listing-three__meta">
                                     <li>
@@ -1465,7 +1465,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="listing-three__car-rent-and-btn-box">
                                 <p class="listing-three__car-rent"><span>2500 INR/</span> Day</p>
                                 <div class="listing-three__btn-box">
-                                    <a href="{{ route('swift-vxi-details') }}" class="listing-three__btn"><span
+                                    <a href="{{ route('aura-cng-details') }}" class="listing-three__btn"><span
                                             class="icon-right-arrow-1"></span></a>
                                 </div>
                             </div>
