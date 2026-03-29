@@ -126,6 +126,11 @@ class PagesController extends Controller
         return view('pages.MarutiBrezzaDetails');
     }
 
+    public function hyundai_verna_petrol_details()
+    {
+        return view('pages.HyundaiVernaPetrol');
+    }
+
     public function products()
     {
         return view('pages.products');

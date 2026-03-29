@@ -98,6 +98,9 @@ Route::get('/maruti-dzire-tour-cng-details', [PagesController::class, 'maruti_dz
 Route::get('/maruti-brezza-details', [PagesController::class, 'maruti_brezza_details'])
     ->name('maruti-brezza-details');
 
+Route::get('/hyundai-verna-petrol-details', [PagesController::class, 'hyundai_verna_petrol_details'])
+    ->name('hyundai-verna-petrol-details');
+
 Route::get('/products', [PagesController::class, 'products'])
     ->name('products');
 
