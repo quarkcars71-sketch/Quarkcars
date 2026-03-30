@@ -51,7 +51,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-2.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-2(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -76,6 +76,7 @@
                             </ul>
                             <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Car Rental Price in Jaipur - Full Cost Breakdown</a></h3>
                             <p class="blog-one__text">Understanding rental cost helps you choose the right car within your budget.</p>
+                            <br>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -87,7 +88,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-3.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-3(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -112,6 +113,7 @@
                             </ul>
                             <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Cheap Car Rental in Jaipur - Best Budget Options.</a></h3>
                             <p class="blog-one__text">Looking for affordable travel? Budget car rentals are the best solution.</p>
+                            <br>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -123,7 +125,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-4.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-4(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -148,6 +150,8 @@
                             </ul>
                             <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Documents Required for Self Drive Car Rental in Jaipur.</a></h3>
                             <p class="blog-one__text">Before renting a car, you must have proper documents ready.</p>
+                            <br>
+                            <br>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -159,7 +163,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-5.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-5(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -184,6 +188,8 @@
                             </ul>
                             <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Hatchback vs SUV vs Luxury Cars - Which Should You Rent?</a></h3>
                             <p class="blog-one__text">Choosing the right car depends on your budget and purpose.</p>
+                            <br>
+                            <br>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -195,7 +201,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-6.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-6(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
