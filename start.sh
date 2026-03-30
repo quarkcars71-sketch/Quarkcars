@@ -12,10 +12,11 @@ chmod -R 775 /var/www/html/storage
 chmod -R 775 /var/www/html/bootstrap/cache
 chmod 664 /var/www/html/database/database.sqlite
 
-# Clear and cache config
+# Force clear all caches
+rm -rf /var/www/html/storage/framework/views/*
+php artisan view:clear
 php artisan config:clear
 php artisan cache:clear
-php artisan view:clear
 php artisan route:clear
 
 # Generate APP_KEY if not set
