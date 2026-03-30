@@ -15,7 +15,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-1(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
