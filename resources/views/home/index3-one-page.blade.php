@@ -1827,7 +1827,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Rent Now<span
+                        <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>

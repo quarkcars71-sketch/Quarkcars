@@ -1,15 +1,14 @@
-[build]
-  command = "npm run build"
-  publish = "public"
+# NOTE: Netlify only supports STATIC sites (HTML/CSS/JS)
+# Laravel requires PHP server-side processing which Netlify cannot handle
+#
+# For Laravel deployment, use Render.com (FREE) - https://render.com
+# This project is configured for Render deployment via render.yaml
 
-[build.environment]
-  PHP_VERSION = "8.2"
+[build]
+  command = "echo 'Laravel requires PHP hosting. Use Render.com instead.' && exit 1"
+  publish = "public"
 
 [[redirects]]
   from = "/*"
-  to = "/index.php"
+  to = "/index.html"
   status = 200
-
-[context.production.environment]
-  APP_ENV = "production"
-  APP_DEBUG = "false"
