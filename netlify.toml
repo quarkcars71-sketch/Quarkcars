@@ -1,19 +1,15 @@
-# NOTE: Netlify only supports STATIC sites (HTML/CSS/JS)
-# Laravel requires PHP server-side processing which Netlify cannot handle
-# 
-# For Laravel deployment, use one of these options:
-# 1. Render.com (FREE) - https://render.com
-# 2. Heroku (Paid) - https://heroku.com
-# 3. DigitalOcean (Paid) - https://digitalocean.com
-# 4. Shared Hosting with cPanel (Namecheap, Hostinger, etc.)
-#
-# If you want to deploy Laravel to Netlify, you must first convert it to static HTML
-
 [build]
-  command = "echo 'Laravel requires PHP hosting. Use Render.com instead.' && exit 1"
+  command = "npm run build"
   publish = "public"
+
+[build.environment]
+  PHP_VERSION = "8.2"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index.php"
   status = 200
+
+[context.production.environment]
+  APP_ENV = "production"
+  APP_DEBUG = "false"

@@ -30,7 +30,7 @@
                                                 <p>120 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -55,7 +55,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -105,7 +105,7 @@
                                                 <p>299 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -130,7 +130,7 @@
                                                 <p>499 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -155,7 +155,7 @@
                                                 <p>199 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -180,7 +180,7 @@
                                                 <p>229 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -205,7 +205,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -230,7 +230,7 @@
                                                 <p>549 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -255,7 +255,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -282,7 +282,7 @@
                                                 <p>329 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -307,7 +307,7 @@
                                                 <p>379 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -332,7 +332,7 @@
                                                 <p>249 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -357,7 +357,7 @@
                                                 <p>899 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -382,7 +382,7 @@
                                                 <p>799 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Book Now</a>
+                                                <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>

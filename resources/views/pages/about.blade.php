@@ -268,8 +268,8 @@
                                         </div>
                                         <div class="col-xl-12">
                                             <div class="booking-one__btn-box">
-                                                <button type="submit" class="thm-btn">Book Now<span
-                                                        class="fas fa-arrow-right"></span></button>
+                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now<span
+                                                        class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -398,7 +398,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('ertiga-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -459,7 +459,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('ertiga-vxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -476,7 +476,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift LXI</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-lxi-details') }}">Maruti Swift LXI</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -537,7 +537,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('swift-lxi-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -554,7 +554,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Scorpio S11</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('mahindra-scorpio-s11-details') }}">Mahindra Scorpio S11</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -615,7 +615,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('mahindra-scorpio-s11-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -632,7 +632,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Thar 4x4 Diesel</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('mahindra-thar-4x4-details') }}">Mahindra Thar 4x4 Diesel</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -693,7 +693,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('mahindra-thar-4x4-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -710,7 +710,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai Verna Petrol</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-verna-petrol-details') }}">Hyundai Verna Petrol</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -771,7 +771,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('hyundai-verna-petrol-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -788,7 +788,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i20</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-i20-details') }}">Hyundai i20</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -849,7 +849,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('hyundai-i20-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -865,7 +865,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i10</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-i10-details') }}">Hyundai i10</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -926,7 +926,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('hyundai-i10-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -942,7 +942,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift Dzire</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('maruti-swift-dzire-details') }}">Maruti Swift Dzire</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -1003,7 +1003,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('maruti-swift-dzire-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1019,7 +1019,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Aura CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('aura-cng-details') }}">Aura CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -1080,7 +1080,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('swift-vxi-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('aura-cng-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1092,11 +1092,11 @@
                     </div>
                     <!--Tab-->
                     <!--tab-->
-                    <div class="p-tab" id="honda">
+                    <!-- <div class="p-tab" id="honda">
                         <div class="listing-one__inner">
-                            <div class="listing-one__carousel owl-carousel owl-theme">
+                            <div class="listing-one__carousel owl-carousel owl-theme"> -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
@@ -1172,10 +1172,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -1251,10 +1251,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
@@ -1330,10 +1330,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-4.jpg') }}" alt="">
@@ -1409,10 +1409,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-5.jpg') }}" alt="">
@@ -1489,10 +1489,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
@@ -1568,10 +1568,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -1647,18 +1647,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--tab-->
                     <!--tab-->
-                    <div class="p-tab" id="audi">
+                    <!-- <div class="p-tab" id="audi">
                         <div class="listing-one__inner">
-                            <div class="listing-one__carousel owl-carousel owl-theme">
+                            <div class="listing-one__carousel owl-carousel owl-theme"> -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
@@ -1733,11 +1733,11 @@
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                    </div> -->
+                                <!-- </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -1813,10 +1813,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
@@ -1892,10 +1892,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-4.jpg') }}" alt="">
@@ -1971,10 +1971,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-5.jpg') }}" alt="">
@@ -2051,10 +2051,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
@@ -2130,10 +2130,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -2209,18 +2209,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--tab-->
                     <!--tab-->
-                    <div class="p-tab" id="mazda">
+                    <!-- <div class="p-tab" id="mazda">
                         <div class="listing-one__inner">
-                            <div class="listing-one__carousel owl-carousel owl-theme">
+                            <div class="listing-one__carousel owl-carousel owl-theme"> -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
@@ -2296,10 +2296,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -2375,10 +2375,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
@@ -2454,10 +2454,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-4.jpg') }}" alt="">
@@ -2533,10 +2533,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-5.jpg') }}" alt="">
@@ -2613,10 +2613,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
@@ -2692,10 +2692,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -2771,18 +2771,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--tab-->
                     <!--tab-->
-                    <div class="p-tab" id="toyota">
+                    <!-- <div class="p-tab" id="toyota">
                         <div class="listing-one__inner">
-                            <div class="listing-one__carousel owl-carousel owl-theme">
+                            <div class="listing-one__carousel owl-carousel owl-theme"> -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
@@ -2858,10 +2858,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -2937,10 +2937,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
@@ -3016,10 +3016,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-4.jpg') }}" alt="">
@@ -3095,10 +3095,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-5.jpg') }}" alt="">
@@ -3175,10 +3175,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
@@ -3254,10 +3254,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -3333,18 +3333,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--tab-->
                     <!--tab-->
-                    <div class="p-tab" id="acura">
+                    <!-- <div class="p-tab" id="acura">
                         <div class="listing-one__inner">
-                            <div class="listing-one__carousel owl-carousel owl-theme">
+                            <div class="listing-one__carousel owl-carousel owl-theme"> -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
@@ -3420,10 +3420,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -3499,10 +3499,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
@@ -3578,10 +3578,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-4.jpg') }}" alt="">
@@ -3657,10 +3657,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-5.jpg') }}" alt="">
@@ -3737,10 +3737,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
@@ -3816,10 +3816,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
                                 <!-- Listing One Single Start -->
-                                <div class="item">
+                                <!-- <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
                                             <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
@@ -3828,7 +3828,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
+                                            <h3 class="listing-one__txitle"><a href="{{ route('swift-vxi-details') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3895,16 +3895,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Listing One Single End -->
-                            </div>
+                            <!-- </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--tab-->
-                </div>
+                <!-- </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Listing One End -->
 
     <!-- Team Three Start -->
@@ -4236,7 +4236,7 @@
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="{{ route('self-drive-car') }}" class="thm-btn">Rent Now<span
+                        <a href="{{ route('https://wa.me/message/ZS5QNMAR2NSCO1') }}" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
