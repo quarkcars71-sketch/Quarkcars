@@ -3,372 +3,463 @@
 @section('title', 'Customer Agreement || Quarkcars || Quarkcars Laravel Template')
 
 @section('content')
-    <x-pageHeader title="Customer Agreement" subtitle="Self-Drive Vehicle Rental Agreement" />
-   
+    <x-pageHeader title="Customer Agreement" subtitle="QuarkCars Self Drive Rental – Customer Agreement" />
+
     <!--Customer Agreement Section Start-->
     <section class="agreement-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="agreement-content">
-                        <!-- Agreement Header -->
-                        <div class="agreement-header text-center mb-5">
-                            <h2 class="agreement-title">SELF-DRIVE VEHICLE RENTAL AGREEMENT</h2>
-                            <p class="agreement-subtitle"><em>(Court-Ready Professional Format)</em></p>
-                            <div class="agreement-date">
-                                <p>This Self-Drive Vehicle Rental Agreement ("Agreement") is executed on <span class="blank-line">___ / ___ / 20___</span></p>
-                            </div>
-                        </div>
-
-                        <!-- Parties Section -->
-                        <div class="agreement-parties mb-5">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="party-card">
-                                        <h4>Between:</h4>
-                                        <p><strong>QuarkCars Services Private Limited,</strong></p>
-                                        <p>Registered Office: Jaipur, Rajasthan</p>
-                                        <p class="text-muted">(hereinafter referred to as "Company" or "Lessor")</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="party-card">
-                                        <h4>AND</h4>
-                                        <div class="customer-details">
-                                            <p><strong>Customer Name:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Father's Name:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Address:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Mobile No:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Email:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Driving License No:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Issuing Authority & Valid Till:</strong> <span class="blank-line">__________</span></p>
+                        <!-- Company Header -->
+                        <div class="company-header text-center mb-5">
+                            <div class="company-info">
+                                <h2 class="company-name">QuarkCars Self Drive Rental</h2>
+                                <h3 class="document-title">Customer Agreement</h3>
+                                <div class="company-details">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="info-card">
+                                                <i class="fas fa-building"></i>
+                                                <p><strong>Company:</strong> QuarkCars Services Private Limited</p>
+                                            </div>
                                         </div>
-                                        <p class="text-muted">(hereinafter referred to as "Customer" or "Lessee")</p>
+                                        <div class="col-md-3">
+                                            <div class="info-card">
+                                                <i class="fas fa-car"></i>
+                                                <p><strong>Brand:</strong> QuarkCars Self Drive</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="info-card">
+                                                <i class="fas fa-globe"></i>
+                                                <p><strong>Website:</strong> www.quarkcars.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="info-card">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                                <p><strong>Location:</strong> Jaipur, Rajasthan</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="text-center mt-4">
-                                <p><strong>Both parties agree as follows:</strong></p>
                             </div>
                         </div>
 
                         <!-- Agreement Sections -->
                         <div class="agreement-sections">
-                            <!-- Section 1: Vehicle Details -->
+                            <!-- Parties Section -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">1.</span> VEHICLE DETAILS</h3>
-                                <div class="vehicle-details-grid">
+                                <h3><span class="section-number">1.</span> Parties to Agreement</h3>
+                                <div class="parties-info">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <p><strong>Vehicle Model:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Registration Number:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Fuel Type:</strong> <span class="blank-line">__________</span></p>
+                                            <div class="party-card">
+                                                <h4><i class="fas fa-building"></i> Company (Lessor)</h4>
+                                                <div class="party-details">
+                                                    <p><strong>QuarkCars Services Private Limited</strong></p>
+                                                    <p>Registered Office: Jaipur, Rajasthan</p>
+                                                    <p class="text-muted">(hereinafter referred to as "Company" or "Lessor")</p>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <p><strong>Odometer Reading at Delivery:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Fuel Level at Delivery:</strong> <span class="blank-line">__________</span></p>
-                                            <p><strong>Vehicle Condition Report Attached:</strong> <span class="blank-line">Yes / No</span></p>
+                                            <div class="party-card">
+                                                <h4><i class="fas fa-user"></i> Customer (Lessee)</h4>
+                                                <div class="customer-details">
+                                                    <p><strong>Name:</strong> <span class="blank-line">__________</span></p>
+                                                    <p><strong>Father's Name:</strong> <span class="blank-line">__________</span></p>
+                                                    <p><strong>Address:</strong> <span class="blank-line">__________</span></p>
+                                                    <p><strong>Mobile No:</strong> <span class="blank-line">__________</span></p>
+                                                    <p><strong>Email:</strong> <span class="blank-line">__________</span></p>
+                                                    <p><strong>Driving License No:</strong> <span class="blank-line">__________</span></p>
+                                                    <p><strong>Issuing Authority:</strong> <span class="blank-line">__________</span></p>
+                                                </div>
+                                                <p class="text-muted">(hereinafter referred to as "Customer" or "Lessee")</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="confirmation-box">
-                                    <p><strong>The Customer confirms inspection of the vehicle and accepts it in good condition.</strong></p>
-                                </div>
                             </div>
 
-                            <!-- Section 2: Rental Period -->
+                            <!-- Vehicle Details -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">2.</span> RENTAL PERIOD</h3>
-                                <div class="rental-period-grid">
-                                    <p><strong>Rental Start Date & Time:</strong> <span class="blank-line">__________</span></p>
-                                    <p><strong>Rental End Date & Time:</strong> <span class="blank-line">__________</span></p>
-                                </div>
-                                <div class="important-notes">
-                                    <ul>
-                                        <li>Minimum rental duration applies as per booking terms.</li>
-                                        <li>Extension without prior approval is strictly prohibited.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <!-- Section 3: Rental Charges & Security Deposit -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">3.</span> RENTAL CHARGES & SECURITY DEPOSIT</h3>
-                                <div class="charges-grid">
+                                <h3><span class="section-number">2.</span> Vehicle Details</h3>
+                                <div class="vehicle-details">
                                     <div class="row">
-                                        <div class="col-md-4">
-                                            <p><strong>Rental Charges:</strong> ₹ <span class="blank-line">______</span></p>
+                                        <div class="col-md-6">
+                                            <div class="detail-item">
+                                                <i class="fas fa-car"></i>
+                                                <p><strong>Vehicle Model:</strong> <span class="blank-line">__________</span></p>
+                                            </div>
+                                            <div class="detail-item">
+                                                <i class="fas fa-palette"></i>
+                                                <p><strong>Color:</strong> <span class="blank-line">__________</span></p>
+                                            </div>
+                                            <div class="detail-item">
+                                                <i class="fas fa-cog"></i>
+                                                <p><strong>Transmission:</strong> <span class="blank-line">__________</span></p>
+                                            </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <p><strong>Security Deposit:</strong> ₹ <span class="blank-line">______</span></p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p><strong>Mode of Payment:</strong> <span class="blank-line">______</span></p>
+                                        <div class="col-md-6">
+                                            <div class="detail-item">
+                                                <i class="fas fa-hashtag"></i>
+                                                <p><strong>Registration No:</strong> <span class="blank-line">__________</span></p>
+                                            </div>
+                                            <div class="detail-item">
+                                                <i class="fas fa-gas-pump"></i>
+                                                <p><strong>Fuel Type:</strong> <span class="blank-line">__________</span></p>
+                                            </div>
+                                            <div class="detail-item">
+                                                <i class="fas fa-tachometer-alt"></i>
+                                                <p><strong>Odometer Reading:</strong> <span class="blank-line">__________</span></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="deposit-info">
-                                    <p><strong>Security deposit shall be refundable within</strong> <span class="blank-line">_</span> <strong>working days after vehicle return, subject to:</strong></p>
-                                    <ul>
-                                        <li>No damages</li>
-                                        <li>No pending challans</li>
-                                        <li>No additional charges</li>
-                                        <li>No contractual violations</li>
-                                    </ul>
-                                    <p><strong>The Company reserves the right to adjust any dues from the deposit.</strong></p>
-                                </div>
                             </div>
 
-                            <!-- Section 4: Eligibility & Customer Declaration -->
+                            <!-- Rental Period -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">4.</span> ELIGIBILITY & CUSTOMER DECLARATION</h3>
-                                <p><strong>The Customer declares that:</strong></p>
-                                <ol>
-                                    <li>He/She holds a valid driving license.</li>
-                                    <li>He/She is above 21 years of age.</li>
-                                    <li>The license has not been suspended or revoked.</li>
-                                    <li>All information provided is true and correct.</li>
-                                </ol>
-                                <div class="warning-box">
-                                    <p><strong>Providing false information shall result in immediate termination without refund.</strong></p>
-                                </div>
-                            </div>
-
-                            <!-- Section 5: Use of Vehicle -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">5.</span> USE OF VEHICLE</h3>
-                                <p><strong>The Customer agrees that the vehicle shall NOT be used:</strong></p>
-                                <ul class="prohibited-uses">
-                                    <li>For illegal or criminal activity</li>
-                                    <li>Under the influence of alcohol or drugs</li>
-                                    <li>For racing, rallying, or speed testing</li>
-                                    <li>For towing or pushing any vehicle</li>
-                                    <li>For carrying hazardous or prohibited goods</li>
-                                    <li>By any person other than the registered Customer</li>
-                                    <li>For commercial passenger transport unless permitted</li>
-                                </ul>
-                                <div class="warning-box">
-                                    <p><strong>Violation will make the Customer fully liable for all damages and legal consequences.</strong></p>
-                                </div>
-                            </div>
-
-                            <!-- Section 6: Geographical Limit -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">6.</span> GEOGRAPHICAL LIMIT</h3>
-                                <p><strong>Vehicle usage is restricted to:</strong></p>
-                                <div class="geo-options">
-                                    <label><input type="checkbox"> Within Rajasthan</label>
-                                    <label><input type="checkbox"> All India (if permitted)</label>
-                                </div>
-                                <p><strong>Cross-border travel without written approval is prohibited.</strong></p>
-                            </div>
-
-                            <!-- Section 7: Customer Responsibilities -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">7.</span> CUSTOMER RESPONSIBILITIES</h3>
-                                <p><strong>The Customer shall:</strong></p>
-                                <ul>
-                                    <li>Drive responsibly and follow traffic laws</li>
-                                    <li>Keep vehicle locked when not in use</li>
-                                    <li>Maintain fuel level as received</li>
-                                    <li>Not tamper with GPS device</li>
-                                    <li>Inform Company immediately in case of breakdown or accident</li>
-                                </ul>
-                                <div class="info-box">
-                                    <p><strong>The Customer is liable for any mechanical damage due to negligent driving.</strong></p>
-                                </div>
-                            </div>
-
-                            <!-- Section 8: Insurance & Liability -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">8.</span> INSURANCE & LIABILITY</h3>
-                                <p><strong>The vehicle is insured under a commercial comprehensive policy.</strong></p>
-                                <div class="insurance-details">
-                                    <p><strong>However:</strong></p>
-                                    <ul>
-                                        <li>Customer is liable for deductible/excess amount.</li>
-                                        <li>In case of accident, customer must obtain FIR (if required).</li>
-                                        <li>Drunk driving voids insurance; full liability rests with customer.</li>
-                                        <li>In case of total loss/theft due to negligence, customer bears financial liability until claim settlement.</li>
-                                    </ul>
-                                    <p><strong>Loss of business charges may apply during repair period.</strong></p>
-                                </div>
-                            </div>
-
-                            <!-- Section 9: Damage Policy -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">9.</span> DAMAGE POLICY</h3>
-                                <ul>
-                                    <li>Minor scratches/dents: As per attached damage matrix.</li>
-                                    <li>Major accident: Insurance claim + deductible + downtime charges.</li>
-                                </ul>
-                                <p><strong>Undisclosed damage found after return may be charged within 48 hours.</strong></p>
-                            </div>
-
-                            <!-- Section 10: Traffic Violations -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">10.</span> TRAFFIC VIOLATIONS</h3>
-                                <p><strong>All traffic challans during rental period are customer's responsibility.</strong></p>
-                                <p><strong>If Company receives challan notice later:</strong></p>
-                                <ul>
-                                    <li>Customer must pay within 3 days</li>
-                                    <li>Otherwise, Company may deduct from deposit</li>
-                                    <li>Administrative fee may apply</li>
-                                </ul>
-                            </div>
-
-                            <!-- Section 11: Late Return Policy -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">11.</span> LATE RETURN POLICY</h3>
-                                <div class="late-return-info">
-                                    <p><strong>Grace Period:</strong> <span class="blank-line">_</span> minutes</p>
-                                    <p><strong>After grace period:</strong></p>
-                                    <ul>
-                                        <li>₹ <span class="blank-line">__</span> per hour OR</li>
-                                        <li>Full day charge after <span class="blank-line">_</span> hours</li>
-                                    </ul>
-                                    <p><strong>Unauthorized retention beyond 24 hours may be treated as criminal breach of trust.</strong></p>
-                                </div>
-                            </div>
-
-                            <!-- Section 12: Breakdown & Accident Procedure -->
-                            <div class="agreement-section-block">
-                                <h3><span class="section-number">12.</span> BREAKDOWN & ACCIDENT PROCEDURE</h3>
-                                <div class="procedure-grid">
-                                    <div class="procedure-box">
-                                        <h4>In case of breakdown:</h4>
-                                        <ol>
-                                            <li>Stop vehicle safely</li>
-                                            <li>Inform Company immediately</li>
-                                            <li>Do not attempt unauthorized repairs</li>
-                                        </ol>
+                                <h3><span class="section-number">3.</span> Rental Period</h3>
+                                <div class="rental-period">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="period-item">
+                                                <i class="fas fa-calendar-alt"></i>
+                                                <p><strong>Start Date & Time:</strong> <span class="blank-line">___ / ___ / 20___</span> at <span class="blank-line">__:__</span></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="period-item">
+                                                <i class="fas fa-calendar-check"></i>
+                                                <p><strong>End Date & Time:</strong> <span class="blank-line">___ / ___ / 20___</span> at <span class="blank-line">__:__</span></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="procedure-box">
-                                        <h4>In case of accident:</h4>
-                                        <ol>
-                                            <li>Inform police (if required)</li>
-                                            <li>Take photos/videos</li>
-                                            <li>Share details with Company immediately</li>
-                                        </ol>
+                                    <div class="total-duration">
+                                        <i class="fas fa-clock"></i>
+                                        <p><strong>Total Rental Duration:</strong> <span class="blank-line">__________</span></p>
                                     </div>
                                 </div>
-                                <div class="warning-box">
-                                    <p><strong>Failure to follow procedure may void insurance support.</strong></p>
+                            </div>
+
+                            <!-- Charges & Payment -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">4.</span> Charges & Security Deposit</h3>
+                                <div class="charges-info">
+                                    <div class="charge-item">
+                                        <i class="fas fa-rupee-sign"></i>
+                                        <p><strong>Rental Charges:</strong> <span class="blank-line">₹__________</span></p>
+                                    </div>
+                                    <div class="charge-item">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <p><strong>Security Deposit:</strong> <span class="blank-line">₹__________</span></p>
+                                    </div>
+                                    <div class="charge-item">
+                                        <i class="fas fa-calculator"></i>
+                                        <p><strong>Total Amount:</strong> <span class="blank-line">₹__________</span></p>
+                                    </div>
+                                    <div class="payment-method">
+                                        <i class="fas fa-credit-card"></i>
+                                        <p><strong>Payment Method:</strong> <span class="blank-line">__________</span></p>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Section 13: Termination -->
+                            <!-- Eligibility & Declaration -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">13.</span> TERMINATION</h3>
-                                <p><strong>The Company may terminate this Agreement without notice if:</strong></p>
-                                <ul>
-                                    <li>Customer violates terms</li>
-                                    <li>Vehicle is misused</li>
-                                    <li>False documents submitted</li>
-                                    <li>Safety risk detected</li>
-                                </ul>
-                                <p><strong>No refund shall be made in such cases.</strong></p>
+                                <h3><span class="section-number">5.</span> Eligibility & Declaration</h3>
+                                <div class="eligibility-list">
+                                    <div class="eligibility-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        <p>Customer is minimum 21 years of age</p>
+                                    </div>
+                                    <div class="eligibility-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        <p>Customer holds a valid driving license</p>
+                                    </div>
+                                    <div class="eligibility-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        <p>Customer provided valid government ID proof</p>
+                                    </div>
+                                    <div class="eligibility-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        <p>Customer agrees to comply with all terms</p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- Section 14: Indemnity Clause -->
+                            <!-- Use of Vehicle -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">14.</span> INDEMNITY CLAUSE</h3>
-                                <p><strong>The Customer agrees to indemnify and hold harmless the Company from:</strong></p>
-                                <ul>
-                                    <li>Third-party claims</li>
-                                    <li>Legal penalties</li>
-                                    <li>Damages due to misuse</li>
-                                    <li>Court cases arising during rental</li>
-                                </ul>
+                                <h3><span class="section-number">6.</span> Use of Vehicle</h3>
+                                <div class="usage-policy">
+                                    <div class="allowed-usage">
+                                        <h4><i class="fas fa-check"></i> Permitted Use</h4>
+                                        <ul>
+                                            <li>Personal use only</li>
+                                            <li>Within geographical limits</li>
+                                            <li>Compliance with traffic laws</li>
+                                        </ul>
+                                    </div>
+                                    <div class="prohibited-usage">
+                                        <h4><i class="fas fa-times"></i> Prohibited Use</h4>
+                                        <ul>
+                                            <li>Commercial use without permission</li>
+                                            <li>Racing or stunt driving</li>
+                                            <li>Driving under influence</li>
+                                            <li>Subleasing to third parties</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- Section 15: Data & GPS Consent -->
+                            <!-- Geographical Limit -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">15.</span> DATA & GPS CONSENT</h3>
-                                <p><strong>Customer acknowledges that:</strong></p>
-                                <ul>
-                                    <li>Vehicle is GPS tracked</li>
-                                    <li>Trip data may be stored</li>
-                                    <li>Information may be shared with authorities if legally required</li>
-                                </ul>
+                                <h3><span class="section-number">7.</span> Geographical Limit</h3>
+                                <div class="geo-limit">
+                                    <div class="limit-item">
+                                        <i class="fas fa-map-marked-alt"></i>
+                                        <p><strong>Allowed Areas:</strong> Within Rajasthan state limits</p>
+                                    </div>
+                                    <div class="limit-item warning">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <p><strong>Restricted Areas:</strong> Border areas, off-road locations</p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- Section 16: Force Majeure -->
+                            <!-- Customer Responsibilities -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">16.</span> FORCE MAJEURE</h3>
-                                <p><strong>Company shall not be liable for failure due to events beyond control including:</strong></p>
-                                <ul>
-                                    <li>Natural disaster</li>
-                                    <li>Government restrictions</li>
-                                    <li>Civil unrest</li>
-                                    <li>Mechanical failure not due to negligence</li>
-                                </ul>
+                                <h3><span class="section-number">8.</span> Customer Responsibilities</h3>
+                                <div class="responsibility-list">
+                                    <div class="responsibility-item">
+                                        <i class="fas fa-user-shield"></i>
+                                        <p>Maintain vehicle in good condition</p>
+                                    </div>
+                                    <div class="responsibility-item">
+                                        <i class="fas fa-gas-pump"></i>
+                                        <p>Maintain fuel level as provided</p>
+                                    </div>
+                                    <div class="responsibility-item">
+                                        <i class="fas fa-lock"></i>
+                                        <p>Ensure vehicle security</p>
+                                    </div>
+                                    <div class="responsibility-item">
+                                        <i class="fas fa-file-alt"></i>
+                                        <p>Report any damage immediately</p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- Section 17: Dispute Resolution -->
+                            <!-- Insurance & Liability -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">17.</span> DISPUTE RESOLUTION</h3>
-                                <p><strong>All disputes shall be subject to the jurisdiction of courts in Jaipur, Rajasthan only.</strong></p>
-                                <p><strong>Before litigation, parties agree to attempt mutual settlement.</strong></p>
+                                <h3><span class="section-number">9.</span> Insurance & Liability</h3>
+                                <div class="insurance-info">
+                                    <div class="insurance-item">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <p><strong>Insurance Coverage:</strong> Basic insurance included</p>
+                                    </div>
+                                    <div class="insurance-item">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <p><strong>Deductible:</strong> Customer liable for deductible amount</p>
+                                    </div>
+                                    <div class="insurance-item">
+                                        <i class="fas fa-times-circle"></i>
+                                        <p><strong>Exclusions:</strong> Damage due to negligence not covered</p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- Section 18: Entire Agreement -->
+                            <!-- Damage Policy -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">18.</span> ENTIRE AGREEMENT</h3>
-                                <p><strong>This Agreement constitutes the entire understanding between parties and supersedes prior discussions.</strong></p>
-                                <p><strong>Any modification must be in writing and signed by both parties.</strong></p>
+                                <h3><span class="section-number">10.</span> Damage Policy</h3>
+                                <div class="damage-policy">
+                                    <div class="damage-item">
+                                        <i class="fas fa-car-crash"></i>
+                                        <p><strong>Minor Damage:</strong> Deductible applies</p>
+                                    </div>
+                                    <div class="damage-item">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <p><strong>Major Damage:</strong> Full recovery cost from customer</p>
+                                    </div>
+                                    <div class="damage-item">
+                                        <i class="fas fa-tools"></i>
+                                        <p><strong>Maintenance:</strong> Regular wear and tear excluded</p>
+                                    </div>
+                                </div>
                             </div>
 
-                            <!-- Section 19: Declaration -->
+                            <!-- Traffic Violations -->
                             <div class="agreement-section-block">
-                                <h3><span class="section-number">19.</span> DECLARATION</h3>
+                                <h3><span class="section-number">11.</span> Traffic Violations</h3>
+                                <div class="traffic-policy">
+                                    <div class="traffic-item">
+                                        <i class="fas fa-gavel"></i>
+                                        <p>All traffic violations during rental period are customer's responsibility</p>
+                                    </div>
+                                    <div class="traffic-item">
+                                        <i class="fas fa-money-bill-wave"></i>
+                                        <p>Fines and penalties will be deducted from security deposit</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Late Return Policy -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">12.</span> Late Return Policy</h3>
+                                <div class="late-return">
+                                    <div class="return-item">
+                                        <i class="fas fa-clock"></i>
+                                        <p><strong>Late Charges:</strong> Applied on hourly basis</p>
+                                    </div>
+                                    <div class="return-item">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <p><strong>Penalty:</strong> Additional charges for late return</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Breakdown & Accident -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">13.</span> Breakdown & Accident Procedure</h3>
+                                <div class="breakdown-procedure">
+                                    <div class="procedure-item">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <h4>Immediate Action</h4>
+                                        <ul>
+                                            <li>Contact QuarkCars support immediately</li>
+                                            <li>Inform about breakdown/accident</li>
+                                        </ul>
+                                    </div>
+                                    <div class="procedure-item">
+                                        <i class="fas fa-file-contract"></i>
+                                        <h4>Documentation</h4>
+                                        <ul>
+                                            <li>File FIR if required</li>
+                                            <li>Collect all necessary documents</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Termination -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">14.</span> Termination</h3>
+                                <div class="termination-conditions">
+                                    <p><strong>Company reserves right to terminate if:</strong></p>
+                                    <ul>
+                                        <li><i class="fas fa-times"></i> Terms are violated</li>
+                                        <li><i class="fas fa-times"></i> Misuse detected</li>
+                                        <li><i class="fas fa-times"></i> Safety concerns</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Indemnity -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">15.</span> Indemnity</h3>
+                                <div class="indemnity-info">
+                                    <p>Customer agrees to indemnify Company against any claims, damages, or losses arising from vehicle use during rental period.</p>
+                                </div>
+                            </div>
+
+                            <!-- Data & GPS Consent -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">16.</span> Data & GPS Consent</h3>
+                                <div class="consent-info">
+                                    <div class="consent-item">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <p>GPS tracking enabled for vehicle safety</p>
+                                    </div>
+                                    <div class="consent-item">
+                                        <i class="fas fa-database"></i>
+                                        <p>Data collected for service improvement</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Force Majeure -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">17.</span> Force Majeure</h3>
+                                <div class="force-info">
+                                    <p>Company not liable for delays/failures due to circumstances beyond reasonable control.</p>
+                                </div>
+                            </div>
+
+                            <!-- Dispute Resolution -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">18.</span> Dispute Resolution</h3>
+                                <div class="dispute-info">
+                                    <p>All disputes subject to Jaipur, Rajasthan jurisdiction.</p>
+                                </div>
+                            </div>
+
+                            <!-- Entire Agreement -->
+                            <div class="agreement-section-block">
+                                <h3><span class="section-number">19.</span> Entire Agreement</h3>
+                                <div class="entire-info">
+                                    <p>This agreement constitutes the complete understanding between parties and supersedes all prior agreements.</p>
+                                </div>
+                            </div>
+
+                            <!-- Declaration -->
+                            <div class="agreement-section-block declaration-section">
+                                <h3><span class="section-number">20.</span> Declaration</h3>
                                 <div class="declaration-box">
-                                    <p><strong>I, the undersigned Customer, have read and understood all terms and conditions and agree to abide by them.</strong></p>
+                                    <p><strong>We hereby declare that we have read, understood, and agree to all terms and conditions mentioned in this agreement.</strong></p>
                                 </div>
-                                
-                                <!-- Signature Section -->
-                                <div class="signature-section mt-5">
+                            </div>
+
+                            <!-- Signature Section -->
+                            <div class="agreement-section-block signature-section">
+                                <h3><span class="section-number">21.</span> Signatures</h3>
+                                <div class="signature-area">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="signature-box">
-                                                <h4>Customer Signature:</h4>
-                                                <div class="signature-line">__________</div>
-                                                <p><strong>Name:</strong> __________</p>
-                                                <p><strong>Date:</strong> __________</p>
+                                            <div class="signature-card">
+                                                <h4><i class="fas fa-building"></i> Company Representative</h4>
+                                                <div class="signature-line">
+                                                    <p>Signature: _________________________</p>
+                                                    <p>Name: _________________________</p>
+                                                    <p>Date: _________________________</p>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="signature-box">
-                                                <h4>For QuarkCars Services Pvt Ltd</h4>
-                                                <div class="signature-line">__________</div>
-                                                <p><strong>Authorized Signatory:</strong> __________</p>
-                                                <p><strong>Designation:</strong> __________</p>
-                                                <p><strong>Seal & Stamp</strong></p>
+                                            <div class="signature-card">
+                                                <h4><i class="fas fa-user"></i> Customer</h4>
+                                                <div class="signature-line">
+                                                    <p>Signature: _________________________</p>
+                                                    <p>Name: _________________________</p>
+                                                    <p>Date: _________________________</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Annexures -->
-                            <div class="annexures-section mt-5">
-                                <div class="annexure-box">
-                                    <h4>ANNEXURE A – VEHICLE CONDITION CHECKLIST</h4>
-                                    <p>(Attach pre-delivery inspection sheet with photos)</p>
+                            <!-- Contact Support -->
+                            <div class="agreement-section-block contact-section">
+                                <h3><span class="section-number">22.</span> Contact Support</h3>
+                                <div class="contact-info">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="contact-card">
+                                                <i class="fas fa-phone-alt"></i>
+                                                <p><strong>Phone:</strong> <a href="tel:8769639911">8769639911</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="contact-card">
+                                                <i class="fas fa-globe"></i>
+                                                <p><strong>Website:</strong> <a href="https://www.quarkcars.com" target="_blank">www.quarkcars.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="annexure-box">
-                                    <h4>ANNEXURE B – DAMAGE MATRIX</h4>
-                                    <p>(Attach standardized repair cost chart)</p>
-                                </div>
-                                <div class="annexure-box">
-                                    <h4>ANNEXURE C – ID & DL COPY</h4>
-                                    <p>(Attach KYC documents)</p>
-                                </div>
-                            </div>
-
-                            <!-- End of Agreement -->
-                            <div class="agreement-footer text-center mt-5">
-                                <h4>END OF AGREEMENT</h4>
                             </div>
                         </div>
                     </div>
@@ -378,41 +469,121 @@
     </section>
     <!--Customer Agreement Section End-->
 
-    <!-- Custom Styles for Agreement -->
+    <!-- Custom Styles for Agreement - Same as Terms -->
     <style>
         .agreement-section {
-            background: #f8f9fa;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             padding: 60px 0;
+            position: relative;
+        }
+        
+        .agreement-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.03"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.03"/><circle cx="50" cy="50" r="1" fill="white" opacity="0.03"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+            pointer-events: none;
         }
         
         .agreement-content {
             background: white;
             padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
         }
         
-        .agreement-header {
-            border-bottom: 3px solid #007bff;
-            padding-bottom: 30px;
-            margin-bottom: 40px;
+        .company-header {
+            margin-bottom: 50px;
         }
         
-        .agreement-title {
+        .company-name {
             color: #2c3e50;
             font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
         
-        .agreement-subtitle {
-            color: #6c757d;
-            font-size: 1.1rem;
+        .document-title {
+            color: #667eea;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 30px;
         }
         
-        .agreement-date {
-            margin-top: 20px;
+        .info-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+        
+        .info-card i {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+        
+        .agreement-section-block {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: #ffffff;
+            border-radius: 15px;
+            border: 1px solid #e9ecef;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .agreement-section-block::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .agreement-section-block:hover {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transform: translateY(-3px);
+        }
+        
+        .agreement-section-block h3 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
             font-size: 1.1rem;
+            font-weight: 700;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
         }
         
         .party-card {
@@ -423,199 +594,387 @@
             margin-bottom: 20px;
         }
         
-        .customer-details p {
-            margin-bottom: 10px;
+        .party-card h4 {
+            color: #007bff;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .party-card h4 i {
+            margin-right: 10px;
         }
         
         .blank-line {
             display: inline-block;
+            border-bottom: 1px solid #333;
             min-width: 150px;
-            border-bottom: 2px solid #007bff;
-            padding: 0 10px;
             margin: 0 5px;
         }
         
-        .agreement-section-block {
-            margin-bottom: 40px;
-            padding: 30px;
-            background: #ffffff;
+        .detail-item,
+        .period-item,
+        .charge-item,
+        .limit-item,
+        .responsibility-item,
+        .insurance-item,
+        .damage-item,
+        .traffic-item,
+        .return-item,
+        .consent-item {
+            background: #f8f9fa;
+            padding: 20px;
             border-radius: 10px;
-            border: 1px solid #e9ecef;
+            border-left: 4px solid #007bff;
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
             transition: all 0.3s ease;
         }
         
-        .agreement-section-block:hover {
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        .detail-item:hover,
+        .period-item:hover,
+        .charge-item:hover,
+        .responsibility-item:hover,
+        .insurance-item:hover,
+        .damage-item:hover,
+        .traffic-item:hover,
+        .return-item:hover,
+        .consent-item:hover {
+            background: #e3f2fd;
             transform: translateY(-2px);
         }
         
-        .agreement-section-block h3 {
-            color: #2c3e50;
+        .limit-item.warning {
+            border-left-color: #ffc107;
+            background: #fff8e1;
+        }
+        
+        .detail-item i,
+        .period-item i,
+        .charge-item i,
+        .limit-item i,
+        .responsibility-item i,
+        .insurance-item i,
+        .damage-item i,
+        .traffic-item i,
+        .return-item i,
+        .consent-item i {
+            color: #007bff;
             font-size: 1.5rem;
-            font-weight: 600;
+            margin-right: 15px;
+            min-width: 30px;
+        }
+        
+        .limit-item.warning i {
+            color: #ffc107;
+        }
+        
+        .eligibility-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .eligibility-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #28a745;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .eligibility-item:hover {
+            background: #e8f5e8;
+            transform: translateX(5px);
+        }
+        
+        .eligibility-item i {
+            color: #28a745;
+            font-size: 1.5rem;
+            margin-right: 15px;
+            min-width: 30px;
+        }
+        
+        .usage-policy {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        
+        .allowed-usage,
+        .prohibited-usage {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        
+        .allowed-usage {
+            border-left: 4px solid #28a745;
+        }
+        
+        .prohibited-usage {
+            border-left: 4px solid #dc3545;
+        }
+        
+        .allowed-usage h4,
+        .prohibited-usage h4 {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .allowed-usage h4 i {
+            color: #28a745;
+            margin-right: 10px;
+        }
+        
+        .prohibited-usage h4 i {
+            color: #dc3545;
+            margin-right: 10px;
+        }
+        
+        .allowed-usage ul,
+        .prohibited-usage ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 15px 0;
+        }
+        
+        .allowed-usage li,
+        .prohibited-usage li {
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            align-items: center;
+        }
+        
+        .allowed-usage li:last-child,
+        .prohibited-usage li:last-child {
+            border-bottom: none;
+        }
+        
+        .allowed-usage li::before {
+            content: '✅';
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .prohibited-usage li::before {
+            content: '🚫';
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .breakdown-procedure {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .procedure-item {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #fd7e14;
+        }
+        
+        .procedure-item h4 {
+            color: #fd7e14;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .procedure-item h4 i {
+            margin-right: 10px;
+        }
+        
+        .procedure-item ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 15px 0;
+        }
+        
+        .procedure-item li {
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            align-items: center;
+        }
+        
+        .procedure-item li:last-child {
+            border-bottom: none;
+        }
+        
+        .procedure-item li::before {
+            content: '📋';
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .termination-conditions ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 20px 0;
+        }
+        
+        .termination-conditions li {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .termination-conditions li:hover {
+            background: #f8d7da;
+            transform: translateX(5px);
+        }
+        
+        .termination-conditions li i {
+            color: #dc3545;
+            margin-right: 15px;
+            font-size: 1.2rem;
+            min-width: 20px;
+        }
+        
+        .declaration-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .declaration-section h3 {
+            color: white;
+        }
+        
+        .declaration-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .signature-section {
+            background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+        }
+        
+        .signature-section h3 {
+            color: white;
+        }
+        
+        .signature-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 20px;
+        }
+        
+        .signature-card h4 {
+            color: white;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
         }
         
-        .section-number {
-            background: #007bff;
-            color: white;
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 15px;
-            font-size: 1rem;
-        }
-        
-        .vehicle-details-grid,
-        .rental-period-grid,
-        .charges-grid {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 15px 0;
-        }
-        
-        .confirmation-box,
-        .warning-box,
-        .info-box {
-            padding: 15px;
-            border-radius: 8px;
-            margin: 15px 0;
-        }
-        
-        .confirmation-box {
-            background: #d4edda;
-            border: 1px solid #c3e6cb;
-            color: #155724;
-        }
-        
-        .warning-box {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            color: #856404;
-        }
-        
-        .info-box {
-            background: #d1ecf1;
-            border: 1px solid #bee5eb;
-            color: #0c5460;
-        }
-        
-        .important-notes ul,
-        .prohibited-uses ul {
-            margin: 15px 0;
-            padding-left: 20px;
-        }
-        
-        .important-notes li,
-        .prohibited-uses li {
-            margin-bottom: 10px;
-        }
-        
-        .geo-options {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 15px 0;
-        }
-        
-        .geo-options label {
-            display: block;
-            margin: 10px 0;
-            font-weight: 500;
-        }
-        
-        .geo-options input[type="checkbox"] {
+        .signature-card h4 i {
             margin-right: 10px;
         }
         
-        .procedure-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 20px 0;
-        }
-        
-        .procedure-box {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #28a745;
-        }
-        
-        .procedure-box h4 {
-            color: #28a745;
-            margin-bottom: 15px;
-        }
-        
-        .procedure-box ol {
-            padding-left: 20px;
-        }
-        
-        .procedure-box li {
-            margin-bottom: 8px;
-        }
-        
-        .declaration-box {
-            background: #e7f3ff;
-            padding: 25px;
-            border-radius: 10px;
-            border-left: 5px solid #007bff;
-            text-align: center;
-        }
-        
-        .signature-section {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 10px;
-            margin-top: 30px;
-        }
-        
-        .signature-box {
-            background: white;
-            padding: 25px;
-            border-radius: 8px;
-            text-align: center;
-            border: 2px solid #e9ecef;
-        }
-        
-        .signature-line {
-            border-bottom: 2px solid #007bff;
-            height: 50px;
-            margin: 20px 0;
-        }
-        
-        .annexures-section {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 10px;
-            margin-top: 30px;
-        }
-        
-        .annexure-box {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            border-left: 4px solid #6c757d;
-        }
-        
-        .annexure-box h4 {
-            color: #6c757d;
-            margin-bottom: 10px;
-        }
-        
-        .agreement-footer {
-            background: #2c3e50;
+        .signature-line p {
             color: white;
-            padding: 20px;
+            margin: 10px 0;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+        }
+        
+        .contact-section h3 {
+            color: white;
+        }
+        
+        .contact-info {
+            margin: 20px 0;
+        }
+        
+        .contact-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
             border-radius: 10px;
-            margin-top: 40px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-5px);
+        }
+        
+        .contact-card i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: block;
+            color: white;
+        }
+        
+        .contact-card p {
+            color: white;
+            margin: 0;
+        }
+        
+        .contact-card a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card a:hover {
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+        
+        .indemnity-info,
+        .consent-info,
+        .force-info,
+        .dispute-info,
+        .entire-info {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #6f42c1;
+            margin: 20px 0;
+        }
+        
+        .consent-info {
+            border-left-color: #17a2b8;
+        }
+        
+        .force-info {
+            border-left-color: #fd7e14;
+        }
+        
+        .dispute-info {
+            border-left-color: #20c997;
+        }
+        
+        .entire-info {
+            border-left-color: #6c757d;
         }
         
         /* Responsive Design */
@@ -624,11 +983,19 @@
                 padding: 20px;
             }
             
-            .agreement-title {
+            .company-name {
                 font-size: 1.8rem;
             }
             
-            .procedure-grid {
+            .document-title {
+                font-size: 1.4rem;
+            }
+            
+            .usage-policy {
+                grid-template-columns: 1fr;
+            }
+            
+            .breakdown-procedure {
                 grid-template-columns: 1fr;
             }
             
@@ -644,6 +1011,10 @@
             
             .agreement-section-block h3 {
                 font-size: 1.3rem;
+            }
+            
+            .eligibility-list {
+                grid-template-columns: 1fr;
             }
         }
         
@@ -662,9 +1033,12 @@
             .agreement-section-block {
                 break-inside: avoid;
                 page-break-inside: avoid;
+                box-shadow: none;
+                border: 1px solid #ddd;
             }
         }
     </style>
 
     <x-footer_style_one />
 @endsection
+                                
