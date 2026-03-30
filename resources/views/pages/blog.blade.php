@@ -218,10 +218,8 @@
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Penalties for violating the
-                                    rules in rental cars</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">SUV Rental in Jaipur – Price, Benefits & Best Options (2026 Guide)</a></h3>
+                            <p class="blog-one__text">SUV rentals in Jaipur are ideal for travelers who want comfort, space, and power, especially for long trips and family travel.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
