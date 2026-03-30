@@ -22,7 +22,7 @@
                             </div>
                             <div class="blog-one__date">
                                 <p>10</p>
-                                <span>Nov</span>
+                                <span>Jul</span>
                             </div>
                         </div>
                         <div class="blog-one__content">
@@ -58,7 +58,7 @@
                             </div>
                             <div class="blog-one__date">
                                 <p>10</p>
-                                <span>Nov</span>
+                                <span>Aug</span>
                             </div>
                         </div>
                         <div class="blog-one__content">
@@ -95,7 +95,7 @@
                             </div>
                             <div class="blog-one__date">
                                 <p>10</p>
-                                <span>Nov</span>
+                                <span>Sept</span>
                             </div>
                         </div>
                         <div class="blog-one__content">
@@ -132,7 +132,7 @@
                             </div>
                             <div class="blog-one__date">
                                 <p>10</p>
-                                <span>Nov</span>
+                                <span>Oct</span>
                             </div>
                         </div>
                         <div class="blog-one__content">
