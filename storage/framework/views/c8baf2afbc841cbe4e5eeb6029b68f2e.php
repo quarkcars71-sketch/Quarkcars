@@ -2147,7 +2147,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <h3 class="feature-one__inner-title">Do You Want to <br> Rent a Car ?</h3>
                             <p class="feature-one__inner-text">Choose from a wide range of well-maintained cars and enjoy a smooth, flexible, and hassle-free rental experience.</p>
                             <div class="feature-one__inner-btn-box">
-                                <a href="<?php echo e(route('https://wa.me/message/ZS5QNMAR2NSCO1')); ?>" class="thm-btn">Rent Now</a>
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now</a>
                             </div>
                         </div>
                     </div>

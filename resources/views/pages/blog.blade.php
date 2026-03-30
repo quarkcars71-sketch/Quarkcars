@@ -38,10 +38,8 @@
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Documents required for car
-                                    rental services</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Self Drive Car Rental in Jaipur - Complete Guide (2026)</a></h3>
+                            <p class="blog-one__text">Self-drive car rental in Jaipur is becoming the most preferred way to travel. It offers freedom, flexibility, and privacy—without depending on drivers.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
