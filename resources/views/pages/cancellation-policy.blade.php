@@ -325,6 +325,7 @@
         }
         
         .info-card:hover {
+            background:  #667eea;
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
         }
