@@ -1481,7 +1481,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
     <!-- Video One Start -->
     <section class="video-one">
         <div class="video-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
-            style="background-image: url({{ asset('assets/images/backgrounds/video-one-bg (2).jpg') }});"></div>
+            style="background-image: url({{ asset('assets/images/backgrounds/video-one-bg.jpg') }});"></div>
         <div class="container">
             <div class="video-one__inner">
                 <h2 class="video-one__title">Want To Know More About? <br> Play Our Promotional Video Now!</h2>
