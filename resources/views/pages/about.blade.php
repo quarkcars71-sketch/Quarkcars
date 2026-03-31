@@ -3909,7 +3909,7 @@
 
     <!-- Team Three Start -->
     <section class="team-three">
-        <div class="container">
+        <div class="container-fluid">
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box justify-content-center">
                     <div class="section-title__tagline-shape">
