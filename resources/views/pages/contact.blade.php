@@ -128,7 +128,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-1(2).png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-2(2).png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-3(2).png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-4(2).png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -178,7 +178,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-6(2).png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
