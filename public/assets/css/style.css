@@ -581,7 +581,7 @@ ul {
   color: var(--gorent-base);
 }
 
-.chat-popup .chat-form .form-group .thm-btn:hover>span {
+. .chat-form .form-group .thm-btn:hover>span {
   background-color: var(--gorent-base);
   color: var(--gorent-white);
 }
