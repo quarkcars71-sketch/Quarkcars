@@ -4017,7 +4017,7 @@
         <div class="testimonial-two__shape-2 float-bob-x">
             <img src="{{ asset('assets/images/shapes/testimonial-two-shape-2.png') }}" alt="">
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="section-title text-left sec-title-animation animation-style2">
                 <div class="section-title__tagline-box">
                     <div class="section-title__tagline-shape">
@@ -4224,7 +4224,7 @@
     <section class="lets-talk">
         <!-- <div class="lets-talk__bg"
             style="background-image: url({{ asset('assets/images/backgrounds/lets-talk-bg(1).jpg') }});"></div> -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="lets-talk__inner">
                 <div class="lets-talk__title">
                     <p>Rent Your Car</p>
@@ -4249,7 +4249,7 @@
     <section class="blog-one">
         <div class="blog-one__shape-1"></div>
         <div class="blog-one__shape-2"></div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="section-title text-left sec-title-animation animation-style2">
                 <div class="section-title__tagline-box">
                     <div class="section-title__tagline-shape">
