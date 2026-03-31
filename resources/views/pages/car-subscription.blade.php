@@ -13,14 +13,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-1-1(1).jpg') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Acura</p>
+                                <p>Maruti</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Acura
-                                    Sport Version</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift VXI (O) CNG</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -36,7 +35,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>32 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -44,7 +43,7 @@
                                             <span class="icon-fuel-type"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Diesel</p>
+                                            <p>CNG</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -62,7 +61,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -77,7 +76,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>2800 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -92,14 +91,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-2(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Kia Soul</p>
+                                <p>Maruti</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
-                                    2025</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -115,7 +113,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>26 KM/KG</p>
                                         </div>
                                     </li>
                                     <li>
@@ -123,7 +121,7 @@
                                             <span class="icon-fuel-type"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Diesel</p>
+                                            <p>CNG</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -133,7 +131,7 @@
                                             <span class="icon-test-drive"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Basic</p>
+                                            <p>MPV</p>
                                         </div>
                                     </li>
                                     <li>
@@ -141,7 +139,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -149,14 +147,14 @@
                                             <span class="icon-in-person"></span>
                                         </div>
                                         <div class="text">
-                                            <p>5 Persons</p>
+                                            <p>7 Persons</p>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>3500 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -171,14 +169,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-3(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Audi</p>
+                                <p>Maruti</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi A3
-                                    2025 New</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift LXI</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -194,7 +191,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>23 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -202,7 +199,7 @@
                                             <span class="icon-fuel-type"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Diesel</p>
+                                            <p>Petrol</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -220,7 +217,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -235,7 +232,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>2500 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -250,14 +247,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-4.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-4(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Audi</p>
+                                <p>Mahindra</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Ferrari
-                                    458 MM Speciale</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Scorpio S11</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -273,7 +269,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>18 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -291,7 +287,7 @@
                                             <span class="icon-test-drive"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Basic</p>
+                                            <p>SUV</p>
                                         </div>
                                     </li>
                                     <li>
@@ -299,7 +295,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -307,14 +303,14 @@
                                             <span class="icon-in-person"></span>
                                         </div>
                                         <div class="text">
-                                            <p>5 Persons</p>
+                                            <p>7 Persons</p>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>5500 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -329,14 +325,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-5.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-5(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Acura</p>
+                                <p>Mahindra</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi Sport
-                                    Version</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Mahindra Thar 4x4 Diesel</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -352,7 +347,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>18 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -370,7 +365,7 @@
                                             <span class="icon-test-drive"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Basic</p>
+                                            <p>SUV</p>
                                         </div>
                                     </li>
                                     <li>
@@ -378,7 +373,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -386,14 +381,14 @@
                                             <span class="icon-in-person"></span>
                                         </div>
                                         <div class="text">
-                                            <p>5 Persons</p>
+                                            <p>4 Persons</p>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>5000 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -408,14 +403,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-6(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Toyota</p>
+                                <p>Hyundai</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Toyota
-                                    Tacoma 4WD</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai Verna Petrol</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -431,7 +425,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>13 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -439,7 +433,7 @@
                                             <span class="icon-fuel-type"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Diesel</p>
+                                            <p>Petrol</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -449,7 +443,7 @@
                                             <span class="icon-test-drive"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Basic</p>
+                                            <p>Sedan</p>
                                         </div>
                                     </li>
                                     <li>
@@ -457,7 +451,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -472,7 +466,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>4500 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -487,14 +481,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-1-6(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Acura</p>
+                                <p>Hyundai</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Acura
-                                    Sport Version</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i20</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -510,7 +503,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>20 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -518,7 +511,7 @@
                                             <span class="icon-fuel-type"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Diesel</p>
+                                            <p>Petrol</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -528,7 +521,7 @@
                                             <span class="icon-test-drive"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Basic</p>
+                                            <p>Hatchback</p>
                                         </div>
                                     </li>
                                     <li>
@@ -536,7 +529,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -551,7 +544,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>2800 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -566,14 +559,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-1-7(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Kia Soul</p>
+                                <p>Hyundai</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Kia Soul
-                                    2025</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Hyundai i10</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -589,7 +581,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>19 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -597,7 +589,7 @@
                                             <span class="icon-fuel-type"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Diesel</p>
+                                            <p>Petrol</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -607,7 +599,7 @@
                                             <span class="icon-test-drive"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Basic</p>
+                                            <p>Hatchback</p>
                                         </div>
                                     </li>
                                     <li>
@@ -615,7 +607,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -630,7 +622,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>2500 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -645,14 +637,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-1-8(1).png') }}" alt="">
                             <div class="listing-one__brand-name">
-                                <p>Audi</p>
+                                <p>Maruti</p>
                             </div>
                         </div>
                         <div class="listing-one__content">
-                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Audi A3
-                                    2025 New</a></h3>
+                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift Dzire</a></h3>
                             <div class="listing-one__meta-box-info">
                                 <ul class="list-unstyled listing-one__meta">
                                     <li>
@@ -668,7 +659,7 @@
                                             <span class="icon-mileage"></span>
                                         </div>
                                         <div class="text">
-                                            <p>25 KM</p>
+                                            <p>22 KM/L</p>
                                         </div>
                                     </li>
                                     <li>
@@ -676,7 +667,7 @@
                                             <span class="icon-fuel-type"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Diesel</p>
+                                            <p>Petrol</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -694,7 +685,7 @@
                                             <span class="icon-avatar"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Age 25</p>
+                                            <p>Age 21</p>
                                         </div>
                                     </li>
                                     <li>
@@ -709,7 +700,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>$100/</span> Day
+                                    <span>2700 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
