@@ -1,9 +1,9 @@
 @extends('layouts.layoutCommon')
 
-@section('title', 'Cancellation Policy || Quarkcars || Quarkcars Laravel Template')
+@section('title', 'Cancellation Policy || Quarkcars')
 
 @section('content')
-    <x-pageHeader title="Cancellation Policy" subtitle="QuarkCars – Booking Cancellation Policy" />
+    <x-pageHeader title="Cancellation Policy" subtitle="QuarkCars - Booking Cancellation Policy" />
 
     <!--Cancellation Policy Section Start-->
     <section class="cancellation-section">
@@ -271,7 +271,7 @@
     <!-- Custom Styles for Cancellation Policy - Same as Terms -->
     <style>
         .cancellation-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
             padding: 60px 0;
             position: relative;
         }
