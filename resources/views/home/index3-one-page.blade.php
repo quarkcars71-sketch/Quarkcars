@@ -2050,7 +2050,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
     <!--Contact One Start-->
     <section class="contact-one" id="contact">
         <div class="contact-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
-            style="background-image: url({{ asset('assets/images/backgrounds/contact-one-bg(1).jpg') }});">
+            style="background-image: url({{ asset('assets/images/backgrounds/contact-one-bg.jpg') }});">
         </div>
         <div class="contact-one__img wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
             <img src="{{ asset('assets/images/resources/contact-one-img-1(1).png') }}" alt="">
