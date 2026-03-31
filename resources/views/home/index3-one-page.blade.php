@@ -2280,7 +2280,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-1(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -2303,10 +2303,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Documents required for car
-                                    rental services</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Self Drive Car Rental in Jaipur - Complete Guide (2026)</a></h3>
+                            <p class="blog-one__text">Self-drive car rental in Jaipur is becoming the most preferred way to travel. It offers freedom, flexibility, and privacy—without depending on drivers.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -2318,7 +2316,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-2.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-2(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -2341,11 +2339,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">One of the most effective car
-                                    rental
-                                    blog topic</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Car Rental Price in Jaipur - Full Cost Breakdown.</a></h3>
+                            <p class="blog-one__text">Understanding rental cost helps you choose the right car within your budget.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -2357,7 +2352,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-3.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-3(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -2380,10 +2375,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Rental cost of sport and other
-                                    cars</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Cheap Car Rental in Jaipur - Best Budget Options.</a></h3>
+                            <p class="blog-one__text">Looking for affordable travel? Budget car rentals are the best solution.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -2395,7 +2388,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-4.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-4(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -2418,11 +2411,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Rental cars how to check
-                                    driving
-                                    fines?</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Documents Required for Self Drive Car Rental in Jaipur.</a></h3>
+                            <p class="blog-one__text">Before renting a car, you must have proper documents ready.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -2434,7 +2424,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-5.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-5(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -2457,11 +2447,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">How to Rent a Car at the
-                                    Airport
-                                    Terminal?</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Hatchback vs SUV vs Luxury Cars - Which Should You Rent?</a></h3>
+                            <p class="blog-one__text">Choosing the right car depends on your budget and purpose.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -2473,7 +2460,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-6.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-6(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -2496,10 +2483,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Penalties for violating the
-                                    rules in rental cars</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">SUV Rental in Jaipur - Price, Benefits & Best Options (2026 Guide)</a></h3>
+                            <p class="blog-one__text">SUV rentals in Jaipur are ideal for travelers who want comfort, space, and power, especially for long trips and family travel.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
