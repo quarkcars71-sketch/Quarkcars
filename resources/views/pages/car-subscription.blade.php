@@ -76,7 +76,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>2800 INR/</span> Day
+                                    <span>18000 INR/</span> month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
