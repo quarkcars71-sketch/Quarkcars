@@ -1124,7 +1124,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1186,7 +1186,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1203,7 +1203,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -1266,7 +1266,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1283,7 +1283,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1345,7 +1345,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1362,7 +1362,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1424,7 +1424,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1449,7 +1449,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1511,7 +1511,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1528,7 +1528,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1590,7 +1590,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1607,7 +1607,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1669,7 +1669,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1686,7 +1686,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1748,7 +1748,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1765,7 +1765,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -1828,7 +1828,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1845,7 +1845,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1907,7 +1907,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1924,7 +1924,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1986,7 +1986,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2011,7 +2011,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2073,7 +2073,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2090,7 +2090,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2152,7 +2152,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2169,7 +2169,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2231,7 +2231,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2248,7 +2248,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2310,7 +2310,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2327,7 +2327,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -2390,7 +2390,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2407,7 +2407,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2469,7 +2469,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2486,7 +2486,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2548,7 +2548,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2573,7 +2573,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2635,7 +2635,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2652,7 +2652,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2714,7 +2714,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2731,7 +2731,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2793,7 +2793,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2810,7 +2810,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2872,7 +2872,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2889,7 +2889,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -2952,7 +2952,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2969,7 +2969,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3031,7 +3031,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3048,7 +3048,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3110,7 +3110,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3135,7 +3135,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Acura
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3197,7 +3197,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3214,7 +3214,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3276,7 +3276,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3293,7 +3293,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi A3
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3355,7 +3355,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3372,7 +3372,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Ferrari
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3434,7 +3434,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3451,7 +3451,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Audi
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -3514,7 +3514,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3531,7 +3531,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Toyota
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3593,7 +3593,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3610,7 +3610,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('listing-single') }}">Kia Soul
+                                            <h3 class="listing-one__title"><a href="{{ route('self-drive-car') }}">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3672,7 +3672,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('listing-single') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('self-drive-car') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -4012,7 +4012,7 @@
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="{{ route('car-list-v-1') }}" class="thm-btn">Rent Now<span
+                        <a href="{{ route('self-drive-car') }}" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -4280,7 +4280,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-1.jpg') }}" alt="">
-                        <a href="{{ route('cars') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('self-drive-car') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -4290,7 +4290,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-2.jpg') }}" alt="">
-                        <a href="{{ route('cars') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('self-drive-car') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
