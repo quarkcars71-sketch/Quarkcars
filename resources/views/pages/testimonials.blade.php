@@ -23,7 +23,7 @@
                                 <p class="testimonial-one__sub-title">Customer</p>
                             </div>
                         </div>
-                        <p class="testimonial-one__text">mHonestly the best self-drive service I ve used booking was easy the car felt like new and support was responsive will book again.</p>
+                        <p class="testimonial-one__text">Honestly the best self-drive service I ve used booking was easy the car felt like new and support was responsive will book again.</p>
                         <div class="testimonial-one__rating">
                             <span class="icon-star"></span>
                             <span class="icon-star"></span>
