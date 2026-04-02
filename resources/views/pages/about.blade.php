@@ -28,7 +28,7 @@
                                 <img src="{{ asset('assets/images/shapes/about-one-shape-3.png') }}" alt="">
                             </div>
                             <div class="about-one__img-2">
-                                <img src="{{ asset('assets/images/resources/about-one-img-2.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/about-one-img-2(1).jpg') }}" alt="">
                             </div>
                             <div class="about-one__experience">
                                 <div class="about-one__experience-count">
@@ -298,12 +298,12 @@
             </div>
             <div class="listing-one__tab-box listing-one-tabs-box">
                 <ul class="listing-one-tab-buttons listing-one-tab-btns clearfix list-unstyled">
-                    <li data-tab="#tesla" class="p-tab-btn active-btn"><span>Tesla</span></li>
-                    <li data-tab="#honda" class="p-tab-btn"><span>Honda</span></li>
-                    <li data-tab="#audi" class="p-tab-btn"><span>Audi</span></li>
-                    <li data-tab="#mazda" class="p-tab-btn"><span>Mazda</span></li>
+                    <li data-tab="#maruti" class="p-tab-btn active-btn"><span>Maruti</span></li>
+                    <li data-tab="#mahindra" class="p-tab-btn"><span>Mahindra</span></li>
+                    <li data-tab="#hyundai" class="p-tab-btn"><span>Hyundai</span></li>
+                    <!-- <li data-tab="#mazda" class="p-tab-btn"><span>Mazda</span></li>
                     <li data-tab="#toyota" class="p-tab-btn"><span>Toyota</span></li>
-                    <li data-tab="#acura" class="p-tab-btn"><span>Acura</span></li>
+                    <li data-tab="#acura" class="p-tab-btn"><span>Acura</span></li> -->
                 </ul>
                 <div class="p-tabs-content">
                     <!--tab-->
@@ -314,7 +314,7 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-1(1).jpg') }}" alt="">
                                             <div class="listing-one__brand-name">
                                                 <p>Maruti</p>
                                             </div>
@@ -336,7 +336,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>32 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -344,7 +344,7 @@
                                                             <span class="icon-fuel-type"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Diesel</p>
+                                                            <p>CNG</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -362,7 +362,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -377,7 +377,7 @@
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>2800 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
@@ -392,14 +392,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-2(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Kia Soul</p>
+                                                <p>Maruti</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('ertiga-vxi-details') }}">Kia Soul
-                                                    2025</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('ertiga-vxi-details') }}">Maruti Ertiga VXI CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -415,7 +414,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>26 KM/KG</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -423,7 +422,7 @@
                                                             <span class="icon-fuel-type"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Diesel</p>
+                                                            <p>CNG</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -433,7 +432,7 @@
                                                             <span class="icon-test-drive"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Basic</p>
+                                                            <p>MPV</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -441,7 +440,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -449,14 +448,14 @@
                                                             <span class="icon-in-person"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>5 Persons</p>
+                                                            <p>7 Persons</p>
                                                         </div>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>3500 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
@@ -471,14 +470,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-3(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Audi</p>
+                                                <p>Maruti</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-lxi-details') }}">Audi A3
-                                                    2025 New</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-lxi-details') }}">Maruti Swift LXI</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -494,7 +492,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>23 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -502,7 +500,7 @@
                                                             <span class="icon-fuel-type"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Diesel</p>
+                                                            <p>Petrol</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -520,7 +518,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -535,7 +533,7 @@
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>2500 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
@@ -550,14 +548,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-4.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-4(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Audi</p>
+                                                <p>Mahindra</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('mahindra-scorpio-s11-details') }}">Ferrari
-                                                    458 MM Speciale</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('mahindra-scorpio-s11-details') }}">Mahindra Scorpio S11</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -573,7 +570,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>18 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -591,7 +588,7 @@
                                                             <span class="icon-test-drive"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Basic</p>
+                                                            <p>SUV</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -599,7 +596,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -607,14 +604,14 @@
                                                             <span class="icon-in-person"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>5 Persons</p>
+                                                            <p>7 Persons</p>
                                                         </div>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>5500 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
@@ -629,15 +626,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-5.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-5(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Acura</p>
+                                                <p>Mahindra</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('mahindra-thar-4x4-details') }}">Audi
-                                                    Sport
-                                                    Version</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('mahindra-thar-4x4-details') }}">Mahindra Thar 4X4</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -653,7 +648,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>18 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -671,7 +666,7 @@
                                                             <span class="icon-test-drive"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Basic</p>
+                                                            <p>SUV</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -679,7 +674,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -687,14 +682,14 @@
                                                             <span class="icon-in-person"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>5 Persons</p>
+                                                            <p>4 Persons</p>
                                                         </div>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>5000 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
@@ -709,14 +704,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-6.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-6(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Toyota</p>
+                                                <p>Hyundai</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-verna-petrol-details') }}">Toyota
-                                                    Tacoma 4WD</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-i20-details') }}">Hyundai i20</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -732,7 +726,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>20 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -740,7 +734,7 @@
                                                             <span class="icon-fuel-type"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Diesel</p>
+                                                            <p>Petrol</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -750,7 +744,7 @@
                                                             <span class="icon-test-drive"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Basic</p>
+                                                            <p>Hatchb.</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -758,7 +752,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -773,11 +767,11 @@
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>2800 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('hyundai-verna-petrol-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('hyundai-i20-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -788,14 +782,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-7(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Honda</p>
+                                                <p>Hyundai</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-i20-details') }}">Kia Soul
-                                                    2025</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-i10-details') }}">Hyundai i10</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -811,7 +804,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>19 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -819,7 +812,7 @@
                                                             <span class="icon-fuel-type"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Diesel</p>
+                                                            <p>Petrol</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -829,7 +822,7 @@
                                                             <span class="icon-test-drive"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Basic</p>
+                                                            <p>Hatchb.</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -837,7 +830,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -852,11 +845,11 @@
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>2500 INR</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                                <a href="{{ route('hyundai-i20-details') }}" class="thm-btn">Details Now<span
+                                                <a href="{{ route('hyundai-i10-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -875,14 +868,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-8(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Acura</p>
+                                                <p>Maruti</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('hyundai-i10-details') }}">Acura
-                                                    Sport Version</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('maruti-swift-dzire-details') }}">Maruti Swift Dzire</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -898,7 +890,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>22 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -906,7 +898,7 @@
                                                             <span class="icon-fuel-type"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Diesel</p>
+                                                            <p>Petrol</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -924,7 +916,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -939,86 +931,7 @@
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
-                                                </p>
-                                            </div>
-                                            <div class="listing-one__btn-box">
-                                                <a href="{{ route('hyundai-i10-details') }}" class="thm-btn">Details Now<span
-                                                        class="fas fa-arrow-right"></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Listing One Single End -->
-                                <!-- Listing One Single Start -->
-                                <div class="item">
-                                    <div class="listing-one__single">
-                                        <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-2.jpg') }}" alt="">
-                                            <div class="listing-one__brand-name">
-                                                <p>Kia Soul</p>
-                                            </div>
-                                        </div>
-                                        <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('maruti-swift-dzire-details') }}">Kia Soul
-                                                    2025</a></h3>
-                                            <div class="listing-one__meta-box-info">
-                                                <ul class="list-unstyled listing-one__meta">
-                                                    <li>
-                                                        <div class="icon">
-                                                            <span class="icon-manual"></span>
-                                                        </div>
-                                                        <div class="text">
-                                                            <p>Manual</p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="icon">
-                                                            <span class="icon-mileage"></span>
-                                                        </div>
-                                                        <div class="text">
-                                                            <p>25 KM</p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="icon">
-                                                            <span class="icon-fuel-type"></span>
-                                                        </div>
-                                                        <div class="text">
-                                                            <p>Diesel</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                                <ul class="list-unstyled listing-one__meta listing-one__meta--two">
-                                                    <li>
-                                                        <div class="icon">
-                                                            <span class="icon-test-drive"></span>
-                                                        </div>
-                                                        <div class="text">
-                                                            <p>Basic</p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="icon">
-                                                            <span class="icon-avatar"></span>
-                                                        </div>
-                                                        <div class="text">
-                                                            <p>Age 25</p>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="icon">
-                                                            <span class="icon-in-person"></span>
-                                                        </div>
-                                                        <div class="text">
-                                                            <p>5 Persons</p>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="listing-one__car-rent-box">
-                                                <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>2700 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
@@ -1033,14 +946,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-3.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-9(1).png') }}" alt="">
                                             <div class="listing-one__brand-name">
-                                                <p>Audi</p>
+                                                <p>Hyundai</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('aura-cng-details') }}">Audi A3
-                                                    2025 New</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('aura-cng-details') }}">Aura CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -1056,7 +968,7 @@
                                                             <span class="icon-mileage"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>25 KM</p>
+                                                            <p>25 KM/L</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -1064,7 +976,7 @@
                                                             <span class="icon-fuel-type"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Diesel</p>
+                                                            <p>CNG</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1082,7 +994,7 @@
                                                             <span class="icon-avatar"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Age 25</p>
+                                                            <p>Age 21</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -1097,11 +1009,89 @@
                                             </div>
                                             <div class="listing-one__car-rent-box">
                                                 <p class="listing-one__car-rent">Starting From
-                                                    <span>$100/</span> Day
+                                                    <span>2500 INR/</span> Day
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
                                                 <a href="{{ route('aura-cng-details') }}" class="thm-btn">Details Now<span
+                                                        class="fas fa-arrow-right"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Listing One Single End -->
+                                <!-- Listing One Single Start -->
+                                <div class="item">
+                                    <div class="listing-one__single">
+                                        <div class="listing-one__img">
+                                            <img src="{{ asset('assets/images/listing/listing-1-10(1).png') }}" alt="">
+                                            <div class="listing-one__brand-name">
+                                                <p>Maruti</p>
+                                            </div>
+                                        </div>
+                                        <div class="listing-one__content">
+                                            <h3 class="listing-one__title"><a href="{{ route('maruti-baleno-details') }}">Maruti Baleno</a></h3>
+                                            <div class="listing-one__meta-box-info">
+                                                <ul class="list-unstyled listing-one__meta">
+                                                    <li>
+                                                        <div class="icon">
+                                                            <span class="icon-manual"></span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <p>Manual</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon">
+                                                            <span class="icon-mileage"></span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <p>22 KM/L</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon">
+                                                            <span class="icon-fuel-type"></span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <p>Petrol</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="list-unstyled listing-one__meta listing-one__meta--two">
+                                                    <li>
+                                                        <div class="icon">
+                                                            <span class="icon-test-drive"></span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <p>Hatchb.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon">
+                                                            <span class="icon-avatar"></span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <p>Age 21</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon">
+                                                            <span class="icon-in-person"></span>
+                                                        </div>
+                                                        <div class="text">
+                                                            <p>5 Persons</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="listing-one__car-rent-box">
+                                                <p class="listing-one__car-rent">Starting From
+                                                    <span>2800 INR/</span> Day
+                                                </p>
+                                            </div>
+                                            <div class="listing-one__btn-box">
+                                                <a href="{{ route('maruti-baleno-details') }}" class="thm-btn">Details Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
