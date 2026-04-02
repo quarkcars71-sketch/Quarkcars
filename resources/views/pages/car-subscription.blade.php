@@ -76,7 +76,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>18000 INR/</span> Month
+                                    <span>40000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -154,7 +154,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>22000 INR/</span> Month
+                                    <span>45000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -232,7 +232,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>16000 INR/</span> Month
+                                    <span>35000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -310,7 +310,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>32000 INR/</span> Month
+                                    <span>70000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -388,7 +388,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>38000 INR/</span> Month
+                                    <span>65000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -466,7 +466,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>26000 INR/</span> Month
+                                    <span>60000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -544,7 +544,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>18000 INR/</span> Month
+                                    <span>40000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -622,7 +622,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>14000 INR/</span> Month
+                                    <span>30000 INR/</span> Month
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
@@ -700,7 +700,7 @@
                             </div>
                             <div class="listing-one__car-rent-box">
                                 <p class="listing-one__car-rent">Starting From
-                                    <span>20000 INR/</span> Day
+                                    <span>35000 INR/</span> Day
                                 </p>
                             </div>
                             <div class="listing-one__btn-box">
