@@ -1,6 +1,6 @@
 @extends('layouts.layoutCommon')
 
-@section('title', 'Customer Agreement || Quarkcars || Quarkcars Laravel Template')
+@section('title', 'Customer Agreement || Quarkcars')
 
 @section('content')
     <x-pageHeader title="Customer Agreement" subtitle="QuarkCars Self Drive Rental – Customer Agreement" />

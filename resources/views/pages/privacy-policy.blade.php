@@ -1,6 +1,6 @@
 @extends('layouts.layoutCommon')
 
-@section('title', 'Privacy Policy || Quarkcars || Quarkcars Laravel Template')
+@section('title', 'Privacy Policy || Quarkcars')
 
 @section('content')
     <x-pageHeader title="Privacy Policy" subtitle="QuarkCars – Privacy Policy" />

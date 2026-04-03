@@ -1,5 +1,5 @@
 @extends('layouts.layoutCommon')
-@section('title', '404 Error')
+@section('title', '404 Error || QuarkCars')
 
 @section('content')
 

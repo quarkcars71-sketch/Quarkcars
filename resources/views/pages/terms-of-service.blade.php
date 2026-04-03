@@ -1,6 +1,6 @@
 @extends('layouts.layoutCommon')
 
-@section('title', 'Terms & Conditions || Quarkcars || Quarkcars Laravel Template')
+@section('title', 'Terms & Conditions || Quarkcars')
 
 @section('content')
     <x-pageHeader title="Terms & Conditions" subtitle="QuarkCars Self Drive Rental – Terms & Conditions" />

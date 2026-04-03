@@ -1,5 +1,5 @@
 @extends('layouts.layoutCommon')
-@section('title', 'Login')
+@section('title', 'Login || QuarkCars')
 
 @section('content')
 
