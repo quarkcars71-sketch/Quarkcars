@@ -3792,7 +3792,7 @@
                     <span class="section-title__tagline">Testimonials</span>
                 </div>
                 <h2 class="section-title__title title-animation">What Peoples Say <br>
-                    about Gorent</h2>
+                    about QuarkCars</h2>
             </div>
             <div class="testimonial-two__carousel owl-carousel owl-theme">
                 <!-- Testimonial Two Single Start -->
@@ -4111,7 +4111,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-4.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-4(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4134,11 +4134,8 @@
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Rental cars how to check
-                                    driving
-                                    fines?</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Documents Required for Self Drive Car Rental in Jaipur.</a></h3>
+                            <p class="blog-one__text">Before renting a car, you must have proper documents ready.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -4150,7 +4147,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-5.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-5(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4173,11 +4170,8 @@
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">How to Rent a Car at the
-                                    Airport
-                                    Terminal?</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Hatchback vs SUV vs Luxury Cars - Which Should You Rent?</a></h3>
+                            <p class="blog-one__text">Choosing the right car depends on your budget and purpose.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -4189,7 +4183,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-6.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-6(1).png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4212,10 +4206,8 @@
                                     </a>
                                 </li>
                             </ul>
-                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Penalties for violating the
-                                    rules in rental cars</a></h3>
-                            <p class="blog-one__text">Car Is Where Early Adopters And Innovation Seekers Find Lively
-                                Imaginative Tech.</p>
+                            <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">SUV Rental in Jaipur - Price, Benefits & Best Options (2026 Guide)</a></h3>
+                            <p class="blog-one__text">SUV rentals in Jaipur are ideal for travelers who want comfort, space, and power, especially for long trips and family travel.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
