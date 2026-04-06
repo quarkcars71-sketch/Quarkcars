@@ -6,7 +6,7 @@
 
         <div class="logo-box">
             <a href="<?php echo e(route('index')); ?>" aria-label="logo image"><img
-                    src="<?php echo e(asset('assets/images/resources/logo-2(1).png')); ?>" width="140" alt="" /></a>
+                    src="<?php echo e(asset('assets/images/resources/logo-2(2).png')); ?>" width="140" alt="" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>

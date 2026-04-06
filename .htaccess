@@ -2,15 +2,8 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Force HTTPS
-    RewriteCond %{HTTPS} off
-    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
-
-    # Force WWW
-    RewriteCond %{HTTP_HOST} ^quarkcars\.com [NC]
-    RewriteRule ^(.*)$ https://www.quarkcars.com/$1 [L,R=301]
-
-    RewriteCond %{REQUEST_URI} !^/public
+    # Handle public folder
+    RewriteCond %{REQUEST_URI} !^/public/
     RewriteRule ^(.*)$ public/$1 [L]
 
     # Block sensitive folders
@@ -18,4 +11,12 @@
 
     # Block sensitive files
     RewriteRule ^(.env|artisan|composer.*|package.*|phpunit.*|webpack.*)$ - [F,L]
+</IfModule>
+
+# Alternative: If above doesn't work, try this
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [L]
 </IfModule>

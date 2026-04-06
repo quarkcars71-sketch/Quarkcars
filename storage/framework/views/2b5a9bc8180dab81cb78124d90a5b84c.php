@@ -38,7 +38,7 @@
                 <div class="main-menu__social">
                     <a href="https://www.facebook.com/people/Quarkcars-Self-Drive-Rental/100087919809854/?mibextid=2JQ9oc" target="_blank"><i class="icon-facebook"></i></a>
                     <a href="https://twitter.com/quarkcars?t=3EkNp5XO5y-iWU5RpfhrUg&s=09" target="_blank"><i class="icon-twitter"></i></a>
-                    <a href="#" target="_blank"><i class="icon-instagram"></i></a>
+                    <a href="https://instagram.com/quarkcars_india?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="icon-instagram"></i></a>
                     <a href="https://www.youtube.com/@QuarkCarsOfficial" target="_blank"><i class="icon-youtube"></i></a>
                     <a href="https://www.linkedin.com/in/quarkcars-mobility-969a25263/" target="_blank"><i class="icon-linkedin"></i></a>
                 </div>
