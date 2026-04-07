@@ -358,7 +358,7 @@
     <!-- Custom Styles for Terms -->
     <style>
         .terms-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1F4F8C 0%, #f2b720 100%);
             padding: 60px 0;
             position: relative;
         }
@@ -386,7 +386,7 @@
         }
         
         .company-name {
-            color: #2c3e50;
+            color: #1F4F8C;
             font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 10px;
@@ -395,14 +395,14 @@
         }
         
         .document-title {
-            color: #667eea;
+            color: #f2b720;
             font-size: 1.8rem;
             font-weight: 600;
             margin-bottom: 30px;
         }
         
         .info-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1F4F8C 0%, #f2b720 100%);
             color: white;
             padding: 20px;
             border-radius: 15px;
@@ -413,7 +413,7 @@
         
         .info-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 10px 25px rgba(31, 79, 140, 0.3);
         }
         
         .info-card i {
@@ -440,7 +440,7 @@
             left: 0;
             width: 5px;
             height: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1F4F8C 0%, #f2b720 100%);
         }
         
         .terms-section-block:hover {
@@ -449,7 +449,7 @@
         }
         
         .terms-section-block h3 {
-            color: #2c3e50;
+            color: #1F4F8C;
             font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: 25px;
@@ -458,7 +458,7 @@
         }
         
         .section-number {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1F4F8C 0%, #f2b720 100%);
             color: white;
             width: 40px;
             height: 40px;
@@ -469,7 +469,7 @@
             margin-right: 15px;
             font-size: 1.1rem;
             font-weight: 700;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 5px 15px rgba(31, 79, 140, 0.3);
         }
         
         .requirement-list {
@@ -483,19 +483,19 @@
             background: #f8f9fa;
             padding: 20px;
             border-radius: 10px;
-            border-left: 4px solid #28a745;
+            border-left: 4px solid #f2b720;
             display: flex;
             align-items: center;
             transition: all 0.3s ease;
         }
         
         .requirement-item:hover {
-            background: #e8f5e8;
+            background: #fff8e1;
             transform: translateX(5px);
         }
         
         .requirement-item i {
-            color: #28a745;
+            color: #f2b720;
             font-size: 1.5rem;
             margin-right: 15px;
             min-width: 30px;
@@ -547,7 +547,7 @@
         .traffic-policy li i,
         .breakdown-support li i,
         .privacy-info li i {
-            color: #667eea;
+            color: #1F4F8C;
             margin-right: 15px;
             font-size: 1.2rem;
             min-width: 20px;
@@ -566,7 +566,7 @@
             background: #f8f9fa;
             padding: 20px;
             border-radius: 10px;
-            border-left: 4px solid #007bff;
+            border-left: 4px solid #1F4F8C;
             display: flex;
             align-items: flex-start;
             transition: all 0.3s ease;
@@ -578,7 +578,7 @@
         }
         
         .info-box.warning {
-            border-left-color: #ffc107;
+            border-left-color: #f2b720;
             background: #fff8e1;
         }
         
@@ -587,14 +587,14 @@
         }
         
         .info-box i {
-            color: #007bff;
+            color: #1F4F8C;
             font-size: 1.5rem;
             margin-right: 15px;
             margin-top: 2px;
         }
         
         .info-box.warning i {
-            color: #ffc107;
+            color: #f2b720;
         }
         
         .usage-policy {
@@ -612,7 +612,7 @@
         }
         
         .allowed-usage {
-            border-left: 4px solid #28a745;
+            border-left: 4px solid #f2b720;
         }
         
         .prohibited-usage {
@@ -627,7 +627,7 @@
         }
         
         .allowed-usage h4 i {
-            color: #28a745;
+            color: #f2b720;
             margin-right: 10px;
         }
         
@@ -654,7 +654,7 @@
         }
         
         .prohibited-usage li::before {
-            content: '🚫';
+            content: '??';
             margin-right: 10px;
             font-size: 1.2rem;
         }
@@ -668,7 +668,7 @@
             background: #f8f9fa;
             padding: 20px;
             border-radius: 10px;
-            border-left: 4px solid #17a2b8;
+            border-left: 4px solid #1F4F8C;
             display: flex;
             align-items: center;
             transition: all 0.3s ease;
@@ -680,7 +680,7 @@
         }
         
         .policy-item.warning {
-            border-left-color: #ffc107;
+            border-left-color: #f2b720;
             background: #fff8e1;
         }
         
@@ -689,21 +689,21 @@
         }
         
         .policy-item i {
-            color: #17a2b8;
+            color: #1F4F8C;
             font-size: 1.5rem;
             margin-right: 15px;
             min-width: 30px;
         }
         
         .policy-item.warning i {
-            color: #ffc107;
+            color: #f2b720;
         }
         
         .charge-item {
             background: #f8f9fa;
             padding: 20px;
             border-radius: 10px;
-            border-left: 4px solid #6f42c1;
+            border-left: 4px solid #1F4F8C;
             display: flex;
             align-items: center;
             transition: all 0.3s ease;
@@ -715,7 +715,7 @@
         }
         
         .charge-item i {
-            color: #6f42c1;
+            color: #1F4F8C;
             font-size: 1.5rem;
             margin-right: 15px;
             min-width: 30px;
