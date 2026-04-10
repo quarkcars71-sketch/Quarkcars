@@ -58,16 +58,16 @@
                         <div class="thm-social-link1">
                             <ul class="social-box list-unstyled">
                                 <li>
-                                    <a href="#"><i class="icon-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.facebook.com/people/Quarkcars-Self-Drive-Rental/100087919809854/?mibextid=2JQ9oc" target="_blank"><i class="icon-facebook" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://twitter.com/quarkcars?t=3EkNp5XO5y-iWU5RpfhrUg&s=09" target="_blank"><i class="icon-twitter" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-linkedin" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/quarkcars-mobility-969a25263/" target="_blank"><i class="icon-linkedin" aria-hidden="true"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="icon-dribble-big-logo" aria-hidden="true"></i></a>
+                                    <a href="https://www.youtube.com/@QuarkCarsOfficial" target="_blank"><i class="icon-youtube" aria-hidden="true"></i></a>
                                 </li>
                             </ul>
                         </div>
