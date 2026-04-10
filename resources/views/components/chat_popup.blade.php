@@ -1,7 +1,7 @@
 <!-- End sidebar widget content -->
 <div class="chat-icon"><button type="button" class="chat-toggler"><i class="fa fa-comment"></i></button></div>
 <!--Chat Popup-->
-<div id="chat-popup" class="chat-popup">
+<!-- <div id="chat-popup" class="chat-popup">
     <div class="popup-inner">
         <div class="close-chat"><i class="fa fa-times"></i></div>
         <div class="chat-form">
@@ -25,4 +25,4 @@
             </form>
         </div>
     </div>
-</div>
+</div> -->
