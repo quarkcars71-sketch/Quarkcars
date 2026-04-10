@@ -17,26 +17,24 @@
                         <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
                             <div class="accrodion">
                                 <div class="accrodion-title">
-                                    <h4>How old do I need to be to rent a car?</h4>
+                                    <h4>What is QuarkCars?</h4>
                                 </div>
                                 <div class="accrodion-content">
                                     <div class="inner">
-                                        <p>From personalized solutions to expert execution, we prioritize quality,
-                                            reliability, and customer satisfaction in everything we do. Let us be
-                                            your trusted partner in achieving success.
+                                        <p>QuarkCars Services Pvt. Ltd. is a self-drive car rental company based in Jaipur, Rajasthan, offering reliable, affordable, and convenient mobility solutions for individuals and businesses.
                                         </p>
                                     </div><!-- /.inner -->
                                 </div>
                             </div>
                             <div class="accrodion active">
                                 <div class="accrodion-title">
-                                    <h4>What documents do I need to rent a car?</h4>
+                                    <h4>How can I book a car with QuarkCars?</h4>
                                 </div>
                                 <div class="accrodion-content">
                                     <div class="inner">
-                                        <p>From personalized solutions to expert execution, we prioritize quality,
-                                            reliability, and customer satisfaction in everything we do. Let us be
-                                            your trusted partner in achieving success.
+                                        <p>🌐 Website: www.quarkcars.com<br>
+📞 Call or WhatsApp: +91-8769639911<br>
+📍 Directly at our Jaipur office
                                         </p>
                                     </div><!-- /.inner -->
                                 </div>
