@@ -1,5 +1,5 @@
 <!-- End sidebar widget content -->
-<div class="chat-icon"><button type="button" class="chat-toggler"><i class="fa-brands fa-whatsapp"></i></button></div>
+<div class="chat-icon"><button type="button" class="chat-toggler"><i class="fa fa-comment"></i></button></div>
 <!--Chat Popup-->
 <div id="chat-popup" class="chat-popup">
     <div class="popup-inner">
