@@ -3,11 +3,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@yield('title', 'Home || QuarkCars')</title>
     <!-- favicons Icons -->
-    <link rel="icon" href="{{ asset('assets/images/favicons/favicon.ico?v=20250413') }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicons/apple-touch-icon.png?v=20250413') }}" />
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicons/favicon-32x32.png?v=20250413') }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicons/favicon-16x16.png?v=20250413') }}" />
-    <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest?v=20250413') }}" />
+    <link rel="icon" href="{{ asset('assets/images/favicons/favicon.ico') }}?v={{ time() }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicons/apple-touch-icon.png') }}?v={{ time() }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicons/favicon-32x32.png') }}?v={{ time() }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicons/favicon-16x16.png') }}?v={{ time() }}" />
+    <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}?v={{ time() }}" />
     <meta name="description" content="QuarkCars Laravel  Template " />
 
     <!-- fonts -->
