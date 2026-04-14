@@ -13,6 +13,9 @@ php artisan config:clear
 php artisan cache:clear
 php artisan route:clear
 
+# Clear route cache explicitly
+php artisan route:clear
+
 # Generate APP_KEY if not set
 if [ -z "$APP_KEY" ]; then
     export APP_KEY=$(php artisan key:generate --show)
