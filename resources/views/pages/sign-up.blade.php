@@ -12,13 +12,12 @@
                 <div class="inner-title text-center">
                     <h2>Sing Up</h2>
                 </div>
-                <form id="sign-up-one__form" name="sign-up-one_form" action="{{ route('register') }}" method="post">
-                    @csrf
+                <form id="sign-up-one__form" name="sign-up-one_form" action="#" method="post">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="form-group">
                                 <div class="input-box">
-                                    <input type="text" name="name" id="formName" placeholder="Name..." required=""
+                                    <input type="text" name="form_name" id="formName" placeholder="Name..." required=""
                                         value="">
                                 </div>
                             </div>
@@ -26,7 +25,7 @@
                         <div class="col-xl-12">
                             <div class="form-group">
                                 <div class="input-box">
-                                    <input type="email" name="email" id="formEmail" placeholder="Email..." required=""
+                                    <input type="email" name="form_email" id="formEmail" placeholder="Email..." required=""
                                         value="">
                                 </div>
                             </div>
@@ -34,7 +33,7 @@
                         <div class="col-xl-12">
                             <div class="form-group">
                                 <div class="input-box">
-                                    <input type="text" name="phone" id="formPhone" placeholder="Phone..." required=""
+                                    <input type="text" name="form_phone" id="formPhone" placeholder="Phone..." required=""
                                         value="">
                                 </div>
                             </div>
@@ -42,15 +41,7 @@
                         <div class="col-xl-12">
                             <div class="form-group">
                                 <div class="input-box">
-                                    <input type="password" name="password" id="formPassword" placeholder="Password..."
-                                        required="" value="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-12">
-                            <div class="form-group">
-                                <div class="input-box">
-                                    <input type="password" name="password_confirmation" id="formPasswordConfirmation" placeholder="Confirm Password..."
+                                    <input type="text" name="form_password" id="formPassword" placeholder="Password..."
                                         required="" value="">
                                 </div>
                             </div>

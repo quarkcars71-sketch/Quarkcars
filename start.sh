@@ -19,9 +19,6 @@ php artisan config:clear
 php artisan cache:clear
 php artisan route:clear
 
-# Clear route cache explicitly
-php artisan route:clear
-
 # Generate APP_KEY if not set
 if [ -z "$APP_KEY" ]; then
     export APP_KEY=$(php artisan key:generate --show)
@@ -30,8 +27,9 @@ fi
 # Run migrations
 php artisan migrate --force
 
-# Cache config for production (skip route cache to prevent 405 errors)
+# Cache config for production
 php artisan config:cache
+php artisan route:cache
 php artisan view:cache
 
 # Start Apache
