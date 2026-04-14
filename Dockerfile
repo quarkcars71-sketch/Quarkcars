@@ -24,9 +24,6 @@ WORKDIR /var/www/html
 # Copy application
 COPY . .
 
-# Create SQLite database directory
-RUN mkdir -p /var/www/html/database && touch /var/www/html/database/database.sqlite
-
 # Install dependencies
 RUN composer install --no-dev --optimize-autoloader --no-interaction
 
@@ -37,8 +34,7 @@ RUN chmod +x /start.sh
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 775 /var/www/html/storage && \
-    chmod -R 775 /var/www/html/bootstrap/cache && \
-    chmod 664 /var/www/html/database/database.sqlite
+    chmod -R 775 /var/www/html/bootstrap/cache
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite

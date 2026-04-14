@@ -1,16 +1,10 @@
 #!/bin/bash
 
-# Create SQLite database if not exists
-mkdir -p /var/www/html/database
-touch /var/www/html/database/database.sqlite
-
 # Set permissions
 chown -R www-data:www-data /var/www/html/storage
 chown -R www-data:www-data /var/www/html/bootstrap/cache
-chown -R www-data:www-data /var/www/html/database
 chmod -R 775 /var/www/html/storage
 chmod -R 775 /var/www/html/bootstrap/cache
-chmod 664 /var/www/html/database/database.sqlite
 
 # Force clear all caches
 rm -rf /var/www/html/storage/framework/views/*

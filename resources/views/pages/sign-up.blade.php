@@ -12,7 +12,8 @@
                 <div class="inner-title text-center">
                     <h2>Sing Up</h2>
                 </div>
-                <form id="sign-up-one__form" name="sign-up-one_form" action="#" method="post">
+                <form id="sign-up-one__form" name="sign-up-one_form" action="{{ route('sign-up.post') }}" method="post">
+                    @csrf
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="form-group">
