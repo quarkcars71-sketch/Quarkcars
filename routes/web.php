@@ -18,9 +18,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-// Sign-up and Login routes
+// Sign-up route
 Route::get('/sign-up', [PagesController::class, 'sign_up'])->name('sign-up');
 Route::post('/sign-up', [PagesController::class, 'register'])->name('sign-up.post');
-Route::get('/login', [PagesController::class, 'login'])->name('login');
 
 require __DIR__.'/auth.php';
