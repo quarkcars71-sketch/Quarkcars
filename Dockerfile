@@ -24,6 +24,9 @@ WORKDIR /var/www/html
 # Copy application
 COPY . .
 
+# Create SQLite database directory
+RUN mkdir -p /var/www/html/database && touch /var/www/html/database/database.sqlite
+
 # Install dependencies
 RUN composer install --no-dev --optimize-autoloader --no-interaction
 
