@@ -1,7 +1,7 @@
 <!-- End sidebar widget content -->
-<div class="chat-icon"><button type="button" class="chat-toggler"><i class="fa fa-comment"></i></button></div>
+<div class="chat-icon"><a href="https://wa.me/message/ZS5QNMAR2NSCO1" target="_blank"><button type="button" class="chat-toggler"><i class="fa fa-comment"></i></button></a></div>
 <!--Chat Popup-->
-<div id="chat-popup" class="chat-popup">
+<!-- <div id="chat-popup" class="chat-popup">
     <div class="popup-inner">
         <div class="close-chat"><i class="fa fa-times"></i></div>
         <div class="chat-form">
@@ -25,5 +25,5 @@
             </form>
         </div>
     </div>
-</div>
+</div> -->
 <?php /**PATH D:\pack-file laravel\Quarkcars\resources\views/components/chat_popup.blade.php ENDPATH**/ ?>
