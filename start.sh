@@ -1,7 +1,15 @@
 #!/bin/bash
 
-# Create SQLite database if not exists
+# Create storage directories
+mkdir -p /var/www/html/storage/framework/views
+mkdir -p /var/www/html/storage/framework/cache
+mkdir -p /var/www/html/storage/framework/sessions
+mkdir -p /var/www/html/storage/logs
+mkdir -p /var/www/html/storage/app/public
+mkdir -p /var/www/html/bootstrap/cache
 mkdir -p /var/www/html/database
+
+# Create SQLite database if not exists
 touch /var/www/html/database/database.sqlite
 
 # Set permissions
