@@ -12,7 +12,8 @@
                 <div class="inner-title text-center">
                     <h2>Login Here</h2>
                 </div>
-                <form id="login-one__form" name="Login-one_form" action="#" method="post">
+                <form id="login-one__form" name="Login-one_form" action="{{ route('login.post') }}" method="post">
+                    @csrf
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="form-group">

@@ -186,6 +186,23 @@ class PagesController extends Controller
         return view('pages.login');
     }
 
+    public function loginPost(Request $request)
+    {
+        $credentials = $request->validate([
+            'form_email' => 'required|email',
+            'form_password' => 'required',
+        ]);
+
+        if (Auth::attempt(['email' => $credentials['form_email'], 'password' => $credentials['form_password']], $request->has('saveMyInfo'))) {
+            $request->session()->regenerate();
+            return redirect()->route('index')->with('success', 'Login successful!');
+        }
+
+        return back()->withErrors([
+            'form_email' => 'Invalid email or password.',
+        ])->onlyInput('form_email');
+    }
+
     public function blog()
     {
         return view('pages.blog');

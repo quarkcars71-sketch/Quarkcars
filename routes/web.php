@@ -125,6 +125,9 @@ Route::post('/sign-up', [PagesController::class, 'register'])
 Route::get('/login', [PagesController::class, 'login'])
     ->name('login');
 
+Route::post('/login', [PagesController::class, 'loginPost'])
+    ->name('login.post');
+
 Route::get('/blog', [PagesController::class, 'blog'])
     ->name('blog');
 
