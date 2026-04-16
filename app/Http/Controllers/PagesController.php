@@ -161,6 +161,26 @@ class PagesController extends Controller
         return view('pages.sign-up');
     }
 
+    public function register(Request $request)
+    {
+        $validated = $request->validate([
+            'form_name' => 'required|string|max:255',
+            'form_email' => 'required|string|email|max:255|unique:users,email',
+            'form_phone' => 'required|string|max:20',
+            'form_password' => 'required|string|min:8',
+        ]);
+
+        $user = \App\Models\User::create([
+            'name' => $validated['form_name'],
+            'email' => $validated['form_email'],
+            'password' => \Illuminate\Support\Facades\Hash::make($validated['form_password']),
+        ]);
+
+        \Illuminate\Support\Facades\Auth::login($user);
+
+        return redirect()->route('index')->with('success', 'Registration successful!');
+    }
+
     public function login()
     {
         return view('pages.login');

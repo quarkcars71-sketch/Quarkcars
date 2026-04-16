@@ -119,6 +119,9 @@ Route::get('/wishlist', [PagesController::class, 'wishlist'])
 Route::get('/sign-up', [PagesController::class, 'sign_up'])
     ->name('sign-up');
 
+Route::post('/sign-up', [PagesController::class, 'register'])
+    ->name('sign-up.post');
+
 Route::get('/login', [PagesController::class, 'login'])
     ->name('login');
 
