@@ -1518,7 +1518,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 <img src="{{ asset('assets/images/resources/pricing-2-1.jpeg') }}" alt="">
                             </div>
                             <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Gold Pack</h3>
+                                <h3 class="pricing-two__title">Smart Pack</h3>
                                 <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
                             </div>
                         </div>
@@ -1595,7 +1595,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 <img src="{{ asset('assets/images/resources/pricing-2-2.jpeg') }}" alt="">
                             </div>
                             <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Smart Pack</h3>
+                                <h3 class="pricing-two__title">Gold Pack</h3>
                                 <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
                             </div>
                         </div>

@@ -43,7 +43,7 @@
                             <h4>Contact Info</h4>
                             <ul class="list-unstyled">
                                 <li>
-                                    <span class="icon-pin"></span> F-10 2nd Floor R-tech Capital Hi Street Mall, Jaipur, Shri Kishanpura, Rajasthan 302017, India
+                                    <span class="icon-pin"></span> Jeevan Rekha Marg Shri Kishanpura, Jagatpura, Jaipur, Rajasthan 302017, India
                                 </li>
                                 <li>
                                     <span class="icon-call"></span>

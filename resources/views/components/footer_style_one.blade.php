@@ -55,7 +55,7 @@
                                     <div class="icon">
                                         <span class="icon-pin"></span>
                                     </div>
-                                    <p>F-10 2nd Floor R-tech Capital Hi Street Mall, Jaipur, Shri Kishanpura,
+                                    <p>eevan Rekha Marg Shri Kishanpura, Jagatpura, Jaipur,
                                         <br> Rajasthan 302017, India
                                     </p>
                                 </li>
