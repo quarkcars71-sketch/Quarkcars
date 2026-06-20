@@ -55,7 +55,7 @@
                                     <div class="icon">
                                         <span class="icon-pin"></span>
                                     </div>
-                                    <p>eevan Rekha Marg Shri Kishanpura, Jagatpura, Jaipur,
+                                    <p>Jeevan Rekha Marg Shri Kishanpura, Jagatpura, Jaipur,
                                         <br> Rajasthan 302017, India
                                     </p>
                                 </li>
