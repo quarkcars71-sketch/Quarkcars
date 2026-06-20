@@ -25,7 +25,8 @@
                         <i class="icon-pin-2"></i>
                     </div>
                     <div class="text">
-                        <p>F-10 2nd Floor R-tech Capital Mall, Jaipur, Rajasthan, India</p>
+                        <p>Jeevan Rekha Marg Shri Kishanpura, Jagatpura, Jaipur,
+Rajasthan 302017, India</p>
                     </div>
                 </li>
             </ul>
