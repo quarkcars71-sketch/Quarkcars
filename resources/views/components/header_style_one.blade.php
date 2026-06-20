@@ -7,7 +7,7 @@
                         <i class="icon-call-2"></i>
                     </div>
                     <div class="text">
-                        <p><a href="tel:918769639911">+91 8769639911</a>
+                        <p><a href="tel:919694004477">+91 9694004477</a>
                         </p>
                     </div>
                 </li>
@@ -78,7 +78,7 @@
                         </div>
                         <div class="main-menu__call-content">
                             <p class="main-menu__call-sub-title">Call Anytime</p>
-                            <h5 class="main-menu__call-number"><a href="tel:918769639911">+91-8769639911</a>
+                            <h5 class="main-menu__call-number"><a href="tel:919694004477">+91-9694004477</a>
                             </h5>
                         </div>
                     </div>

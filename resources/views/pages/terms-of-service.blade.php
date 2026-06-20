@@ -125,7 +125,7 @@
                     <!-- 9. Contact Support -->
                     <div class="terms-section-block">
                         <h3><span class="section-number">9</span> Contact Support</h3>
-                        <p><strong>Phone:</strong> <a href="tel:8769639911">8769639911</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:9694004477">9694004477</a></p>
                         <p><strong>Website:</strong> 
                             <a href="https://www.quarkcars.com" target="_blank">
                                 www.quarkcars.com

@@ -88,7 +88,7 @@
                                 </div>
                                 <div class="about-one__call-box-content">
                                     <p>Call to Anytime</p>
-                                    <h4><a href="tel:918769639911">+91 8769639911</a></h4>
+                                    <h4><a href="tel:919694004477">+91 9694004477</a></h4>
                                 </div>
                             </div>
                         </div>

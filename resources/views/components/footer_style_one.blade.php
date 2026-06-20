@@ -63,7 +63,7 @@
                                     <div class="icon">
                                         <span class="icon-call"></span>
                                     </div>
-                                    <p><a href="tel:918769639911">+91 8769639911</a></p>
+                                    <p><a href="tel:919694004477">+91 9694004477</a></p>
                                 </li>
                                 <li>
                                     <div class="icon">

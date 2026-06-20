@@ -314,7 +314,7 @@
                                         <div class="col-md-6">
                                             <div class="contact-card">
                                                 <i class="fas fa-phone-alt"></i>
-                                                <p><strong>📞 Phone:</strong> <a href="tel:8769639911">8769639911</a></p>
+                                                <p><strong>📞 Phone:</strong> <a href="tel:9694004477">9694004477</a></p>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
