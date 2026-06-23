@@ -280,7 +280,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -358,7 +358,7 @@
                                 
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -435,7 +435,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
