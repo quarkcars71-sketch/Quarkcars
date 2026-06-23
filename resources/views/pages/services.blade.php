@@ -1,7 +1,15 @@
-@extends('layouts.layoutCommon')
+﻿@extends('layouts.layoutCommon')
 @section('title', 'Services || QuarkCars')
 
 @section('content')
+@php
+    $whatsappNumber = '919694004477';
+
+    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
+    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
+    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
+    $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
+@endphp
 
     <x-pageHeader title="Services" subtitle="Services" />
 
@@ -54,9 +62,9 @@
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">What We’re Offering</span>
+                    <span class="section-title__tagline">What Weâ€™re Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services We’re Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services Weâ€™re Provding <br> to Customers</h2>
             </div>
             <div class="row"> -->
                 <!--Services One Single Start-->
@@ -228,9 +236,9 @@
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">What We’re Offering</span>
+                    <span class="section-title__tagline">What Weâ€™re Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services We’re Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services Weâ€™re Provding <br> to Customers</h2>
             </div>
             <div class="row">
                 <!--Services Three Single Start-->
@@ -314,7 +322,7 @@
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                        <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -333,9 +341,9 @@
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">What We’re Offering</span>
+                    <span class="section-title__tagline">What Weâ€™re Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services We’re Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services Weâ€™re Provding <br> to Customers</h2>
             </div>
             <div class="row"> -->
                 <!--Services Two Single Start-->
@@ -480,3 +488,6 @@
 
     <x-footer_style_one />
 @endsection
+
+
+

@@ -1,7 +1,15 @@
-@extends('layouts.layoutCommon')
+﻿@extends('layouts.layoutCommon')
 @section('title', 'Maruti Dzire Tour CNG Details || Quarkcars')
 
 @section('content')
+@php
+    $whatsappNumber = '919694004477';
+
+    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
+    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
+    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
+    $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
+@endphp
 
 
 
@@ -79,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Dzire Tour CNG – Commercial Taxi with Best-in-Class Mileage</h3>
+                                                <h3 class="listing-single__title-two">Maruti Dzire Tour CNG â€“ Commercial Taxi with Best-in-Class Mileage</h3>
                                                 <p class="listing-single__text">The Maruti Dzire Tour CNG is specifically designed for commercial fleet and taxi operations, offering exceptional fuel economy and low running costs. Built on the same reliable platform as the regular Dzire, the Tour variant features factory-fitted S-CNG technology delivering an outstanding mileage of 31.12 km/kg. With its spacious 378L boot space, comfortable seating, and proven reliability, the Dzire Tour CNG is the preferred choice for fleet operators and taxi services across India.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
@@ -278,7 +286,7 @@
                             </div>
                             <div class="listing-single__description">
                                 <h3 class="listing-single__description-title">Description</h3>
-                                <p class="listing-single__description-text-1">The Maruti Dzire Tour CNG is purpose-built for the commercial taxi segment, offering unbeatable operating economics for fleet operators and drivers. The sedan body style with its 378-liter boot space ensures ample room for passenger luggage, while the factory-fitted S-CNG system provides outstanding fuel efficiency of 31.12 km/kg – the best in its segment. The robust build quality and Maruti's extensive service network ensure minimal downtime and maximum earnings.</p>
+                                <p class="listing-single__description-text-1">The Maruti Dzire Tour CNG is purpose-built for the commercial taxi segment, offering unbeatable operating economics for fleet operators and drivers. The sedan body style with its 378-liter boot space ensures ample room for passenger luggage, while the factory-fitted S-CNG system provides outstanding fuel efficiency of 31.12 km/kg â€“ the best in its segment. The robust build quality and Maruti's extensive service network ensure minimal downtime and maximum earnings.</p>
                                 <p class="listing-single__description-text-2">Powered by the reliable 1.2L K-Series DualJet engine calibrated for CNG operation, the Dzire Tour delivers 71 bhp with excellent low-end torque for city driving conditions. The suspension is tuned for durability and passenger comfort, capable of handling the demands of daily commercial use. With dual airbags, ABS with EBD, and a reinforced structure, the Dzire Tour CNG meets all safety requirements for commercial fleet operations while keeping running costs at the minimum.</p>
                             </div>
                             <div class="listing-single__feature">
@@ -451,7 +459,7 @@
                         <div class="listing-single__sidebar">
                             <div class="listing-single__rent-car-daily-price listing-single__single-box">
                                 <p>Daily rate</p>
-                                <h3>₹1,800</h3>
+                                <h3>â‚¹1,800</h3>
                             </div>
                             <div class="listing-single__rent-car listing-single__single-box">
                                 <h3 class="listing-single__rent-car-title">Rent This Car</h3>
@@ -484,7 +492,7 @@
                                                         <label for="f_extra1"><span></span>Bluetooth</label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>₹200</p>
+                                                        <p>â‚¹200</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -493,7 +501,7 @@
                                                         <label for="f_extra2"><span></span>GPS System </label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>₹300</p>
+                                                        <p>â‚¹300</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -502,7 +510,7 @@
                                                         <label for="f_extra3"><span></span>Child Seat</label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>₹400</p>
+                                                        <p>â‚¹400</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -514,7 +522,7 @@
                                                         <p>Subtotal</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹1,800.00</p>
+                                                        <p>â‚¹1,800.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -522,7 +530,7 @@
                                                         <p>Driver Charges</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹350.00</p>
+                                                        <p>â‚¹350.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -530,7 +538,7 @@
                                                         <p>Total Payable</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹2,150.00</p>
+                                                        <p>â‚¹2,150.00</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -551,7 +559,7 @@
                                 </div>
                                 <div class="listing-single__contact-btn-box">
                                     <a href="#"> <i class="icon-steering-wheel"></i>Schedule Test Drive </a>
-                                    <a href="#"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
+                                    <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
                                     <a href="#"> <i class="far fa-envelope"></i>Email Address</a>
                                 </div>
                             </div>
@@ -610,3 +618,7 @@
 
     <x-footer_style_one />
 @endsection
+
+
+
+

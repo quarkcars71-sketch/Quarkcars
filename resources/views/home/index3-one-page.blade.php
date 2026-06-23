@@ -1,7 +1,15 @@
-@extends('layouts.layoutCommon')
+﻿@extends('layouts.layoutCommon')
 @section('title', 'Home || QuarkCars')
 
 @section('content')
+@php
+    $whatsappNumber = '919694004477';
+
+    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
+    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
+    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
+    $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
+@endphp
 
     <!-- Banner One Start -->
     <section class="banner-one" id="home">
@@ -19,7 +27,7 @@
                     <h2 class="banner-one__title">Find Your Best Dream <br> <span> Car
                             for</span> <span class="typed-effect" id="type-1" data-strings="Rental, Booking"></span>
                     </h2>
-                    <p class="banner-one__text">Drive your journey with Quarkcars — simple, reliable, and affordable. Choose from a<br>  wide range of well-maintained self-drive vehicles.
+                    <p class="banner-one__text">Drive your journey with Quarkcars â€” simple, reliable, and affordable. Choose from a<br>  wide range of well-maintained self-drive vehicles.
 Book easily, drive freely, and enjoy a <br>  smooth rental experience.
 Travel with comfort, flexibility, and complete control of your trip.</p>
                     <div class="banner-one__btn-box">
@@ -473,9 +481,9 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">What We’re Offering</span>
+                    <span class="section-title__tagline">What Weâ€™re Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services We’re Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services Weâ€™re Provding <br> to Customers</h2>
             </div>
             <div class="row">
                 <!--Services Three Single Start-->
@@ -1582,7 +1590,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $smartMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -1662,7 +1670,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $goldMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -1739,7 +1747,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $premiumMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -1800,7 +1808,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -1827,7 +1835,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                     <div class="lets-talk__btn-2">
-                        <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                        <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
                                 class="fas fa-arrow-right"></span></a>
                     </div>
                 </div>
@@ -1876,7 +1884,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                             <p class="testimonial-three__client-sub-title">Customer</p>
                                         </div>
                                     </div>
-                                    <p class="testimonial-three__text">“One of the best car rental in jaipur at good affordable price. Security deposit refund was also hassle free and instant. We rented thar and it was new and in very good condition. And to add to it the owner was very friendly and had good response”</p>
+                                    <p class="testimonial-three__text">â€œOne of the best car rental in jaipur at good affordable price. Security deposit refund was also hassle free and instant. We rented thar and it was new and in very good condition. And to add to it the owner was very friendly and had good responseâ€</p>
                                 </div>
                                 <div class="testimonial-three__quote">
                                     <span class="icon-quote"></span>
@@ -1903,7 +1911,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                             <p class="testimonial-three__client-sub-title">Customer</p>
                                         </div>
                                     </div>
-                                    <p class="testimonial-three__text">Nice services great hospitality specially Dipak Ji very helping person I’ve rented grand I10 this month the car condition is excellent keep it up 👍🏻 …</p>
+                                    <p class="testimonial-three__text">Nice services great hospitality specially Dipak Ji very helping person Iâ€™ve rented grand I10 this month the car condition is excellent keep it up ðŸ‘ðŸ» â€¦</p>
                                 </div>
                                 <div class="testimonial-three__quote">
                                     <span class="icon-quote"></span>
@@ -2148,7 +2156,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <h3 class="feature-one__inner-title">Do You Want to <br> Rent a Car ?</h3>
                             <p class="feature-one__inner-text">Choose from a wide range of well-maintained cars and enjoy a smooth, flexible, and hassle-free rental experience.</p>
                             <div class="feature-one__inner-btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now</a>
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now</a>
                             </div>
                         </div>
                     </div>
@@ -2304,7 +2312,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 </li>
                             </ul>
                             <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Self Drive Car Rental in Jaipur - Complete Guide (2026)</a></h3>
-                            <p class="blog-one__text">Self-drive car rental in Jaipur is becoming the most preferred way to travel. It offers freedom, flexibility, and privacy—without depending on drivers.</p>
+                            <p class="blog-one__text">Self-drive car rental in Jaipur is becoming the most preferred way to travel. It offers freedom, flexibility, and privacyâ€”without depending on drivers.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
@@ -2565,3 +2573,6 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
 
     <x-footer_style_one />
 @endsection
+
+
+

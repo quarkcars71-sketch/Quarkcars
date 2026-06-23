@@ -128,6 +128,9 @@ Route::get('/login', [PagesController::class, 'login'])
 Route::post('/login', [PagesController::class, 'loginPost'])
     ->name('login.post');
 
+Route::post('/logout', [PagesController::class, 'logout'])
+    ->name('logout');
+
 Route::get('/blog', [PagesController::class, 'blog'])
     ->name('blog');
 

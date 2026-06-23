@@ -31,9 +31,18 @@
             </ul>
             <div class="main-menu__top-right">
                 <div class="main-menu__top-login-reg-box">
-                    <a href="{{ route('login') }}">Login</a>
-                    <p>or</p>
-                    <a href="{{ route('sign-up') }}">Register</a>
+                    @auth
+                        <span style="color:#fff;font-size:13px;"><i class="fas fa-user-circle"></i> {{ Auth::user()->name }}</span>
+                        <p>|</p>
+                        <form action="{{ route('logout') }}" method="POST" style="display:inline;">
+                            @csrf
+                            <button type="submit" style="background:none;border:none;color:inherit;cursor:pointer;padding:0;font-size:inherit;">Logout</button>
+                        </form>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+                        <p>or</p>
+                        <a href="{{ route('sign-up') }}">Register</a>
+                    @endauth
                 </div>
                 <div class="main-menu__social">
                     <a href="https://www.facebook.com/people/Quarkcars-Self-Drive-Rental/100087919809854/?mibextid=2JQ9oc" target="_blank"><i class="icon-facebook"></i></a>
