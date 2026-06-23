@@ -15,7 +15,7 @@
         <div class="container">
             <div class="banner-one__inner">
                 <div class="banner-one__content">
-                    <p class="banner-one__sub-title">100% Trusted car rental platform in the World</p>
+                    <p class="banner-one__sub-title">100% Trusted car rental platform in Rajasthan</p>
                     <h2 class="banner-one__title">Find Your Best Dream <br> <span> Car
                             for</span> <span class="typed-effect" id="type-1" data-strings="Rental, Booking"></span>
                     </h2>
