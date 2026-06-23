@@ -1,7 +1,15 @@
-@extends('layouts.layoutCommon')
+﻿@extends('layouts.layoutCommon')
 @section('title', 'Pricing || QuarkCars')
 
 @section('content')
+@php
+    $whatsappNumber = '919694004477';
+
+    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
+    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
+    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
+    $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
+@endphp
 
     <x-pageHeader title="Pricing" subtitle="Pricing" />
 
@@ -71,7 +79,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                            <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -128,7 +136,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                            <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -185,7 +193,7 @@
                             </li>
                         </ul>
                         <div class="pricing-one__btn-box">
-                            <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                            <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
@@ -280,7 +288,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $smartMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -358,7 +366,7 @@
                                 
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $goldMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -435,7 +443,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Buy Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $premiumMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -496,7 +504,7 @@
                                 </li>
                             </ul>
                             <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Rent Now<span
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                         </div>
@@ -576,3 +584,6 @@
 
     <x-footer_style_one />
 @endsection
+
+
+

@@ -165,21 +165,30 @@ class PagesController extends Controller
     public function register(Request $request)
     {
         $validated = $request->validate([
-            'form_name' => 'required|string|max:255',
-            'form_email' => 'required|string|email|max:255|unique:users,email',
-            'form_phone' => 'required|string|max:20',
-            'form_password' => 'required|string|min:8',
+            'form_name'     => 'required|string|max:255',
+            'form_email'    => 'required|string|email|max:255|unique:users,email',
+            'form_phone'    => 'required|string|max:20',
+            'form_password' => 'required|string|min:8|confirmed',
         ]);
 
         $user = \App\Models\User::create([
-            'name' => $validated['form_name'],
-            'email' => $validated['form_email'],
+            'name'     => $validated['form_name'],
+            'email'    => $validated['form_email'],
+            'phone'    => $validated['form_phone'],
             'password' => \Illuminate\Support\Facades\Hash::make($validated['form_password']),
         ]);
 
         \Illuminate\Support\Facades\Auth::login($user);
 
-        return redirect()->route('index')->with('success', 'Registration successful!');
+        return redirect()->route('index')->with('success', 'Registration successful! Welcome to QuarkCars.');
+    }
+
+    public function logout(Request $request)
+    {
+        \Illuminate\Support\Facades\Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+        return redirect()->route('index')->with('success', 'You have been logged out successfully.');
     }
 
     public function login()

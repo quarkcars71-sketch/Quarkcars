@@ -1,7 +1,15 @@
-@extends('layouts.layoutCommon')
+﻿@extends('layouts.layoutCommon')
 @section('title', 'Car Sharing || QuarkCars')
 
 @section('content')
+@php
+    $whatsappNumber = '919694004477';
+
+    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
+    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
+    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
+    $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
+@endphp
 
     <x-pageHeader title="Car Sharing" subtitle="Car Sharing" />
 
@@ -30,7 +38,7 @@
                                                 <p>120 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -55,7 +63,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -80,7 +88,7 @@
                                                 <p>399 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -105,7 +113,7 @@
                                                 <p>299 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -130,7 +138,7 @@
                                                 <p>499 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -155,7 +163,7 @@
                                                 <p>199 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -180,7 +188,7 @@
                                                 <p>229 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -205,7 +213,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -230,7 +238,7 @@
                                                 <p>549 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -255,7 +263,7 @@
                                                 <p>279 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -282,7 +290,7 @@
                                                 <p>329 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -307,7 +315,7 @@
                                                 <p>379 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -332,7 +340,7 @@
                                                 <p>249 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -357,7 +365,7 @@
                                                 <p>899 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -382,7 +390,7 @@
                                                 <p>799 INR/Seat</p>
                                             </div>
                                             <div class="listing-two__btn-box">
-                                                <a href="https://wa.me/message/ZS5QNMAR2NSCO1" class="thm-btn">Book Now</a>
+                                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -758,3 +766,6 @@
 
     <x-footer_style_one />
 @endsection
+
+
+

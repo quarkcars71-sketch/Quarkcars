@@ -1,7 +1,15 @@
-@extends('layouts.layoutCommon')
+﻿@extends('layouts.layoutCommon')
 @section('title', 'Hyundai i10 Details || Quarkcars')
 
 @section('content')
+@php
+    $whatsappNumber = '919694004477';
+
+    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
+    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
+    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
+    $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
+@endphp
 
 
 
@@ -79,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Hyundai i10 – Compact City Car with Big Features</h3>
+                                                <h3 class="listing-single__title-two">Hyundai i10 â€“ Compact City Car with Big Features</h3>
                                                 <p class="listing-single__text">The Hyundai i10 is a compact hatchback that's perfect for navigating busy city streets with ease. Despite its compact size, the i10 offers a surprisingly spacious cabin with premium features and comfortable seating for 5. The 1.2L Kappa petrol engine delivers peppy performance while maintaining excellent fuel efficiency, making it an ideal choice for daily commutes and weekend shopping trips.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
@@ -451,7 +459,7 @@
                         <div class="listing-single__sidebar">
                             <div class="listing-single__rent-car-daily-price listing-single__single-box">
                                 <p>Daily rate</p>
-                                <h3>₹1,500</h3>
+                                <h3>â‚¹1,500</h3>
                             </div>
                             <div class="listing-single__rent-car listing-single__single-box">
                                 <h3 class="listing-single__rent-car-title">Rent This Car</h3>
@@ -484,7 +492,7 @@
                                                         <label for="f_extra1"><span></span>Bluetooth</label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>₹200</p>
+                                                        <p>â‚¹200</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -493,7 +501,7 @@
                                                         <label for="f_extra2"><span></span>GPS System </label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>₹300</p>
+                                                        <p>â‚¹300</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -502,7 +510,7 @@
                                                         <label for="f_extra3"><span></span>Child Seat</label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>₹400</p>
+                                                        <p>â‚¹400</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -514,7 +522,7 @@
                                                         <p>Subtotal</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹1,500.00</p>
+                                                        <p>â‚¹1,500.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -522,7 +530,7 @@
                                                         <p>Driver Charges</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹250.00</p>
+                                                        <p>â‚¹250.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -530,7 +538,7 @@
                                                         <p>Total Payable</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>₹1,750.00</p>
+                                                        <p>â‚¹1,750.00</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -551,7 +559,7 @@
                                 </div>
                                 <div class="listing-single__contact-btn-box">
                                     <a href="#"> <i class="icon-steering-wheel"></i>Schedule Test Drive </a>
-                                    <a href="#"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
+                                    <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
                                     <a href="#"> <i class="far fa-envelope"></i>Email Address</a>
                                 </div>
                             </div>
@@ -610,3 +618,7 @@
 
     <x-footer_style_one />
 @endsection
+
+
+
+
