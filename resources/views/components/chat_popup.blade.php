@@ -1,5 +1,5 @@
 <!-- End sidebar widget content -->
-<div class="chat-icon"><a href="https://wa.me/message/ZS5QNMAR2NSCO1" target="_blank"><button type="button" class="chat-toggler"><i class="fa fa-whatsapp"></i></button></a></div>
+<div class="chat-icon"><a href="https://wa.me/message/ZS5QNMAR2NSCO1" target="_blank"><button type="button" class="chat-toggler"><i class="fab fa-whatsapp"></i></button></a></div>
 <!--Chat Popup-->
 <!-- <div id="chat-popup" class="chat-popup">
     <div class="popup-inner">
