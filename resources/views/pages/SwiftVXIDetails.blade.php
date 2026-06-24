@@ -89,7 +89,7 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-1(1).png') }}"
+                                                    <img src="{{ asset('assets/images/listing/listing-single-1-1.png') }}"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -152,7 +152,7 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-2(1).png') }}"
+                                                    <img src="{{ asset('assets/images/listing/listing-single-1-2.png') }}"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -218,7 +218,7 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-3(1).png') }}"
+                                                    <img src="{{ asset('assets/images/listing/listing-single-1-3.png') }}"
                                                         alt="">
                                                 </div>
                                             </div>

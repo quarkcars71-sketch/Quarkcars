@@ -320,7 +320,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift VXI (O) CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}"></a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
