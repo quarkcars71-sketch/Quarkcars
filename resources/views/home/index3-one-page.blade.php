@@ -729,7 +729,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="item">
                     <div class="listing-three__single">
                         <div class="listing-three__img">
-                            <img src="{{ asset('assets/images/listing/listing-3-1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-1.png') }}" alt="">
                             <div class="listing-three__brand-name">
                                 <p>Maruti</p>
                             </div>
