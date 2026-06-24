@@ -50,7 +50,7 @@
                             <span class="icon-location"></span>
                         </div>
                         <p>Our Office Location</p>
-                        <h3>F-10, 2nd Floor , R-Tech Capital High Street Mall, Mahal Rd, Jagatpura, Jaipur, Shri Kishanpura, Rajasthan 302017, India</h3>
+                        <h3>265, Jeevan Rekha Marg, Karolan Ka Barh, Shri Kishanpura, Jagatpura, Jaipur -302017</h3>
                         <br>
                     </div>
                 </div>
