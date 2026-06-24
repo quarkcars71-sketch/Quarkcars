@@ -43,7 +43,7 @@
                             <h4>Contact Info</h4>
                             <ul class="list-unstyled">
                                 <li>
-                                    <span class="icon-pin"></span> Jeevan Rekha Marg Shri Kishanpura, Jagatpura, Jaipur, Rajasthan 302017, India
+                                    <span class="icon-pin"></span> 256,Jeevan Rekha Marg Shri Kishanpura,Karolan Ka Barh, Jagatpura, Jaipur, Rajasthan 302017, India
                                 </li>
                                 <li>
                                     <span class="icon-call"></span>
