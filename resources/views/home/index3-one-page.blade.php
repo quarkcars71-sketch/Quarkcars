@@ -483,7 +483,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     </div>
                     <span class="section-title__tagline">What Weâ€™re Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services Weâ€™re Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services We aree Provding <br> to Customers</h2>
             </div>
             <div class="row">
                 <!--Services Three Single Start-->

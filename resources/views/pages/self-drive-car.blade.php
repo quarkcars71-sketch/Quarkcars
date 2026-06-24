@@ -16,7 +16,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-1(1).jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-1.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -94,7 +94,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-2(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-2.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -172,7 +172,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-3(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-3.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -250,7 +250,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-4(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-4.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Mahindra</p>
                                         </div>
@@ -328,7 +328,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-5(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-5.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Mahindra</p>
                                         </div>
@@ -406,7 +406,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-6(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-6.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Hyundai</p>
                                         </div>
@@ -484,7 +484,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-7(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-7.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Hyundai</p>
                                         </div>
@@ -562,7 +562,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-8(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-8.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -640,7 +640,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-9(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-9.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Hyundai</p>
                                         </div>
@@ -718,7 +718,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-10(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-10.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -796,7 +796,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-11(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-11.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -874,7 +874,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-12(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-12.png') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>

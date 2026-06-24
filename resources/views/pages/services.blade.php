@@ -238,7 +238,7 @@
                     </div>
                     <span class="section-title__tagline">What Weâ€™re Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services Weâ€™re Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services We are Provding <br> to Customers</h2>
             </div>
             <div class="row">
                 <!--Services Three Single Start-->
@@ -341,9 +341,9 @@
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">What Weâ€™re Offering</span>
+                    <span class="section-title__tagline">What We are Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services Weâ€™re Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services We are Provding <br> to Customers</h2>
             </div>
             <div class="row"> -->
                 <!--Services Two Single Start-->
