@@ -91,7 +91,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-3-2(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-2.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Maruti</p>
                             </div>
@@ -169,7 +169,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-3-3(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-3.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Maruti</p>
                             </div>
@@ -247,7 +247,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-3-4(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-4.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Mahindra</p>
                             </div>
@@ -325,7 +325,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-3-5(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-5.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Mahindra</p>
                             </div>
@@ -403,7 +403,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-3-6(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-3-6.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Hyundai</p>
                             </div>
@@ -481,7 +481,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-6(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-1-6.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Hyundai</p>
                             </div>
@@ -559,7 +559,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-7(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-1-7.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Hyundai</p>
                             </div>
@@ -637,7 +637,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="listing-one__single">
                         <div class="listing-one__img">
-                            <img src="{{ asset('assets/images/listing/listing-1-8(1).png') }}" alt="">
+                            <img src="{{ asset('assets/images/listing/listing-1-8.png') }}" alt="">
                             <div class="listing-one__brand-name">
                                 <p>Maruti</p>
                             </div>
@@ -737,7 +737,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-1.png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -747,7 +747,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-2.png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -757,7 +757,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-3.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -767,7 +767,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-4.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -777,7 +777,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-5.jpg') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -787,7 +787,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-6.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
