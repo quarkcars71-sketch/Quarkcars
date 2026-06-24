@@ -7,7 +7,7 @@
                         <i class="icon-call-2"></i>
                     </div>
                     <div class="text">
-                        <p><a href="tel:919694004477">+91 9694004477</a>
+                        <p><a href="tel:918769639911">+91 8769639911</a>
                         </p>
                     </div>
                 </li>

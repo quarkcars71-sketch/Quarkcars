@@ -19,7 +19,7 @@
             </li>
             <li>
                 <i class="fas fa-phone"></i>
-                <a href="tel:919694004477">+91 9694004477</a>
+                <a href="tel:918769639911">+91 8769639911</a>
             </li>
         </ul><!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">
