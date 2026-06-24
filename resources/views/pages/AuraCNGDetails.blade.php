@@ -11,9 +11,6 @@
     $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
 @endphp
 
-
-
-
     <x-pageHeader title="Hyundai Aura CNG" subtitle="Aura S CNG Sedan" />
 
     <!--Listing Single Start-->
@@ -492,7 +489,7 @@
                                                         <label for="f_extra1"><span></span>Bluetooth</label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>â‚¹200</p>
+                                                        <p>200</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -501,7 +498,7 @@
                                                         <label for="f_extra2"><span></span>GPS System </label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>â‚¹300</p>
+                                                        <p>300</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -510,7 +507,7 @@
                                                         <label for="f_extra3"><span></span>Child Seat</label>
                                                     </div>
                                                     <div class="counts-box">
-                                                        <p>â‚¹400</p>
+                                                        <p>400</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -522,7 +519,7 @@
                                                         <p>Subtotal</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>â‚¹1,800.00</p>
+                                                        <p>1,800.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -530,7 +527,7 @@
                                                         <p>Driver Charges</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>â‚¹350.00</p>
+                                                        <p>350.00</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -538,7 +535,7 @@
                                                         <p>Total Payable</p>
                                                     </div>
                                                     <div class="price">
-                                                        <p>â‚¹2,150.00</p>
+                                                        <p>2,150.00</p>
                                                     </div>
                                                 </li>
                                             </ul>
