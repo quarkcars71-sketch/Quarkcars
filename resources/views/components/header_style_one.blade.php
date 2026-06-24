@@ -25,7 +25,7 @@
                         <i class="icon-pin-2"></i>
                     </div>
                     <div class="text">
-                        <p>Jeevan Rekha Marg Jagatpura, Jaipur,Rajasthan 302017</p>
+                        <p>256,Jeevan Rekha Marg Jagatpura, Jaipur,Rajasthan 302017</p>
                     </div>
                 </li>
             </ul>
