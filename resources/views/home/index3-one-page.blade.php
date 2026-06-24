@@ -438,10 +438,10 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="about-three__img-box">
                                     <div class="about-three__img-1">
-                                        <img src="{{ asset('assets/images/resources/about-three-img-1(1).jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
                                     </div>
                                     <div class="about-three__img-2">
-                                        <img src="{{ asset('assets/images/resources/about-three-img-2(1).jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/resources/about-three-img-2.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -459,7 +459,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         </div>
                                     </div>
                                     <div class="about-three__img-3">
-                                        <img src="{{ asset('assets/images/resources/about-three-img-3(1).jpg') }}" alt="">
+                                        <img src="{{ asset('assets/images/resources/about-three-img-3.jpg') }}" alt="">
                                     </div>
                                 </div>
                             </div>
