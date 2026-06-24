@@ -16,7 +16,7 @@
                             <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="listing-one__single">
                                     <div class="listing-one__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-1.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
                                         <div class="listing-one__brand-name">
                                             <p>Maruti</p>
                                         </div>
