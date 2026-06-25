@@ -96,7 +96,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Swift VXI (O) CNG â€“ Features, Mileage & City Drive Performance</h3>
+                                                <h3 class="listing-single__title-two">Maruti Swift VXI (O) CNG Features, Mileage & City Drive Performance</h3>
                                                 <p class="listing-single__text">The Maruti Swift VXI (O) CNG is a smart and fuel-efficient hatchback designed for everyday driving and budget-conscious travelers. Known for its reliable performance and low running cost, this CNG variant of the Swift offers a perfect balance of comfort, practicality, and economy.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
@@ -163,15 +163,15 @@
                                                     compact sedan in blue color car.</h3>
                                                 <p class="listing-single__text">The Toyota Corolla Hybrid is the
                                                     high-performance
-                                                    version of the 2 Series 2-door coupÃ©. The first generation of
-                                                    the M2 is the F87 coupÃ© and is powered by turbocharged.</p>
+                                                    version of the 2 Series 2-door couple. The first generation of
+                                                    the M2 is the F87 couple and is powered by turbocharged.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
                                                         <div class="icon">
                                                             <span class="fas fa-map-marker-alt"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Las Vegas, USA</p>
+                                                            <p>Jaipur, India</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -229,15 +229,15 @@
                                                     Best Reviews and Specs</h3>
                                                 <p class="listing-single__text">The Toyota Corolla Hybrid is the
                                                     high-performance
-                                                    version of the 2 Series 2-door coupÃ©. The first generation of
-                                                    the M2 is the F87 coupÃ© and is powered by turbocharged.</p>
+                                                    version of the 2 Series 2-door couple. The first generation of
+                                                    the M2 is the F87 couple and is powered by turbocharged.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
                                                         <div class="icon">
                                                             <span class="fas fa-map-marker-alt"></span>
                                                         </div>
                                                         <div class="text">
-                                                            <p>Las Vegas, USA</p>
+                                                            <p>Jaipur, India</p>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -296,21 +296,21 @@
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-1(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-1.png') }}" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-2(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-2.png') }}" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-3(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-3.png') }}" alt="">
                                     </div>
                                 </div>
                             </div><!-- /.swiper-slide -->
@@ -441,15 +441,8 @@
                             </div>
                             <div class="listing-single__description">
                                 <h3 class="listing-single__description-title">Description</h3>
-                                <p class="listing-single__description-text-1">Lorem ipsum is simply ipun txns mane
-                                    so dummy text of free available in market the printing and typesetting industry
-                                    has been the industry's standard dummy text ever. Lorem ipsum is simply ipun
-                                    txns mane. Lorem ipsum is simply ipun txns mane
-                                    so dummy text of free available in market the printing and typesetting industry
-                                    has been the industry's standard dummy text ever.</p>
-                                <p class="listing-single__description-text-2">Lorem ipsum is simply ipun txns mane
-                                    so dummy text of free available in market the printing and typesetting industry
-                                    has been the industry's standard dummy text ever.</p>
+                                <p class="listing-single__description-text-1">The Maruti Swift VXI (O) CNG is designed for drivers who want the perfect balance of sporty styling, fuel efficiency, and everyday practicality. Powered by Maruti Suzuki's advanced 1.2L Z-Series CNG engine paired with a smooth 5-speed manual transmission, it delivers a refined driving experience while offering an impressive mileage of up to 32.85 km/kg (ARAI claimed), making it an ideal companion for daily commuting as well as long-distance journeys.</p>
+                                <p class="listing-single__description-text-2">Whether you're navigating city traffic, planning weekend road trips, or looking for an economical self-drive rental option, the Maruti Swift VXI (O) CNG stands out with its low running cost, reliable performance, modern features, and Maruti Suzuki's trusted service network.</p>
                             </div>
                             <div class="listing-single__feature">
                                 <h3 class="listing-single__feature-title">Features</h3>
@@ -772,7 +765,7 @@
                         <div class="listing-single__sidebar">
                             <div class="listing-single__rent-car-daily-price listing-single__single-box">
                                 <p>Daily rate</p>
-                                <h3>$150</h3>
+                                <h3>2800 INR/Day</h3>
                             </div>
                             <div class="listing-single__rent-car listing-single__single-box">
                                 <h3 class="listing-single__rent-car-title">Rent This Car</h3>
@@ -838,7 +831,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="listing-single__rent-car-price-box">
+                                        <!-- <div class="listing-single__rent-car-price-box">
                                             <ul class="list-unstyled">
                                                 <li>
                                                     <div class="title">
@@ -865,7 +858,7 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="listing-single__btn-box-2">
@@ -873,7 +866,7 @@
                                             class="fas fa-arrow-right"></span></a>
                                 </div>
                             </div>
-                            <div class="listing-single__contact-info listing-single__single-box">
+                            <!-- <div class="listing-single__contact-info listing-single__single-box">
                                 <div class="listing-single__contact-phone">
                                     <a href="tel:15502505260" class="listing-single__contact-phone-number"> <span
                                             class="icon-call-3"></span> 1 (550) 250 5260</a>
@@ -885,7 +878,7 @@
                                     <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
                                     <a href="#"> <i class="far fa-envelope"></i>Email Address</a>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="listing-single__seller-info listing-single__single-box">
                                 <div class="listing-single__seller-info-details">
                                     <div class="listing-single__seller-info-img">
@@ -894,7 +887,7 @@
                                     </div>
                                     <div class="listing-single__seller-info-content">
                                         <p>Add by:</p>
-                                        <h5>Kevin Obrain <span class="icon-cheack"></span> </h5>
+                                        <h5>QuarkCars<span class="icon-cheack"></span> </h5>
                                     </div>
                                 </div>
                                 <div class="listing-single__seller-contact-info">
@@ -904,7 +897,7 @@
                                                 <i class="far fa-phone"></i>
                                             </div>
                                             <div class="text">
-                                                <p><a href="tel:15502505260"> 1 (550) 250 5260</a>
+                                                <p><a href="tel:918769639911">+91 8769639911</a>
                                                 </p>
                                             </div>
                                         </li>
@@ -913,7 +906,7 @@
                                                 <i class="far fa-envelope"></i>
                                             </div>
                                             <div class="text">
-                                                <p><a href="mailto:kevin.gilbert@gmail.com">kevin.obrain@gmail.com</a>
+                                                <p><a href="mailto:support@quarkcars.com">support@quarkcars.com</a>
                                                 </p>
                                             </div>
                                         </li>
@@ -922,7 +915,7 @@
                                                 <i class="fas fa-map-marker-alt"></i>
                                             </div>
                                             <div class="text">
-                                                <p>Las Vegas, USA</p>
+                                                <p>Jaipur, India</p>
                                             </div>
                                         </li>
                                         <li>
@@ -930,7 +923,7 @@
                                                 <i class="fas fa-globe"></i>
                                             </div>
                                             <div class="text">
-                                                <p><a href="#">www.kevin.com</a></p>
+                                                <p><a href="#">www.quarkcars.com</a></p>
                                             </div>
                                         </li>
                                     </ul>
