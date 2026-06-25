@@ -1,10 +1,10 @@
 <!--Page Header Start -->
 <section class="page-header">
     <div class="page-header__bg"
-        style="background-image: url('{{ url('assets/images/backgrounds/page-header-bg(1).jpg') }}');">
+        style="background-image: url('{{ url('assets/images/backgrounds/page-header-bg.jpg') }}');">
     </div>
     <div class="page-header__shape-1"
-        style="background-image: url('{{ url('assets/images/shapes/page-header-shape-1(1).png') }}');"></div>
+        style="background-image: url('{{ url('assets/images/shapes/page-header-shape-1.png') }}');"></div>
     <div class="container">
         <div class="page-header__inner">
             <h3>{{ $title ?? 'Welcome' }}</h3>
