@@ -645,9 +645,9 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
 
     <!--Counter Three Start-->
     <section class="counter-three">
-        <!-- <div class="counter-three__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
+        <div class="counter-three__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
             style="background-image: url({{ asset('assets/images/backgrounds/counter-three-bg.jpg') }});">
-        </div> -->
+        </div>
         <div class="container">
             <ul class="row list-unstyled">
                 <!--Counter Three Single Start-->
