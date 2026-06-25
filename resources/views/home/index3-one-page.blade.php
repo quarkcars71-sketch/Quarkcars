@@ -2231,8 +2231,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
 
     <!--Download App One Start -->
     <section class="download-app-one">
-        <!-- <div class="download-app-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
-            style="background-image: url({{ asset('assets/images/backgrounds/download-app-one-bg.jpg') }});"></div> -->
+        <div class="download-app-one__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
+            style="background-image: url({{ asset('assets/images/backgrounds/download-app-one-bg.jpg') }});"></div>
         <div class="container">
             <div class="download-app-one__inner">
                 <div class="row">
