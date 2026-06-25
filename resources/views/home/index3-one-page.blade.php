@@ -2137,9 +2137,9 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="col-xl-6 col-lg-6">
                         <div class="feature-one__inner-single wow slideInLeft" data-wow-delay="100ms"
                             data-wow-duration="2500ms">
-                            <!-- <div class="feature-one__inner-single-bg"
+                            <div class="feature-one__inner-single-bg"
                                 style="background-image: url({{ asset('assets/images/backgrounds/feature-one-bg-1.jpg') }});">
-                            </div> -->
+                            </div>
                             <h3 class="feature-one__inner-title">Are You Looking <br>For a Car ?</h3>
                             <p class="feature-one__inner-text">Find the perfect ride for your journey with our reliable and affordable car rental services, designed for comfort, convenience, and easy booking.</p>
                             <div class="feature-one__inner-btn-box">
@@ -2150,9 +2150,9 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="col-xl-6 col-lg-6">
                         <div class="feature-one__inner-single feature-one__inner-single--two wow slideInRight"
                             data-wow-delay="100ms" data-wow-duration="2500ms">
-                            <!-- <div class="feature-one__inner-single-bg"
+                            <div class="feature-one__inner-single-bg"
                                 style="background-image: url({{ asset('assets/images/backgrounds/feature-one-bg-2.jpg') }});">
-                            </div> -->
+                            </div>
                             <h3 class="feature-one__inner-title">Do You Want to <br> Rent a Car ?</h3>
                             <p class="feature-one__inner-text">Choose from a wide range of well-maintained cars and enjoy a smooth, flexible, and hassle-free rental experience.</p>
                             <div class="feature-one__inner-btn-box">
