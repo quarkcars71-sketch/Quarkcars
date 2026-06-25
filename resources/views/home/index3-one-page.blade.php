@@ -481,7 +481,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">What Weâ€™re Offering</span>
+                    <span class="section-title__tagline">What We are Offering</span>
                 </div>
                 <h2 class="section-title__title title-animation">Services We aree Provding <br> to Customers</h2>
             </div>
@@ -568,7 +568,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
                         <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-1(1).jpg') }});">
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-1.jpg') }});">
                         </div>
                         <div class="process-one__icon-box">
                             <div class="process-one__icon-shape"></div>
@@ -586,7 +586,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
                         <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-2(1).jpg') }});">
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-2.jpg') }});">
                         </div>
                         <div class="process-one__icon-box">
                             <div class="process-one__icon-shape"></div>
@@ -604,7 +604,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
                         <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-3(1).jpg') }});">
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-3.jpg') }});">
                         </div>
                         <div class="process-one__icon-box">
                             <div class="process-one__icon-shape"></div>
@@ -622,7 +622,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="700ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
                         <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-4(1).jpg') }});">
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-4.jpg') }});">
                           
                             
                         </div>

@@ -152,9 +152,9 @@
                 <!-- Process One Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
-                        <!-- <div class="process-one__single-bg"
+                        <div class="process-one__single-bg"
                             style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-1.jpg') }});">
-                        </div> -->
+                        </div>
                         <div class="process-one__icon-box">
                             <div class="process-one__icon-shape"></div>
                             <div class="process-one__icon">
@@ -236,7 +236,7 @@
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">What Weâ€™re Offering</span>
+                    <span class="section-title__tagline">What We are Offering</span>
                 </div>
                 <h2 class="section-title__title title-animation">Services We are Provding <br> to Customers</h2>
             </div>
