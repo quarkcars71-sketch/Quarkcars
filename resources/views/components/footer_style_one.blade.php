@@ -84,8 +84,7 @@
                 <div class="col-xl-12">
                     <div class="site-footer__bottom-inner">
                         <div class="site-footer__copyright">
-                            <p class="site-footer__copyright-text"> <?php echo date('Y'); ?> Quarkcars By <a
-                                    href="https://themeforest.net/user/webstall">Webstall.</a> All
+                            <p class="site-footer__copyright-text"> <?php echo date('Y'); ?> Quarkcars All
                                 Rights
                                 Reserved.</p>
                         </div>
