@@ -80,14 +80,14 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-3-2(1).png') }}"
+                                                    <img src="{{ asset('assets/images/listing/listing-3-2.png') }}"
                                                         alt="Maruti Ertiga VXI CNG">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Ertiga VXI CNG â€“ Spacious Family MUV with Excellent Mileage</h3>
+                                                <h3 class="listing-single__title-two">Maruti Ertiga VXI CNG Spacious Family MUV with Excellent Mileage</h3>
                                                 <p class="listing-single__text">The Maruti Ertiga VXI CNG is a spacious and practical multi-utility vehicle designed for large families and group travel. With its powerful 1.5L engine running on CNG, it offers an excellent balance of performance, fuel economy, and comfort. The 7-seater configuration makes it perfect for family outings, airport transfers, and long-distance travel.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
@@ -155,7 +155,7 @@
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-3-2(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-2.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -451,7 +451,7 @@
                         <div class="listing-single__sidebar">
                             <div class="listing-single__rent-car-daily-price listing-single__single-box">
                                 <p>Daily rate</p>
-                                <h3>â‚¹2,800</h3>
+                                <h3>3500 INR/Day</h3>
                             </div>
                             <div class="listing-single__rent-car listing-single__single-box">
                                 <h3 class="listing-single__rent-car-title">Rent This Car</h3>
@@ -475,7 +475,7 @@
                                                     class="listing-single__rent-car-time-box">
                                             </div>
                                         </div>
-                                        <div class="listing-single__rent-car-extra">
+                                        <!-- <div class="listing-single__rent-car-extra">
                                             <h3 class="listing-single__rent-car-extra-title">Add Extra:</h3>
                                             <ul class="list-unstyled">
                                                 <li>
@@ -535,7 +535,7 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="listing-single__btn-box-2">
@@ -543,7 +543,7 @@
                                             class="fas fa-arrow-right"></span></a>
                                 </div>
                             </div>
-                            <div class="listing-single__contact-info listing-single__single-box">
+                            <!-- <div class="listing-single__contact-info listing-single__single-box">
                                 <div class="listing-single__contact-phone">
                                     <a href="tel:+919876543210" class="listing-single__contact-phone-number"> <span
                                             class="icon-call-3"></span> +91 98765 43210</a>
@@ -555,7 +555,7 @@
                                     <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
                                     <a href="#"> <i class="far fa-envelope"></i>Email Address</a>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="listing-single__seller-info listing-single__single-box">
                                 <div class="listing-single__seller-info-details">
                                     <div class="listing-single__seller-info-img">
@@ -574,7 +574,7 @@
                                                 <i class="far fa-phone"></i>
                                             </div>
                                             <div class="text">
-                                                <p><a href="tel:+919876543210"> +91 98765 43210</a>
+                                                <p><a href="tel:+918769639911">+91 8769639911</a>
                                                 </p>
                                             </div>
                                         </li>
