@@ -17,7 +17,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-1(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-1.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -38,7 +38,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-2(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-2.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -59,7 +59,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-3(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-3.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -80,7 +80,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-4(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-4.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -101,7 +101,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-5(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-5.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -122,7 +122,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-6(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-6.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -143,7 +143,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-7(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-7.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -164,7 +164,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-8(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-8.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -192,7 +192,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-1.png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-2.png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -212,7 +212,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-3.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-4.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-5.jpg') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-6.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
