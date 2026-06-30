@@ -13,10 +13,10 @@
                     <div class="about-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-one__img-box">
                             <div class="about-one__img">
-                                <img src="{{ asset('assets/images/resources/about-one-img-1(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/about-one-img-1.jpg') }}" alt="">
                             </div>
                             <div class="about-one__shape-2 float-bob-y">
-                                <img src="{{ asset('assets/images/shapes/about-one-shape-2(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/shapes/about-one-shape-2.png') }}" alt="">
                             </div>
                             <div class="about-one__shape-1">
                                 <img src="{{ asset('assets/images/shapes/about-one-shape-1.png') }}" alt="">
@@ -28,11 +28,11 @@
                                 <img src="{{ asset('assets/images/shapes/about-one-shape-3.png') }}" alt="">
                             </div>
                             <div class="about-one__img-2">
-                                <img src="{{ asset('assets/images/resources/about-one-img-2(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/about-one-img-2.jpg') }}" alt="">
                             </div>
                             <div class="about-one__experience">
                                 <div class="about-one__experience-count">
-                                    <h3 class="odometer" data-count="50">00</h3>
+                                    <h3 class="odometer" data-count="3">3+</h3>
                                     <span> </span>
                                 </div>
                                 <p class="about-one__experience-text">Years of <br>Experience</p>
@@ -191,7 +191,7 @@
                     <div class="col-xl-6 col-lg-5">
                         <div class="booking-one__left">
                             <div class="booking-one__img wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <img src="{{ asset('assets/images/resources/booking-one-img-1(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/booking-one-img-1.png') }}" alt="">
                             </div>
                             <div class="booking-one__shape-1 float-bob-x">
                                 <img src="{{ asset('assets/images/shapes/booking-one-shape-1.png') }}" alt="">
@@ -314,13 +314,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-1.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
                                             <div class="listing-one__brand-name">
                                                 <p>Maruti</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}"></a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift VXI</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
