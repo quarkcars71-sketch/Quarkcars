@@ -13,10 +13,10 @@
                     <div class="about-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-one__img-box">
                             <div class="about-one__img">
-                                <img src="{{ asset('assets/images/resources/about-one-img-1(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/about-one-img-1.jpg') }}" alt="">
                             </div>
                             <div class="about-one__shape-2 float-bob-y">
-                                <img src="{{ asset('assets/images/shapes/about-one-shape-2(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/shapes/about-one-shape-2.png') }}" alt="">
                             </div>
                             <div class="about-one__shape-1">
                                 <img src="{{ asset('assets/images/shapes/about-one-shape-1.png') }}" alt="">
@@ -28,11 +28,11 @@
                                 <img src="{{ asset('assets/images/shapes/about-one-shape-3.png') }}" alt="">
                             </div>
                             <div class="about-one__img-2">
-                                <img src="{{ asset('assets/images/resources/about-one-img-2(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/about-one-img-2.jpg') }}" alt="">
                             </div>
                             <div class="about-one__experience">
                                 <div class="about-one__experience-count">
-                                    <h3 class="odometer" data-count="50">00</h3>
+                                    <h3 class="odometer" data-count="3">3+</h3>
                                     <span> </span>
                                 </div>
                                 <p class="about-one__experience-text">Years of <br>Experience</p>
@@ -191,7 +191,7 @@
                     <div class="col-xl-6 col-lg-5">
                         <div class="booking-one__left">
                             <div class="booking-one__img wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <img src="{{ asset('assets/images/resources/booking-one-img-1(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/resources/booking-one-img-1.png') }}" alt="">
                             </div>
                             <div class="booking-one__shape-1 float-bob-x">
                                 <img src="{{ asset('assets/images/shapes/booking-one-shape-1.png') }}" alt="">
@@ -314,13 +314,13 @@
                                 <div class="item">
                                     <div class="listing-one__single">
                                         <div class="listing-one__img">
-                                            <img src="{{ asset('assets/images/listing/listing-1-1.png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-1-1.jpg') }}" alt="">
                                             <div class="listing-one__brand-name">
                                                 <p>Maruti</p>
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}"></a></h3>
+                                            <h3 class="listing-one__title"><a href="{{ route('swift-vxi-details') }}">Maruti Swift VXI</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -3691,7 +3691,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-1(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-1.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -3712,7 +3712,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-2(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-2.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -3733,7 +3733,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-3(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-3.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -3754,7 +3754,7 @@
                     <div class="team-three__single">
                         <div class="team-three__img-box">
                             <div class="team-three__img">
-                                <img src="{{ asset('assets/images/team/team-3-4(1).jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/team/team-3-4.jpg') }}" alt="">
                                 <div class="team-three__social">
                                     <a href="{{ route('driver-details') }}"><i class="icon-facebook"></i></a>
                                     <a href="{{ route('driver-details') }}"><i class="icon-twitter"></i></a>
@@ -3802,7 +3802,7 @@
                             <span class="icon-quote"></span>
                         </div>
                         <div class="testimonial-two__img">
-                            <img src="{{ asset('assets/images/testimonial/testimonial-1-1(1).jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-1-1.jpg') }}" alt="">
                         </div>
                         <p class="testimonial-two__text">Honestly the best self-drive service I ve used booking was easy the car felt like new and support was responsive will book again.</p>
                         <div class="testimonial-two__client-info">
@@ -3829,7 +3829,7 @@
                             <span class="icon-quote"></span>
                         </div>
                         <div class="testimonial-two__img">
-                            <img src="{{ asset('assets/images/testimonial/testimonial-1-2(1).jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-1-2.jpg') }}" alt="">
                         </div>
                         <p class="testimonial-two__text">I rented a car on a very short notice, and what a smooth process we had here, within max to max 10 min we were provided with the car, and the car was really well maintained. Must try, respect++ for Quarkcars Rental Services.</p>
                         <div class="testimonial-two__client-info">
@@ -3855,7 +3855,7 @@
                             <span class="icon-quote"></span>
                         </div>
                         <div class="testimonial-two__img">
-                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3(1).jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
                         </div>
                         <p class="testimonial-two__text">"Quarkcars is the best self - drive Car rental in jaipur. Clean cars affordable rates,and hassle - free booking make every Trip comfortable and reliable"</p>
                         <div class="testimonial-two__client-info">
@@ -3882,7 +3882,7 @@
                             <span class="icon-quote"></span>
                         </div>
                         <div class="testimonial-two__img">
-                            <img src="{{ asset('assets/images/testimonial/testimonial-1-4(1).jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-1-4.jpg') }}" alt="">
                         </div>
                         <p class="testimonial-two__text">Quarkcars rental jaipur  my driver, showcasing exceptional skills behind the wheel. The prices were reasonable, in line with city standards. He drove me to …"</p>
                         <div class="testimonial-two__client-info">
@@ -3908,7 +3908,7 @@
                             <span class="icon-quote"></span>
                         </div>
                         <div class="testimonial-two__img">
-                            <img src="{{ asset('assets/images/testimonial/testimonial-1-5(1).jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-1-5.jpg') }}" alt="">
                         </div>
                         <p class="testimonial-two__text">Quarkcars is the best choice for rental in jaipur. Hassle-free service great cars and very reasonable rates thanks for Quarkcars.</p>
                         <div class="testimonial-two__client-info">
@@ -3934,7 +3934,7 @@
                             <span class="icon-quote"></span>
                         </div>
                         <div class="testimonial-two__img">
-                            <img src="{{ asset('assets/images/testimonial/testimonial-1-6(1).jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/testimonial/testimonial-1-6.jpg') }}" alt="">
                         </div>
                         <p class="testimonial-two__text">I needed a car urgently for business travel and Quarkcars arranged everything within a short time. The car was in perfect condition and drove smoothly. The team is very supportive and professional. Highly recommend for commercial car rental in Jaipur.</p>
                         <div class="testimonial-two__client-info">
@@ -4003,7 +4003,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-1(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-1.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4039,7 +4039,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-2(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-2.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4075,7 +4075,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-3(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-3.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4111,7 +4111,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-4(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-4.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4147,7 +4147,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-5(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-5.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4183,7 +4183,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-6(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-6.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -4226,7 +4226,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-1.png') }}" alt="">
                         <a href="{{ route('self-drive-car') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -4236,7 +4236,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-2.png') }}" alt="">
                         <a href="{{ route('self-drive-car') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -4246,7 +4246,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-3.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -4256,7 +4256,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-4.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -4266,7 +4266,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-5.jpg') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -4276,7 +4276,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-6.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>

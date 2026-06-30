@@ -483,7 +483,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     </div>
                     <span class="section-title__tagline">What We are Offering</span>
                 </div>
-                <h2 class="section-title__title title-animation">Services We aree Provding <br> to Customers</h2>
+                <h2 class="section-title__title title-animation">Services We are Providing <br> to Customers</h2>
             </div>
             <div class="row">
                 <!--Services Three Single Start-->
@@ -1884,7 +1884,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                             <p class="testimonial-three__client-sub-title">Customer</p>
                                         </div>
                                     </div>
-                                    <p class="testimonial-three__text">â€œOne of the best car rental in jaipur at good affordable price. Security deposit refund was also hassle free and instant. We rented thar and it was new and in very good condition. And to add to it the owner was very friendly and had good responseâ€</p>
+                                    <p class="testimonial-three__text">Quarkcars are one of the best car rental in jaipur at good affordable price. Security deposit refund was also hassle free and instant. We rented thar and it was new and in very good condition. And to add to it the owner was very friendly and had good responseâ€ </p>
                                 </div>
                                 <div class="testimonial-three__quote">
                                     <span class="icon-quote"></span>
