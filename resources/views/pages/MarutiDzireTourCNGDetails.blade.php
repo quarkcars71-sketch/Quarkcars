@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Dzire Tour CNG â€“ Commercial Taxi with Best-in-Class Mileage</h3>
+                                                <h3 class="listing-single__title-two">Maruti Dzire Tour CNG are Commercial Taxi with Best-in-Class Mileage</h3>
                                                 <p class="listing-single__text">The Maruti Dzire Tour CNG is specifically designed for commercial fleet and taxi operations, offering exceptional fuel economy and low running costs. Built on the same reliable platform as the regular Dzire, the Tour variant features factory-fitted S-CNG technology delivering an outstanding mileage of 31.12 km/kg. With its spacious 378L boot space, comfortable seating, and proven reliability, the Dzire Tour CNG is the preferred choice for fleet operators and taxi services across India.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
@@ -286,7 +286,7 @@
                             </div>
                             <div class="listing-single__description">
                                 <h3 class="listing-single__description-title">Description</h3>
-                                <p class="listing-single__description-text-1">The Maruti Dzire Tour CNG is purpose-built for the commercial taxi segment, offering unbeatable operating economics for fleet operators and drivers. The sedan body style with its 378-liter boot space ensures ample room for passenger luggage, while the factory-fitted S-CNG system provides outstanding fuel efficiency of 31.12 km/kg â€“ the best in its segment. The robust build quality and Maruti's extensive service network ensure minimal downtime and maximum earnings.</p>
+                                <p class="listing-single__description-text-1">The Maruti Dzire Tour CNG is purpose-built for the commercial taxi segment, offering unbeatable operating economics for fleet operators and drivers. The sedan body style with its 378-liter boot space ensures ample room for passenger luggage, while the factory-fitted S-CNG system provides outstanding fuel efficiency of 31.12 km/kg are the best in its segment. The robust build quality and Maruti's extensive service network ensure minimal downtime and maximum earnings.</p>
                                 <p class="listing-single__description-text-2">Powered by the reliable 1.2L K-Series DualJet engine calibrated for CNG operation, the Dzire Tour delivers 71 bhp with excellent low-end torque for city driving conditions. The suspension is tuned for durability and passenger comfort, capable of handling the demands of daily commercial use. With dual airbags, ABS with EBD, and a reinforced structure, the Dzire Tour CNG meets all safety requirements for commercial fleet operations while keeping running costs at the minimum.</p>
                             </div>
                             <div class="listing-single__feature">

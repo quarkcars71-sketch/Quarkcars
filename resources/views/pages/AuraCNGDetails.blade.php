@@ -84,7 +84,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Hyundai Aura CNG â€“ Stylish Compact Sedan with Excellent Mileage</h3>
+                                                <h3 class="listing-single__title-two">Hyundai Aura CNG are Stylish Compact Sedan with Excellent Mileage</h3>
                                                 <p class="listing-single__text">The Hyundai Aura CNG is a premium compact sedan that combines elegant styling with exceptional fuel efficiency. Featuring Hyundai's factory-fitted CNG kit, the Aura delivers an impressive mileage of 28 km/kg, making it one of the most economical sedans in its segment. With its contemporary design, spacious interiors, and advanced safety features, the Aura CNG is perfect for family outings, airport transfers, and daily commuting.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>

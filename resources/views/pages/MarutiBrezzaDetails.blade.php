@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Brezza â€“ India's Most Loved Compact SUV</h3>
+                                                <h3 class="listing-single__title-two">Maruti Brezza are India's Most Loved Compact SUV</h3>
                                                 <p class="listing-single__text">The Maruti Brezza is India's favorite compact SUV, offering the perfect blend of style, performance, and practicality. With its bold and muscular design, the Brezza makes a strong presence on the road. The 1.5L K-Series petrol engine delivers 103 bhp of power with impressive fuel efficiency. Featuring a spacious cabin, premium interiors, and Maruti's trusted reliability, the Brezza is perfect for city drives and weekend getaways alike.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>

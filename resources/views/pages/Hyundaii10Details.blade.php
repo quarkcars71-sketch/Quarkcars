@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Hyundai i10 â€“ Compact City Car with Big Features</h3>
+                                                <h3 class="listing-single__title-two">Hyundai i10 are Compact City Car with Big Features</h3>
                                                 <p class="listing-single__text">The Hyundai i10 is a compact hatchback that's perfect for navigating busy city streets with ease. Despite its compact size, the i10 offers a surprisingly spacious cabin with premium features and comfortable seating for 5. The 1.2L Kappa petrol engine delivers peppy performance while maintaining excellent fuel efficiency, making it an ideal choice for daily commutes and weekend shopping trips.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>

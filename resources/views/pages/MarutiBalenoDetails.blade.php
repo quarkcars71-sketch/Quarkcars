@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Baleno â€“ Premium Hatchback with Nexa Experience</h3>
+                                                <h3 class="listing-single__title-two">Maruti Baleno are Premium Hatchback with Nexa Experience</h3>
                                                 <p class="listing-single__text">The Maruti Baleno is a premium hatchback that combines sophisticated design with advanced technology and superior comfort. Sold through Maruti's premium Nexa dealerships, the Baleno offers a refined driving experience with its 1.2L DualJet engine delivering excellent fuel efficiency of 22.35 km/l. With its spacious cabin, premium features, and elegant styling, the Baleno is perfect for those who want a premium hatchback experience.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>

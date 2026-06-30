@@ -80,14 +80,14 @@
                                         <div class="col-xl-5 col-lg-5">
                                             <div class="listing-single__left">
                                                 <div class="listing-single__img">
-                                                    <img src="{{ asset('assets/images/listing/listing-single-1-1(1).png') }}"
+                                                    <img src="{{ asset('assets/images/listing/listing-single-1-1.png') }}"
                                                         alt="Maruti Swift LXI">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Swift LXI â€“ Affordable Hatchback with Great Mileage</h3>
+                                                <h3 class="listing-single__title-two">Maruti Swift LXI Affordable Hatchback with Great Mileage</h3>
                                                 <p class="listing-single__text">The Maruti Swift LXI is the perfect entry-level hatchback for city commuting and budget-conscious drivers. With its peppy 1.2L K-Series engine delivering 89 bhp, this petrol variant offers an excellent balance of performance and fuel economy at 22.38 km/l. The Swift LXI comes with all essential features making it an ideal choice for daily travel.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
@@ -155,21 +155,21 @@
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-1(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-1.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-2(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-2.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="listing-single__img-holder-box">
                                     <div class="listing-single__img-holder">
-                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-3(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-single-thamb-1-3.png') }}" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -465,7 +465,7 @@
                         <div class="listing-single__sidebar">
                             <div class="listing-single__rent-car-daily-price listing-single__single-box">
                                 <p>Daily rate</p>
-                                <h3>â‚¹1,800</h3>
+                                <h3>2500 INR/Day</h3>
                             </div>
                             <div class="listing-single__rent-car listing-single__single-box">
                                 <h3 class="listing-single__rent-car-title">Rent This Car</h3>

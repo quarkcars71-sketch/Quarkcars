@@ -97,7 +97,7 @@
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
                                                 <h3 class="listing-single__title-two">Maruti Swift VXI (O) CNG Features, Mileage & City Drive Performance</h3>
-                                                <p class="listing-single__text">The Maruti Swift VXI (O) CNG is a smart and fuel-efficient hatchback designed for everyday driving and budget-conscious travelers. Known for its reliable performance and low running cost, this CNG variant of the Swift offers a perfect balance of comfort, practicality, and economy.</p>
+                                                <p class="listing-single__text">The Maruti Swift VXI (O) CNG is a fuel-efficient hatchback built for daily driving. With reliable performance, low running costs, and a comfortable cabin, it offers the perfect balance of practicality, comfort, and economy for city commutes and long journeys.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
                                                         <div class="icon">
@@ -159,12 +159,8 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Hyundai Accent 2025 - Modern
-                                                    compact sedan in blue color car.</h3>
-                                                <p class="listing-single__text">The Toyota Corolla Hybrid is the
-                                                    high-performance
-                                                    version of the 2 Series 2-door couple. The first generation of
-                                                    the M2 is the F87 couple and is powered by turbocharged.</p>
+                                                <h3 class="listing-single__title-two">Maruti Swift VXI (O) CNG – Modern compact hatchback in blue color.</h3>
+                                                <p class="listing-single__text">The Maruti Swift VXI (O) CNG is a modern and fuel-efficient hatchback designed for everyday driving. Powered by a refined 1.2L CNG engine with a 5-speed manual transmission, it delivers excellent mileage, reliable performance, and a comfortable driving experience for both city commutes and highway journeys.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
                                                         <div class="icon">

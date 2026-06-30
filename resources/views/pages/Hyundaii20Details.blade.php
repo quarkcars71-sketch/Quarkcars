@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Hyundai i20 â€“ Premium Hatchback with Style & Technology</h3>
+                                                <h3 class="listing-single__title-two">Hyundai i20 are Premium Hatchback with Style & Technology</h3>
                                                 <p class="listing-single__text">The Hyundai i20 is a premium hatchback that combines striking design with advanced technology and superior comfort. With its bold parametric grille, LED lighting, and spacious cabin, the i20 stands out in the premium hatchback segment. The 1.2L Kappa petrol engine delivers smooth performance with excellent fuel efficiency, making it perfect for city drives and highway cruising alike.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
