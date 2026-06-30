@@ -170,9 +170,9 @@
                 <!-- Process One Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
-                        <!-- <div class="process-one__single-bg"
+                        <div class="process-one__single-bg"
                             style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-2.jpg') }});">
-                        </div> -->
+                        </div>
                         <div class="process-one__icon-box">
                             <div class="process-one__icon-shape"></div>
                             <div class="process-one__icon">
@@ -188,9 +188,9 @@
                 <!-- Process One Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
-                        <!-- <div class="process-one__single-bg"
+                        <div class="process-one__single-bg"
                             style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-3.jpg') }});">
-                        </div> -->
+                        </div> 
                         <div class="process-one__icon-box">
                             <div class="process-one__icon-shape"></div>
                             <div class="process-one__icon">
@@ -206,9 +206,9 @@
                 <!-- Process One Single Start -->
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="700ms" data-wow-duration="1500ms">
                     <div class="process-one__single">
-                        <!-- <div class="process-one__single-bg"
+                        <div class="process-one__single-bg"
                             style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-4.jpg') }});">
-                        </div> -->
+                        </div> 
                         <div class="process-one__icon-box">
                             <div class="process-one__icon-shape"></div>
                             <div class="process-one__icon">
@@ -308,8 +308,8 @@
 
     <!--Lets Talk Start -->
     <section class="lets-talk">
-        <!-- <div class="lets-talk__bg"
-            style="background-image: url({{ asset('assets/images/backgrounds/lets-talk-bg.jpg') }});"></div> -->
+        <div class="lets-talk__bg"
+            style="background-image: url({{ asset('assets/images/backgrounds/lets-talk-bg.jpg') }});"></div> 
         <div class="container">
             <div class="lets-talk__inner">
                 <div class="lets-talk__title">
@@ -426,7 +426,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-1(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-1.png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -436,7 +436,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-2(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-2.png') }}" alt="">
                         <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -446,7 +446,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-3(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-3.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -456,7 +456,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-4.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -466,7 +466,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-5(1).jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-5.jpg') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
@@ -476,7 +476,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-6(2).png') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-6.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
