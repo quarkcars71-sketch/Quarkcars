@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Maruti Swift Dzire â€“ India's Favorite Compact Sedan</h3>
+                                                <h3 class="listing-single__title-two">Maruti Swift Dzire are India's Favorite Compact Sedan</h3>
                                                 <p class="listing-single__text">The Maruti Swift Dzire is India's best-selling compact sedan, offering the perfect blend of style, space, and fuel efficiency. With its elegant design, spacious cabin, and the trusted factory-fitted S-CNG technology, the Dzire delivers exceptional mileage of 31.12 km/kg. Whether you're looking for a comfortable family car or a fuel-efficient vehicle for city and highway driving, the Dzire exceeds expectations.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>

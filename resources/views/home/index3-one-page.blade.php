@@ -27,9 +27,9 @@
                     <h2 class="banner-one__title">Find Your Best Dream <br> <span> Car
                             for</span> <span class="typed-effect" id="type-1" data-strings="Rental, Booking"></span>
                     </h2>
-                    <p class="banner-one__text">Drive your journey with Quarkcars â€” simple, reliable, and affordable. Choose from a<br>  wide range of well-maintained self-drive vehicles.
-Book easily, drive freely, and enjoy a <br>  smooth rental experience.
-Travel with comfort, flexibility, and complete control of your trip.</p>
+                    <p class="banner-one__text">Drive your journey with Quarkcars are simple, reliable, and affordable. Choose from a<br>  wide range of well-maintained self-drive vehicles.
+                    Book easily, drive freely, and enjoy a <br>  smooth rental experience.
+                    Travel with comfort, flexibility, and complete control of your trip.</p>
                     <div class="banner-one__btn-box">
                         <a href="{{ route('about') }}" class="thm-btn">Read More<span class="fas fa-arrow-right"></span></a>
                     </div>
@@ -1911,7 +1911,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                             <p class="testimonial-three__client-sub-title">Customer</p>
                                         </div>
                                     </div>
-                                    <p class="testimonial-three__text">Nice services great hospitality specially Dipak Ji very helping person Iâ€™ve rented grand I10 this month the car condition is excellent keep it up ðŸ‘ðŸ» â€¦</p>
+                                    <p class="testimonial-three__text">Nice services great hospitality specially Dipak Ji very helping person I have rented grand I10 this month the car condition is excellent keep it up QuarkCars</p>
                                 </div>
                                 <div class="testimonial-three__quote">
                                     <span class="icon-quote"></span>

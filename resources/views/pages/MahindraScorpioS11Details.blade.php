@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Mahindra Scorpio S11 â€“ Powerful SUV for Adventure & Family Trips</h3>
+                                                <h3 class="listing-single__title-two">Mahindra Scorpio S11“ Powerful SUV for Adventure & Family Trips</h3>
                                                 <p class="listing-single__text">The Mahindra Scorpio S11 is a rugged and powerful SUV designed for those who crave adventure and need a spacious vehicle for family trips. With its iconic muscular design, the Scorpio S11 commands respect on the road. The 2.2L mHawk diesel engine delivers an impressive 140 bhp and 320 Nm of torque, making it perfect for highway cruising, hill climbs, and off-road excursions.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>

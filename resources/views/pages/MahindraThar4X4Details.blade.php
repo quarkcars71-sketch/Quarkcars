@@ -87,7 +87,7 @@
                                         </div>
                                         <div class="col-xl-7 col-lg-7">
                                             <div class="listing-single__right">
-                                                <h3 class="listing-single__title-two">Mahindra Thar 4X4 â€“ Iconic Off-Road Legend</h3>
+                                                <h3 class="listing-single__title-two">Mahindra Thar 4X4 are Iconic Off-Road Legend</h3>
                                                 <p class="listing-single__text">The Mahindra Thar 4X4 is the ultimate off-road adventure vehicle that combines rugged capability with modern comfort. Built for thrill-seekers and adventure enthusiasts, this iconic SUV features a powerful 2.2L mHawk diesel engine, mechanical locking differential, and shift-on-the-fly 4X4 system. Whether you're conquering sand dunes, rocky trails, or mountain passes, the Thar delivers unmatched off-road performance.</p>
                                                 <ul class="list-unstyled listing-single__meta">
                                                     <li>
