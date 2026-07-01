@@ -1868,7 +1868,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="item">
                                 <div class="testimonial-three__single">
                                     <div class="testimonial-three__img">
-                                        <img src="{{ asset('assets/images/testimonial/testimonial-3-1.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/testimonial/testimonial-1-1.jpg') }}" alt="">
                                         <div class="testimonial-three__rating">
                                             <span class="fas fa-star"></span>
                                             <span class="fas fa-star"></span>
@@ -1895,7 +1895,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="item">
                                 <div class="testimonial-three__single">
                                     <div class="testimonial-three__img">
-                                        <img src="{{ asset('assets/images/testimonial/testimonial-3-2.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/testimonial/testimonial-1-2.jpg') }}" alt="">
                                         <div class="testimonial-three__rating">
                                             <span class="fas fa-star"></span>
                                             <span class="fas fa-star"></span>
@@ -1922,7 +1922,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <div class="item">
                                 <div class="testimonial-three__single">
                                     <div class="testimonial-three__img">
-                                        <img src="{{ asset('assets/images/testimonial/testimonial-3-3.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
                                         <div class="testimonial-three__rating">
                                             <span class="fas fa-star"></span>
                                             <span class="fas fa-star"></span>
