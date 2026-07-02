@@ -47,7 +47,7 @@
                                 </li>
                                 <li>
                                     <span class="icon-call"></span>
-                                    <a href="tel:918769639911">+91 8769639911</a>
+                                    <a href="tel:918769639911" onclick="return gtag_report_conversion('tel:+91-8769639911');" href="tel:+91-8769639911"  target="_blank" >+91 8769639911</a>
                                 </li>
                                 <li>
                                     <span class="icon-envelope"></span>

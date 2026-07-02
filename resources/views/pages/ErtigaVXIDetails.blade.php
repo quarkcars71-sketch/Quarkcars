@@ -574,7 +574,7 @@
                                                 <i class="far fa-phone"></i>
                                             </div>
                                             <div class="text">
-                                                <p><a href="tel:+918769639911">+91 8769639911</a>
+                                                <p><a href="tel:918769639911" onclick="return gtag_report_conversion('tel:+91-8769639911');" href="tel:+91-8769639911"  target="_blank" >+91 8769639911</a>
                                                 </p>
                                             </div>
                                         </li>
