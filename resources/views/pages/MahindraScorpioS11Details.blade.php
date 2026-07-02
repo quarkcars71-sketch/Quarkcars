@@ -560,7 +560,7 @@
                                 </div>
                                 <div class="listing-single__contact-btn-box">
                                     <a href="#"> <i class="icon-steering-wheel"></i>Schedule Test Drive </a>
-                                    <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
+                                    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=919694004477');" href="https://api.whatsapp.com/send?phone=919694004477" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
                                     <a href="#"> <i class="far fa-envelope"></i>Email Address</a>
                                 </div>
                             </div>
