@@ -16,7 +16,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-8(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-8.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -92,7 +92,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-2(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-2.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Maruti</p>
                                         </div>
@@ -168,7 +168,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-4(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-4.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Mahindra</p>
                                         </div>
@@ -244,7 +244,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-3-6(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-3-6.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Hyundai</p>
                                         </div>
@@ -320,7 +320,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-9(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-9.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Hyundai</p>
                                         </div>
@@ -396,7 +396,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-13(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-13.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Toyota</p>
                                         </div>
@@ -472,7 +472,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-14(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-14.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Toyota</p>
                                         </div>
@@ -548,7 +548,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="listing-three__single">
                                     <div class="listing-three__img">
-                                        <img src="{{ asset('assets/images/listing/listing-1-15(1).png') }}" alt="">
+                                        <img src="{{ asset('assets/images/listing/listing-1-15.png') }}" alt="">
                                         <div class="listing-three__brand-name">
                                             <p>Toyota</p>
                                         </div>
