@@ -25,7 +25,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-1(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-1.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -50,7 +50,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-2(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-2.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -75,7 +75,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-3(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-3.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -100,7 +100,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-4(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-4.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -125,7 +125,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-5(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-5.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -150,7 +150,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-6(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-6.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -175,7 +175,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-7(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-7.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -200,7 +200,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-8(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-8.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -225,7 +225,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-9(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-9.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -250,7 +250,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-10(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-10.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -275,7 +275,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-11(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-11.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -302,7 +302,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-12(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-12.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -327,7 +327,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-13(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-13.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -352,7 +352,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-14(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-14.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
@@ -377,7 +377,7 @@
                                 <div class="listing-two__single">
                                     <div class="listing-two__img-box">
                                         <div class="listing-two__img">
-                                            <img src="{{ asset('assets/images/listing/listing-2-15(1).png') }}" alt="">
+                                            <img src="{{ asset('assets/images/listing/listing-2-15.png') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="listing-two__content">
