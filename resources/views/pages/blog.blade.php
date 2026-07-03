@@ -15,7 +15,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-1(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-1.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -51,7 +51,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-2(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-2.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -88,7 +88,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-3(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-3.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -125,7 +125,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-4(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-4.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -163,7 +163,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-5(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-5.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
@@ -201,7 +201,7 @@
                     <div class="blog-one__single">
                         <div class="blog-one__img-box">
                             <div class="blog-one__img">
-                                <img src="{{ asset('assets/images/blog/blog-1-6(1).png') }}" alt="">
+                                <img src="{{ asset('assets/images/blog/blog-1-6.png') }}" alt="">
                                 <div class="blog-one__tags">
                                     <span>Car Showcase</span>
                                 </div>
