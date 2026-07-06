@@ -11,10 +11,10 @@
     $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
 @endphp
 
-    <x-pageHeader title="Pricing" subtitle="Pricing" />
+    <x-pageHeader title="Membership Plans" subtitle="Pricing" />
 
     <!-- Pricing One Start -->
-    <section class="pricing-one pricing-page-one">
+    <!-- <section class="pricing-one pricing-page-one">
         <div class="pricing-one__shape-1"></div>
         <div class="pricing-one__shape-2"></div>
         <div class="container">
@@ -23,16 +23,16 @@
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">Pricing & Plan</span>
+                    <span class="section-title__tagline">Membership Plans</span>
                 </div>
                 <h2 class="section-title__title title-animation">Time Quick and Easy to <br> Transportation</h2>
             </div>
-            <div class="row">
+            <div class="row"> -->
                 <!-- Pricing One Single Start -->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                     <div class="pricing-one__single">
                         <div class="pricing-one__title-box">
-                            <h2 class="pricing-one__title">Skyline Taxi</h2>
+                            <h2 class="pricing-one__title">Smart Pack</h2>
                             <p class="pricing-one__text">Car service is essential for maintaining
                                 performance and longevity of vehicle. From oil changes</p>
                         </div>
@@ -83,13 +83,13 @@
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Pricing One Single End -->
                 <!-- Pricing One Single Start -->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                     <div class="pricing-one__single">
                         <div class="pricing-one__title-box">
-                            <h2 class="pricing-one__title">Urban Cabs</h2>
+                            <h2 class="pricing-one__title">Gold Pack</h2>
                             <p class="pricing-one__text">Car service is essential for maintaining
                                 performance and longevity of vehicle. From oil changes</p>
                         </div>
@@ -140,13 +140,13 @@
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Pricing One Single End -->
                 <!-- Pricing One Single Start -->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="pricing-one__single">
                         <div class="pricing-one__title-box">
-                            <h2 class="pricing-one__title">TurboTaxi</h2>
+                            <h2 class="pricing-one__title">Premium Pack</h2>
                             <p class="pricing-one__text">Car service is essential for maintaining
                                 performance and longevity of vehicle. From oil changes</p>
                         </div>
@@ -197,11 +197,11 @@
                                     class="fas fa-arrow-right"></span></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Pricing One Single End -->
-            </div>
+            <!-- </div>
         </div>
-    </section>
+    </section> -->
     <!-- Pricing One End -->
 
     <!-- Pricing Two Start -->

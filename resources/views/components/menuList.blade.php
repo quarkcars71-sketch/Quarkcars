@@ -27,7 +27,7 @@
             <li><a href="{{ route('drivers') }}">Drivers</a></li>
             <li><a href="{{ route('driver-details') }}">Driver Details</a></li>
             <li><a href="{{ route('testimonials') }}">Testimonials</a></li>
-            <li><a href="{{ route('pricing') }}">Pricing</a></li>
+            <li><a href="{{ route('pricing') }}">Membership Plans</a></li>
             <li><a href="{{ route('faq') }}">FAQs</a></li>
             <li><a href="{{ route('404') }}">404 Error</a></li>
         </ul>
@@ -35,7 +35,7 @@
     <li class="dropdown">
         <a href="#">Cars</a>
         <ul class="shadow-box">
-             <li><a href="{{ route('car-subscription') }}">Car Subscription</a></li>
+            <li><a href="{{ route('car-subscription') }}">Car Subscription</a></li>
             <li><a href="{{ route('self-drive-car') }}">Self Drive Car</a></li>
             <li><a href="{{ route('car-sharing') }}">Car Sharing</a></li>
             <li><a href="{{ route('taxi-services') }}">Taxi Service</a></li>
