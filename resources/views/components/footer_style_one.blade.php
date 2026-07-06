@@ -55,7 +55,7 @@
                                     <div class="icon">
                                         <span class="icon-pin"></span>
                                     </div>
-                                    <p>256,Jeevan Rekha Marg Shri Kishanpura,Karolan Ka Barh,Jagatpura, Jaipur,
+                                    <p>256, Jeevan Rekha Marg Karolan Ka Barh Shri Kishanpura, Jagatpura,
                                         <br> Rajasthan 302017, India
                                     </p>
                                 </li>
