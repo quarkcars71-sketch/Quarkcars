@@ -375,6 +375,319 @@
     </section>
     <!--Search Car End -->
 
+    <!-- Pricing Two Start -->
+    <section class="pricing-two">
+        <div class="container">
+            <div class="section-title text-center sec-title-animation animation-style1">
+                <div class="section-title__tagline-box justify-content-center">
+                    <div class="section-title__tagline-shape">
+                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
+                    </div>
+                    <span class="section-title__tagline">Membership Plan</span>
+                </div>
+                <h2 class="section-title__title title-animation">Time Quick and Easy to <br> Transportation</h2>
+            </div>
+            <ul class="list-unstyled pricing-two__list">
+                <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-1.jpeg') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Smart Pack</h3>
+                                <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Total 5 Coupons</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1 year validity.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Fast Coupon Redeem after purchase</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Coupon value is 2500 INR/Day</p>
+                                    </div>
+                                </li>
+                                 <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1500 INR Discount per coupon</p>
+                                    </div>
+                                </li>
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1500 discount per coupon.</p>
+                                    </div>
+                                </li> -->
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support.</p>
+                                    </div>
+                                </li> -->
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $smartMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-2.jpeg') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Gold Pack</h3>
+                                <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Total 5 Coupons</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1 year validity </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Fast Coupon Redeem after purchase</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Coupon Value is 3500 INR/Day</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1250 INR Discount per coupon</p>
+                                    </div>
+                                     
+                                </li>
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1500 discount per coupon.</p>
+                                    </div>
+                                     
+                                </li> -->
+                                 <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support.</p>
+                                    </div>
+                                     
+                                </li> -->
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $goldMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-3.jpeg') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Premium Pack</h3>
+                                <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Total 5 Coupons</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1 year validity</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Fast Coupon Redeem after purchase</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Coupon Value is 5500 INR/Day</p>
+                                    </div>
+                                </li>
+                                 <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>2000 INR Discount per coupon</p>
+                                    </div>
+                                </li>
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>2500 discount per coupon.</p>
+                                    </div>
+                                </li> -->
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support</p>
+                                    </div>
+                                </li> -->
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $premiumMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-4.png') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Vip</h3>
+                                <h2 class="pricing-two__price-box">$900 <span>/Mon</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Car service is essential for maintaining.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Performance and longevity of vehicle.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Per minutes stopped traffic</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Online booking</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </section>
+    <!-- Pricing Two End -->
+
     <!--About Three Start -->
     <section class="about-three" id="about">
         <div class="container">
@@ -1506,318 +1819,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
     </section>
     <!-- Video One End -->
 
-    <!-- Pricing Two Start -->
-    <section class="pricing-two">
-        <div class="container">
-            <div class="section-title text-center sec-title-animation animation-style1">
-                <div class="section-title__tagline-box justify-content-center">
-                    <div class="section-title__tagline-shape">
-                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
-                    </div>
-                    <span class="section-title__tagline">Pricing & Plan</span>
-                </div>
-                <h2 class="section-title__title title-animation">Time Quick and Easy to <br> Transportation</h2>
-            </div>
-            <ul class="list-unstyled pricing-two__list">
-                <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-1.jpeg') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Smart Pack</h3>
-                                <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>5 Coupons per year.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Valid for 12 months.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1 coupon redeem after purchase.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Remaining coupons available every 3 months.</p>
-                                    </div>
-                                </li>
-                                 <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Per Coupon Value is: 2500 INR/Day.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1500 discount per coupon.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $smartMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-2.jpeg') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Gold Pack</h3>
-                                <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>5 Coupons per year.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Valid for 12 months.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1 coupon redeem after purchase.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Remaining coupons available every 3 months.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Per Coupon Value is: 2500 INR/Day.</p>
-                                    </div>
-                                     
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1500 discount per coupon.</p>
-                                    </div>
-                                     
-                                </li>
-                                 <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support.</p>
-                                    </div>
-                                     
-                                </li>
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $goldMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-3.jpeg') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Premium Pack</h3>
-                                <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>5 Coupons per year.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Valid for 12 months.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1 coupon redeem after purchase.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Remaining coupons available every 3 months.</p>
-                                    </div>
-                                </li>
-                                 <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Per Coupon Value is: 5500 INR/Day.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>2500 discount per coupon.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $premiumMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-4.png') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Vip</h3>
-                                <h2 class="pricing-two__price-box">$900 <span>/Mon</span></h2>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Car service is essential for maintaining.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Performance and longevity of vehicle.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Per minutes stopped traffic</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Online booking</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li> -->
-            </ul>
-        </div>
-    </section>
-    <!-- Pricing Two End -->
+    
 
     <!--Lets Talk Start -->
     <section class="lets-talk">
