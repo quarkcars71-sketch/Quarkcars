@@ -1514,7 +1514,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">Pricing & Plan</span>
+                    <span class="section-title__tagline">Membership Plan</span>
                 </div>
                 <h2 class="section-title__title title-animation">Time Quick and Easy to <br> Transportation</h2>
             </div>
@@ -1537,7 +1537,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>5 Coupons per year.</p>
+                                        <p>Total 5 Coupons</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1545,7 +1545,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Valid for 12 months.</p>
+                                        <p>1 year validity.</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1553,7 +1553,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>1 coupon redeem after purchase.</p>
+                                        <p>Fast Coupon Redeem after purchase</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1561,7 +1561,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Remaining coupons available every 3 months.</p>
+                                        <p>Coupon value is 2500 INR/Day</p>
                                     </div>
                                 </li>
                                  <li>
@@ -1569,25 +1569,25 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Per Coupon Value is: 2500 INR/Day.</p>
+                                        <p>1500 INR Discount per coupon</p>
                                     </div>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <div class="icon">
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
                                         <p>1500 discount per coupon.</p>
                                     </div>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <div class="icon">
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
                                         <p>24/7 customer support.</p>
                                     </div>
-                                </li>
+                                </li> -->
                             </ul>
                             <div class="pricing-two__btn-box">
                                 <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $smartMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
@@ -1614,7 +1614,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>5 Coupons per year.</p>
+                                        <p>Total 5 Coupons</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1622,7 +1622,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Valid for 12 months.</p>
+                                        <p>1 year validity </p>
                                     </div>
                                 </li>
                                 <li>
@@ -1630,7 +1630,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>1 coupon redeem after purchase.</p>
+                                        <p>Fast Coupon Redeem after purchase</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1638,7 +1638,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Remaining coupons available every 3 months.</p>
+                                        <p>Coupon Value is 3500 INR/Day</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1646,11 +1646,11 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Per Coupon Value is: 2500 INR/Day.</p>
+                                        <p>1250 INR Discount per coupon</p>
                                     </div>
                                      
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <div class="icon">
                                         <span class="fas fa-check"></span>
                                     </div>
@@ -1658,8 +1658,8 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <p>1500 discount per coupon.</p>
                                     </div>
                                      
-                                </li>
-                                 <li>
+                                </li> -->
+                                 <!-- <li>
                                     <div class="icon">
                                         <span class="fas fa-check"></span>
                                     </div>
@@ -1667,7 +1667,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <p>24/7 customer support.</p>
                                     </div>
                                      
-                                </li>
+                                </li> -->
                             </ul>
                             <div class="pricing-two__btn-box">
                                 <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $goldMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
@@ -1694,7 +1694,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>5 Coupons per year.</p>
+                                        <p>Total 5 Coupons</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1702,7 +1702,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Valid for 12 months.</p>
+                                        <p>1 year validity</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1710,7 +1710,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>1 coupon redeem after purchase.</p>
+                                        <p>Fast Coupon Redeem after purchase</p>
                                     </div>
                                 </li>
                                 <li>
@@ -1718,7 +1718,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Remaining coupons available every 3 months.</p>
+                                        <p>Coupon Value is 5500 INR/Day</p>
                                     </div>
                                 </li>
                                  <li>
@@ -1726,25 +1726,25 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>Per Coupon Value is: 5500 INR/Day.</p>
+                                        <p>2000 INR Discount per coupon</p>
                                     </div>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <div class="icon">
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
                                         <p>2500 discount per coupon.</p>
                                     </div>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <div class="icon">
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
                                         <p>24/7 customer support</p>
                                     </div>
-                                </li>
+                                </li> -->
                             </ul>
                             <div class="pricing-two__btn-box">
                                 <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $premiumMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span

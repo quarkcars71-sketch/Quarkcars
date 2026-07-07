@@ -5,10 +5,9 @@
 @php
     $whatsappNumber = '919694004477';
 
-    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
-    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
-    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
-    $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
+    $smartMsg = rawurlencode("Smart Pack");
+    $goldMsg = rawurlencode("Gold Pack");
+    $premiumMsg = rawurlencode("Premium Pack");
 @endphp
 
     <x-pageHeader title="Membership Plans" subtitle="Pricing" />
@@ -212,7 +211,7 @@
                     <div class="section-title__tagline-shape">
                         <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
                     </div>
-                    <span class="section-title__tagline">Pricing & Plan</span>
+                    <span class="section-title__tagline">Membership plan</span>
                 </div>
                 <h2 class="section-title__title title-animation">Time Quick and Easy to <br> Transportation</h2>
             </div>
