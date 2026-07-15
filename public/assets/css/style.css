@@ -18,22 +18,22 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --gorent-font: "Roboto", sans-serif;
-  --gorent-font-two: "Inter Tight", sans-serif;
-  --gorent-gray: #868689;
-  --gorent-gray-rgb: 134, 134, 137;
-  --gorent-base: #f2b720;
-  --gorent-base-button-background: #212529;
-  --gorent-base-rgb: 255, 181, 29;
-  --gorent-black: #1F4F8C;
-  --gorent-black-rgb: 19, 18, 34;
-  --gorent-extra: #E3E3E3;
-  --gorent-extra-rgb: 227, 227, 227;
-  --gorent-white: #ffffff;
-  --gorent-white-rgb: 255, 255, 255;
-  --gorent-bdr-color: #D9D9D9;
-  --gorent-bdr-color-rgb: 238, 239, 242;
-  --gorent-bdr-radius: 20px;
+  --quarkwash-font: "Roboto", sans-serif;
+  --quarkwash-font-two: "Inter Tight", sans-serif;
+  --quarkwash-gray: #868689;
+  --quarkwash-gray-rgb: 134, 134, 137;
+  --quarkwash-base: #f2b720;
+  --quarkwash-base-button-background: #212529;
+  --quarkwash-base-rgb: 255, 181, 29;
+  --quarkwash-black: #1F4F8C;
+  --quarkwash-black-rgb: 19, 18, 34;
+  --quarkwash-extra: #E3E3E3;
+  --quarkwash-extra-rgb: 227, 227, 227;
+  --quarkwash-white: #ffffff;
+  --quarkwash-white-rgb: 255, 255, 255;
+  --quarkwash-bdr-color: #D9D9D9;
+  --quarkwash-bdr-color-rgb: 238, 239, 242;
+  --quarkwash-bdr-radius: 20px;
 }
 
 .row {
