@@ -7,7 +7,7 @@
     $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
     $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
 @endphp
-<div class="chat-icon"><a onclick="return gtag_report_conversion('https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}");" href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer"><button type="button" class="chat-toggler"><i class="fab fa-whatsapp"></i></button></a></div>
+<div class="chat-icon"><a onclick="return gtag_report_conversion('https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}');" href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer"><button type="button" class="chat-toggler"><i class="fab fa-whatsapp"></i></button></a></div>
 <!--Chat Popup-->
 <!-- <div id="chat-popup" class="chat-popup">
     <div class="popup-inner">
