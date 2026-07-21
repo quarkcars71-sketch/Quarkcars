@@ -39,9 +39,9 @@
                         <div class="footer-widget__services">
                             <h4 class="footer-widget__title">Services</h4>
                             <ul class="footer-widget__links-list list-unstyled">
-                                <li><a href="{{ route('self-drive-car') }}">Self Drive Car</a></li>
+                                <li><a href="{{ route('rental') }}">Rental</a></li>
                                 <li><a href="{{ route('car-sharing') }}">Car Sharing</a></li>
-                                <li><a href="{{ route('car-subscription') }}">Car Subscription</a></li>
+                                <li><a href="{{ route('subscription') }}">Subscription</a></li>
                                 <li><a href="{{ route('taxi-services') }}">Taxi Services</a></li>
                                 <!-- <li><a href="{{ route('swift-vxi-details') }}">Dash Transport</a></li> -->
                             </ul>

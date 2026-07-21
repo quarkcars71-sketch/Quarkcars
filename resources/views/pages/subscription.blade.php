@@ -1,9 +1,9 @@
 @extends('layouts.layoutCommon')
-@section('title', 'Car-subscription || QuarkCars')
+@section('title', 'Subscription || QuarkCars')
 
 @section('content')
 
-    <x-pageHeader title="Car Subscription" subtitle="Car Subscription" />
+    <x-pageHeader title="Subscription" subtitle="Subscription" />
 
     <!--Cars Page Start -->
     <section class="cars-page">
@@ -738,7 +738,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-1.png') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -748,7 +748,7 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-2.png') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>

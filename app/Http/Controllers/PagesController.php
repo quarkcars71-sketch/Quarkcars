@@ -47,14 +47,14 @@ class PagesController extends Controller
         return view('pages.404');
     }
 
-    public function car_subscription()
+    public function subscription()
     {
-        return view('pages.car-subscription');
+        return view('pages.subscription');
     }
 
-    public function self_drive_car()
+    public function rental()
     {
-        return view('pages.self-drive-car');
+        return view('pages.rental');
     }
 
     public function car_list_v_2()

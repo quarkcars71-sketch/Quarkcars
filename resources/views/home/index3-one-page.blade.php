@@ -1,4 +1,4 @@
-﻿@extends('layouts.layoutCommon')
+@extends('layouts.layoutCommon')
 @section('title', 'Home || QuarkCars')
 
 @section('content')
@@ -52,7 +52,7 @@
                     <ul class="tab-buttons clearfix list-unstyled">
                         <li data-tab="#usedcar" class="tab-btn active-btn"><span>Rent car</span></li>
                         <li data-tab="#newcars" class="tab-btn"><span>Car Sharing</span></li>
-                        <li data-tab="#sportscars" class="tab-btn"><span>Car Subscription</span></li>
+                        <li data-tab="#sportscars" class="tab-btn"><span>Subscription</span></li>
                         <li data-tab="#luxurycars" class="tab-btn"><span>Taxi Service</span></li>
                     </ul>
                     <div class="tabs-content">
@@ -2514,7 +2514,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">  
                         <img src="{{ asset('assets/images/gallery/gallery-1-1.png') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>
@@ -2524,7 +2524,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
                         <img src="{{ asset('assets/images/gallery/gallery-1-2.png') }}" alt="">
-                        <a href="{{ route('car-subscription') }}"><span class="fab fa-instagram"></span></a>
+                        <a href="{{ route('subscription') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
             </div>

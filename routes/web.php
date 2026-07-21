@@ -50,11 +50,11 @@ Route::get('/faq', [PagesController::class, 'faq'])
 Route::get('/404', [PagesController::class, 'notFound'])
     ->name('404');
 
-Route::get('/car-subscription', [PagesController::class, 'car_subscription'])
-    ->name('car-subscription');
+Route::get('/subscription', [PagesController::class, 'subscription'])
+    ->name('subscription');
 
-Route::get('/self-drive-car', [PagesController::class, 'self_drive_car'])
-    ->name('self-drive-car');
+Route::get('/rental', [PagesController::class, 'rental'])
+    ->name('rental');
 
 Route::get('/car-sharing', [PagesController::class, 'car_list_v_2'])
     ->name('car-sharing');

@@ -117,7 +117,7 @@
                                                 </ul>
                                                 <div class="listing-single__btn-and-video-box">
                                                     <div class="listing-single__btn-box">
-                                                        <a href="{{ route('car-subscription') }}" class="thm-btn">See All Photo<span
+                                                        <a href="{{ route('subscription') }}" class="thm-btn">See All Photo<span
                                                                 class="fas fa-arrow-right"></span></a>
                                                     </div>
                                                     <div class="listing-single__video-link">
