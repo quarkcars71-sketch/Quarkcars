@@ -56,6 +56,9 @@ Route::get('/subscription', [PagesController::class, 'subscription'])
 Route::get('/rental', [PagesController::class, 'rental'])
     ->name('rental');
 
+Route::get('/self-drive-car', [PagesController::class, 'rental'])
+    ->name('self-drive-car');
+
 Route::get('/car-sharing', [PagesController::class, 'car_list_v_2'])
     ->name('car-sharing');
 
