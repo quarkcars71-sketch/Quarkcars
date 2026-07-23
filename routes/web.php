@@ -164,6 +164,11 @@ Route::get('/cancellation-policy', [PagesController::class, 'cancellation_policy
 Route::get('/customer-agreement', [PagesController::class, 'customer_agreement'])
     ->name('customer-agreement');
 
+Route::get('/thank-you', function () {
+    return view('thank-you');
+})->name('thank-you');
+
 Route::fallback(function () {
     return view('pages.404');
 });
+

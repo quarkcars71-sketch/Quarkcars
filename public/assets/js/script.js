@@ -932,6 +932,9 @@
                     function (response) {
                         $(form).find(".result").html(response);
                         $(form).find('input[type="text"], input[type="email"], textarea').val("");
+                        if (response.indexOf('Thank you for contacting us') !== -1) {
+                            window.location.href = '/thank-you';
+                        }
                     }
                 );
                 return false;

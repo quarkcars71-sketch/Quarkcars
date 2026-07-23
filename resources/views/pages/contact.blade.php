@@ -76,7 +76,7 @@
                         <div class="contact-page__right">
                             <h3 class="contact-page__form-title">Get A Free Quote</h3>
                             <form id="contact-form" class="contact-form-validated contact-page__form"
-                                action="assets/mail.php" method="POST">
+                                action="assets/inc/sendemail.php" method="POST">
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="contact-page__input-box">
