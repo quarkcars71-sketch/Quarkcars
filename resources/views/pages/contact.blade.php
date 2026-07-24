@@ -74,46 +74,93 @@
                     </div>
                     <div class="col-xl-6">
                         <div class="contact-page__right">
-                            <h3 class="contact-page__form-title">Get A Free Quote</h3>
-                            <form id="contact-form" class="contact-form-validated contact-page__form"
-                                action="assets/inc/sendemail.php" method="POST">
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <div class="contact-page__input-box">
-                                            <input type="text" name="name" placeholder="Your name" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <div class="contact-page__input-box">
-                                            <input type="email" name="email" placeholder="Your Email" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <div class="contact-page__input-box">
-                                            <input type="text" placeholder="Mobile" name="number">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <div class="contact-page__input-box">
-                                            <input type="text" placeholder="Company" name="company">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <div class="contact-page__input-box text-message-box">
-                                            <textarea name="message" placeholder="Messege"></textarea>
-                                        </div>
-                                        <div class="contact-page__btn-box">
-                                            <button type="submit" class="thm-btn contact-page__btn"
-                                                data-loading-text="Please wait...">
-                                                <span class="thm-btn-text">Send A Message</span>
-                                                <span class="thm-btn-icon-box"><i class="fas fa-arrow-right"></i></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <p class="ajax-response mb-0"></p>
-                        </div>
+    <h3 class="contact-page__form-title">Get A Free Quote</h3>
+
+    <form
+        id="contact-form"
+        class="contact-page__form"
+        action="{{ route('contact.send') }}"
+        method="POST"
+    >
+        @csrf
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="contact-page__input-box">
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        maxlength="100"
+                        required
+                    >
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="contact-page__input-box">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        maxlength="150"
+                        required
+                    >
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="contact-page__input-box">
+                    <input
+                        type="tel"
+                        name="number"
+                        placeholder="Mobile Number"
+                        maxlength="20"
+                        required
+                    >
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="contact-page__input-box">
+                    <input
+                        type="text"
+                        name="company"
+                        placeholder="Company"
+                        maxlength="150"
+                    >
+                </div>
+            </div>
+
+            <div class="col-xl-12">
+                <div class="contact-page__input-box text-message-box">
+                    <textarea
+                        name="message"
+                        placeholder="Message"
+                        maxlength="2000"
+                        required
+                    ></textarea>
+                </div>
+
+                <div class="contact-page__btn-box">
+                    <button
+                        type="submit"
+                        class="thm-btn contact-page__btn"
+                        data-loading-text="Please wait..."
+                    >
+                        <span class="thm-btn-text">Send A Message</span>
+
+                        <span class="thm-btn-icon-box">
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <p class="ajax-response mb-0"></p>
+</div>
                     </div>
                 </div>
             </div>

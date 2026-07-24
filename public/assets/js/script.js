@@ -917,30 +917,71 @@
 
 
 
-    $(".contact-form-validated").each(function () {
-        $(this).validate({
-            rules: {
-                email: {
-                    required: true,
-                    email: true
-                }
-            },
-            submitHandler: function (form) {
-                $.post(
-                    $(form).attr("action"),
-                    $(form).serialize(),
-                    function (response) {
-                        $(form).find(".result").html(response);
-                        $(form).find('input[type="text"], input[type="email"], textarea').val("");
-                        if (response.indexOf('Thank you for contacting us') !== -1) {
-                            window.location.href = '/thank-you';
-                        }
-                    }
-                );
-                return false;
+  $("#contact-form").on("submit", function (event) {
+    event.preventDefault();
+
+    const form = this;
+    const $form = $(form);
+    const $button = $form.find('button[type="submit"]');
+    const $response = $(".ajax-response");
+
+    $button.prop("disabled", true);
+    $response
+        .removeClass("text-danger text-success")
+        .text("Please wait...");
+
+    $.ajax({
+        url: $form.attr("action"),
+        type: "POST",
+        data: $form.serialize(),
+        dataType: "json",
+
+        success: function (response) {
+            $response
+                .removeClass("text-danger")
+                .addClass("text-success")
+                .text(response.message);
+
+            form.reset();
+
+            if (response.redirect) {
+                window.location.href = response.redirect;
             }
-        });
+        },
+
+        error: function (xhr) {
+            let message = "Message could not be sent. Please try again.";
+
+            if (
+                xhr.responseJSON &&
+                xhr.responseJSON.message
+            ) {
+                message = xhr.responseJSON.message;
+            }
+
+            if (
+                xhr.status === 422 &&
+                xhr.responseJSON &&
+                xhr.responseJSON.errors
+            ) {
+                const errors = Object.values(
+                    xhr.responseJSON.errors
+                ).flat();
+
+                message = errors.join(" ");
+            }
+
+            $response
+                .removeClass("text-success")
+                .addClass("text-danger")
+                .text(message);
+        },
+
+        complete: function () {
+            $button.prop("disabled", false);
+        }
     });
+});
 
 
     if ($(".video-popup").length) {

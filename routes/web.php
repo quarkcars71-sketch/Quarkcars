@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\HomeController;
 
+use App\Http\Controllers\ContactController;
+
+Route::post('/contact/send', [ContactController::class, 'send'])
+    ->name('contact.send');
 
 Route::get('/', [HomeController::class, 'index3_one_page'])
     ->name('index');
