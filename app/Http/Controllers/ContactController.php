@@ -20,7 +20,7 @@ class ContactController extends Controller
         ]);
 
         try {
-            $receiverEmail = config('mail.contact_receiver', 'info@quarkcars.com');
+            $receiverEmail = config('mail.contact_receiver', 'quarkcars71@gmail.com');
 
             Mail::send(
                 'emails.contact-enquiry',

@@ -123,6 +123,6 @@ return [
     | The email address where contact form submissions should be sent.
     |
     */
-    'contact_receiver' => env('CONTACT_RECEIVER_EMAIL', 'info@quarkcars.com'),
+    'contact_receiver' => env('CONTACT_RECEIVER_EMAIL', 'quarkcars71@gmail.com'),
 
 ];
