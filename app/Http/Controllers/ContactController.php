@@ -20,10 +20,7 @@ class ContactController extends Controller
         ]);
 
         try {
-            $receiverEmail = env(
-                'CONTACT_RECEIVER_EMAIL',
-                'info@quarkcars.com'
-            );
+            $receiverEmail = config('mail.contact_receiver', 'info@quarkcars.com');
 
             Mail::send(
                 'emails.contact-enquiry',
@@ -46,12 +43,24 @@ class ContactController extends Controller
         } catch (Throwable $exception) {
             Log::error('Contact form email failed', [
                 'message' => $exception->getMessage(),
+                'exception' => $exception,
             ]);
 
-            return response()->json([
+            $responseData = [
                 'success' => false,
                 'message' => 'Message could not be sent. Please try again.',
-            ], 500);
+            ];
+
+            if (config('app.debug')) {
+                $responseData['debug'] = [
+                    'message' => $exception->getMessage(),
+                    'file' => $exception->getFile(),
+                    'line' => $exception->getLine(),
+                    'trace' => explode("\n", $exception->getTraceAsString()),
+                ];
+            }
+
+            return response()->json($responseData, 500);
         }
     }
 }

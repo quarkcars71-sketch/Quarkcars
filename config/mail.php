@@ -39,7 +39,7 @@ return [
 
         'smtp' => [
             'transport' => 'smtp',
-            'scheme' => env('MAIL_SCHEME'),
+            'scheme' => env('MAIL_SCHEME') === 'ssl' ? 'smtps' : (env('MAIL_SCHEME') === 'tls' ? 'smtp' : env('MAIL_SCHEME')),
             'url' => env('MAIL_URL'),
             'host' => env('MAIL_HOST', '127.0.0.1'),
             'port' => env('MAIL_PORT', 2525),
@@ -114,5 +114,15 @@ return [
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Contact Form Receiver Email
+    |--------------------------------------------------------------------------
+    |
+    | The email address where contact form submissions should be sent.
+    |
+    */
+    'contact_receiver' => env('CONTACT_RECEIVER_EMAIL', 'info@quarkcars.com'),
 
 ];
