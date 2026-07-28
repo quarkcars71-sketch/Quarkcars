@@ -39,14 +39,14 @@ return [
 
         'smtp' => [
             'transport' => 'smtp',
-            'scheme' => env('MAIL_SCHEME') === 'ssl' ? 'smtps' : (env('MAIL_SCHEME') === 'tls' ? 'smtp' : env('MAIL_SCHEME')),
+            'scheme' => env('MAIL_SCHEME', 'smtps'),
             'url' => env('MAIL_URL'),
-            'host' => env('MAIL_HOST', '127.0.0.1'),
-            'port' => env('MAIL_PORT', 2525),
+            'host' => env('MAIL_HOST', 'smtp.hostinger.com'),
+            'port' => (int) env('MAIL_PORT', 465),
             'username' => env('MAIL_USERNAME'),
             'password' => env('MAIL_PASSWORD'),
-            'timeout' => null,
-            'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url((string) env('APP_URL', 'http://localhost'), PHP_URL_HOST)),
+            'timeout' => 30,
+            'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url((string) env('APP_URL'), PHP_URL_HOST)),
         ],
 
         'ses' => [
@@ -115,14 +115,18 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+
     /*
-    |--------------------------------------------------------------------------
-    | Contact Form Receiver Email
-    |--------------------------------------------------------------------------
-    |
-    | The email address where contact form submissions should be sent.
-    |
-    */
-    'contact_receiver' => env('CONTACT_RECEIVER_EMAIL', 'quarkcars71@gmail.com'),
+|--------------------------------------------------------------------------
+| Contact Form Receiver Email
+|--------------------------------------------------------------------------
+*/
+
+'contact_receiver' => env(
+    'CONTACT_RECEIVER_EMAIL',
+    'info@quarkcars.com'
+),
+
+    
 
 ];
