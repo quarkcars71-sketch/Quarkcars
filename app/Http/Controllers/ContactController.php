@@ -49,6 +49,7 @@ class ContactController extends Controller
             $responseData = [
                 'success' => false,
                 'message' => 'Message could not be sent. Please try again.',
+                'error_detail' => $exception->getMessage(),
             ];
 
             if (config('app.debug')) {
