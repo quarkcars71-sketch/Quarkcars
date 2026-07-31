@@ -1561,6 +1561,15 @@
         text-align: center;
     }
 
+    .pricing-two__price-grid {
+        min-width: 0;
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .pricing-two__price-grid::before {
+        display: none;
+    }
     .pricing-two__right-content {
         gap: 20px;
         flex-direction: column;
@@ -2978,3 +2987,130 @@
 
 
 /* The End */
+/* Pricing discount layout responsive fixes */
+@media only screen and (max-width: 1319px) {
+    .pricing-two__single {
+        align-items: stretch;
+    }
+
+    .pricing-two__left-content,
+    .pricing-two__right-content {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .pricing-two__right-content {
+        gap: 30px;
+    }
+
+    .pricing-two__points {
+        flex: 1 1 420px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .pricing-two__single {
+        gap: 35px;
+    }
+
+    .pricing-two__left-content {
+        align-items: flex-start;
+        gap: 28px;
+    }
+
+    .pricing-two__img-content {
+        flex: 1 1 360px;
+    }
+
+    .pricing-two__price-grid {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .pricing-two__right-content {
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pricing-two__list>li {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .pricing-two__single,
+    .pricing-two__left-content,
+    .pricing-two__right-content {
+        align-items: center;
+        width: 100%;
+    }
+
+    .pricing-two__img {
+        width: min(100%, 360px);
+    }
+
+    .pricing-two__img-content {
+        width: 100%;
+        flex: none;
+    }
+
+    .pricing-two__title {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .pricing-two__price-box {
+        font-size: 44px;
+        line-height: 48px;
+    }
+
+    .pricing-two__actual-price strong {
+        font-size: 38px;
+    }
+
+    .pricing-two__points {
+        width: 100%;
+        flex: none;
+    }
+
+    .pricing-two__points>li {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    .pricing-two__btn-box,
+    .pricing-two__btn-box .thm-btn {
+        width: 100%;
+    }
+
+    .pricing-two__btn-box .thm-btn {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .pricing-two__title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .pricing-two__price-box {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .pricing-two__price-box span {
+        font-size: 16px;
+    }
+
+    .pricing-two__actual-price strong {
+        font-size: 34px;
+    }
+
+    .pricing-two__actual-price span,
+    .pricing-two__discounted-price>span,
+    .pricing-two__discounted-price p {
+        font-size: 14px;
+    }
+}

@@ -5,9 +5,9 @@
 @php
     $whatsappNumber = '919694004477';
 
-    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
-    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
-    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: ₹14,999/year\n\nPlease share payment details and activation process.");
+    $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: â‚¹4,999/year\n\nPlease share payment details and activation process.");
+    $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: â‚¹9,999/year\n\nPlease share payment details and activation process.");
+    $premiumMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase PREMIUM PACK Membership.\n\nPrice: â‚¹14,999/year\n\nPlease share payment details and activation process.");
     $generalMsg = rawurlencode("Hi QuarkCars,\n\nI would like more information about your car rental services, self-drive cars, memberships, and current offers.\n\nPlease contact me.");
 @endphp
 
@@ -396,7 +396,17 @@
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Smart Pack</h3>
-                                <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>12499 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
+                                        <p>You Save 7500 INR</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="pricing-two__right-content">
@@ -438,7 +448,7 @@
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>1500 INR Discount per coupon</p>
+                                        <p>1200 INR Discount per coupon</p>
                                     </div>
                                 </li>
                                 <!-- <li>
@@ -473,7 +483,17 @@
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Gold Pack</h3>
-                                <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>17499 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
+                                        <p>You Save 7500 INR</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="pricing-two__right-content">
@@ -515,7 +535,7 @@
                                         <span class="fas fa-check"></span>
                                     </div>
                                     <div class="text">
-                                        <p>1250 INR Discount per coupon</p>
+                                        <p>1500 INR Discount per coupon</p>
                                     </div>
                                      
                                 </li>
@@ -553,7 +573,17 @@
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Premium Pack</h3>
-                                <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>27500 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
+                                        <p>You Save 12501 INR</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="pricing-two__right-content">
@@ -1886,7 +1916,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                             <p class="testimonial-three__client-sub-title">Customer</p>
                                         </div>
                                     </div>
-                                    <p class="testimonial-three__text">Quarkcars are one of the best car rental in jaipur at good affordable price. Security deposit refund was also hassle free and instant. We rented thar and it was new and in very good condition. And to add to it the owner was very friendly and had good responseâ€ </p>
+                                    <p class="testimonial-three__text">Quarkcars are one of the best car rental in jaipur at good affordable price. Security deposit refund was also hassle free and instant. We rented thar and it was new and in very good condition. And to add to it the owner was very friendly and had good responseÃ¢â‚¬ </p>
                                 </div>
                                 <div class="testimonial-three__quote">
                                     <span class="icon-quote"></span>
@@ -2314,7 +2344,7 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 </li>
                             </ul>
                             <h3 class="blog-one__title"><a href="{{ route('blog-details') }}">Self Drive Car Rental in Jaipur - Complete Guide (2026)</a></h3>
-                            <p class="blog-one__text">Self-drive car rental in Jaipur is becoming the most preferred way to travel. It offers freedom, flexibility, and privacyâ€”without depending on drivers.</p>
+                            <p class="blog-one__text">Self-drive car rental in Jaipur is becoming the most preferred way to travel. It offers freedom, flexibility, and privacyÃ¢â‚¬â€without depending on drivers.</p>
                             <a href="{{ route('blog-details') }}" class="blog-one__read-more">Read More <span
                                     class="fas fa-arrow-right"></span></a>
                         </div>

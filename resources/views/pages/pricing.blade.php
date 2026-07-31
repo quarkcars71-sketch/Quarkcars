@@ -1,4 +1,4 @@
-﻿@extends('layouts.layoutCommon')
+@extends('layouts.layoutCommon')
 @section('title', 'Pricing || QuarkCars')
 
 @section('content')
@@ -8,6 +8,7 @@
     $smartMsg = rawurlencode("Smart Pack");
     $goldMsg = rawurlencode("Gold Pack");
     $premiumMsg = rawurlencode("Premium Pack");
+    $generalMsg = rawurlencode("Hi QuarkCars, I would like more information about your car rental services, memberships, and current offers. Please contact me.");
 @endphp
 
     <x-pageHeader title="Membership Plans" subtitle="Pricing" />
@@ -224,7 +225,17 @@
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Smart Pack</h3>
-                                <h2 class="pricing-two__price-box">4999 INR<span> /year</span></h2>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>12499 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
+                                        <p>You Save 7500 INR</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="pricing-two__right-content">
@@ -301,7 +312,17 @@
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Gold Pack</h3>
-                                <h2 class="pricing-two__price-box">9999 INR <span> /year</span></h2>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>17499 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
+                                        <p>You Save 7500 INR</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="pricing-two__right-content">
@@ -379,7 +400,17 @@
                             </div>
                             <div class="pricing-two__img-content">
                                 <h3 class="pricing-two__title">Premium Pack</h3>
-                                <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>27500 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
+                                        <p>You Save 12501 INR</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="pricing-two__right-content">
@@ -551,7 +582,7 @@
             <div class="item">
                 <div class="gallery-one__single">
                     <div class="gallery-one__img">
-                        <img src="{{ asset('assets/images/gallery/gallery-1-4.jpg') }}" alt="">
+                        <img src="{{ asset('assets/images/gallery/gallery-1-4.png') }}" alt="">
                         <a href="{{ route('cart') }}"><span class="fab fa-instagram"></span></a>
                     </div>
                 </div>
