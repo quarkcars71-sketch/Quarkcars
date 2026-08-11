@@ -917,71 +917,73 @@
 
 
 
-  $("#contact-form").on("submit", function (event) {
-    event.preventDefault();
+    // Generic Contact Form Handler (handles #contact-form, .contact-form-validated, etc.)
+    $(document).on("submit", "#contact-form, .contact-form-validated", function (event) {
+        event.preventDefault();
 
-    const form = this;
-    const $form = $(form);
-    const $button = $form.find('button[type="submit"]');
-    const $response = $(".ajax-response");
+        const form = this;
+        const $form = $(form);
+        const $button = $form.find('button[type="submit"]');
+        let $response = $form.siblings(".result, .ajax-response");
 
-    $button.prop("disabled", true);
-    $response
-        .removeClass("text-danger text-success")
-        .text("Please wait...");
-
-    $.ajax({
-        url: $form.attr("action"),
-        type: "POST",
-        data: $form.serialize(),
-        dataType: "json",
-
-        success: function (response) {
-            $response
-                .removeClass("text-danger")
-                .addClass("text-success")
-                .text(response.message);
-
-            form.reset();
-
-            if (response.redirect) {
-                window.location.href = response.redirect;
-            }
-        },
-
-        error: function (xhr) {
-            let message = "Message could not be sent. Please try again.";
-
-            if (
-                xhr.responseJSON &&
-                xhr.responseJSON.message
-            ) {
-                message = xhr.responseJSON.message;
-            }
-
-            if (
-                xhr.status === 422 &&
-                xhr.responseJSON &&
-                xhr.responseJSON.errors
-            ) {
-                const errors = Object.values(
-                    xhr.responseJSON.errors
-                ).flat();
-
-                message = errors.join(" ");
-            }
-
-            $response
-                .removeClass("text-success")
-                .addClass("text-danger")
-                .text(message);
-        },
-
-        complete: function () {
-            $button.prop("disabled", false);
+        if (!$response.length) {
+            $response = $form.find(".result, .ajax-response");
         }
+
+        if (!$response.length) {
+            $response = $('<div class="result mt-3"></div>').insertAfter($form);
+        }
+
+        $button.prop("disabled", true);
+        $response
+            .removeClass("text-danger text-success")
+            .css("display", "block")
+            .text("Please wait...");
+
+        $.ajax({
+            url: $form.attr("action"),
+            type: "POST",
+            data: $form.serialize(),
+            dataType: "json",
+
+            success: function (response) {
+                $response
+                    .removeClass("text-danger")
+                    .addClass("text-success")
+                    .text(response.message || "Your enquiry has been submitted successfully.");
+
+                form.reset();
+
+                if (response.redirect) {
+                    setTimeout(function () {
+                        window.location.href = response.redirect;
+                    }, 1000);
+                }
+            },
+
+            error: function (xhr) {
+                let message = "Message could not be sent. Please try again.";
+
+                if (xhr.responseJSON && xhr.responseJSON.message) {
+                    message = xhr.responseJSON.message;
+                }
+
+                if (xhr.status === 422 && xhr.responseJSON && xhr.responseJSON.errors) {
+                    const errors = Object.values(xhr.responseJSON.errors).flat();
+                    message = errors.join(" ");
+                }
+
+                $response
+                    .removeClass("text-success")
+                    .addClass("text-danger")
+                    .text(message);
+            },
+
+            complete: function () {
+                $button.prop("disabled", false);
+            }
+        });
     });
-});
 
 
     if ($(".video-popup").length) {

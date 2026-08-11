@@ -137,8 +137,9 @@
                                 <h3 class="comment-form__title">Leave A Comment</h3>
                                 <p class="comment-form__text">By using form u agree with the message sorage, you can
                                     contact us directly now</p>
-                                <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated"
-                                    novalidate="novalidate">
+                                <form action="{{ route('contact.send') }}" class="comment-one__form contact-form-validated"
+                    method="post" novalidate="novalidate">
+                    @csrf
                                     <div class="row">
                                         <div class="col-xl-6">
                                             <div class="comment-form__input-box">

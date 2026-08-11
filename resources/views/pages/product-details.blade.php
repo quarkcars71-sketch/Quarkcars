@@ -365,8 +365,9 @@
                                                 <i class="fa fa-star"></i>
                                             </div>
                                         </div>
-                                        <form action="assets/inc/sendemail.php"
-                                            class="review-form-one__form contact-form-validated" novalidate="novalidate">
+                                        <form action="{{ route('contact.send') }}"
+                                            class="review-form-one__form contact-form-validated" method="post" novalidate="novalidate">
+                                            @csrf
                                             <div class="row">
                                                 <div class="col-xl-12">
                                                     <div class="review-form-one__input-box text-message-box">

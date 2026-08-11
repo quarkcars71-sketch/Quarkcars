@@ -166,8 +166,9 @@
                 <h3 class="section-title__title title-animation">Give Us A Message</h3>
             </div>
             <div class="team-details-contact__inner">
-                <form class="contact-form-validated team-details-contact__form" action="assets/inc/sendemail.php"
+                <form class="contact-form-validated team-details-contact__form" action="{{ route('contact.send') }}"
                     method="post" novalidate="novalidate">
+                    @csrf
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="team-details-contact__input-box">
@@ -176,12 +177,12 @@
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="team-details-contact__input-box">
-                                <input type="email" name="Email" placeholder="Email Address" required="">
+                                <input type="email" name="email" placeholder="Email Address" required="">
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">
                             <div class="team-details-contact__input-box">
-                                <input type="text" name="Phone" placeholder="Phone Number" required="">
+                                <input type="text" name="number" placeholder="Phone Number" required="">
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6">

@@ -2109,8 +2109,9 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                             <h2 class="section-title__title title-animation">We create online success Together
                                 with you.</h2>
                         </div>
-                        <form class="contact-form-validated contact-one__form" action="assets/inc/sendemail.php"
+                        <form class="contact-form-validated contact-one__form" action="{{ route('contact.send') }}"
                             method="post" novalidate="novalidate">
+                            @csrf
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-one__input-box">
@@ -2119,12 +2120,12 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-one__input-box">
-                                        <input type="email" name="Email" placeholder="Email Address" required="">
+                                        <input type="email" name="email" placeholder="Email Address" required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
                                     <div class="contact-one__input-box">
-                                        <input type="text" name="Phone" placeholder="Phone Number" required="">
+                                        <input type="text" name="number" placeholder="Phone Number" required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">

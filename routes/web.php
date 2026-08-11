@@ -173,6 +173,6 @@ Route::get('/thank-you', function () {
 })->name('thank-you');
 
 Route::fallback(function () {
-    return view('pages.404');
+    return response()->view('pages.404', [], 404);
 });
 
