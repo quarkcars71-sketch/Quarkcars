@@ -115,6 +115,7 @@
                         type="tel"
                         name="number"
                         placeholder="Mobile Number"
+                        autocomplete="tel"
                         maxlength="20"
                         required
                     >
