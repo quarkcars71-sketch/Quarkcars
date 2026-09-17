@@ -12,7 +12,7 @@
 
     <p><strong>Email:</strong> {{ $enquiry['email'] }}</p>
 
-    <p><strong>Phone:</strong> {{ $enquiry['number'] }}</p>
+    <p><strong>Phone:</strong> {{ $enquiry['number'] ?? 'Not provided' }}</p>
 
     <p>
         <strong>Company:</strong>

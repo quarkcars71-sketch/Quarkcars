@@ -3,7 +3,7 @@
 
 @section('content')
 @php
-    $whatsappNumber = '919694004477';
+    $whatsappNumber = '918769639911';
 
     $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
     $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");

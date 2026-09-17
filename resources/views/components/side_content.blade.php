@@ -23,7 +23,8 @@
 
                         <div class="form-inner">
                             <h4>Get a free quote</h4>
-                            <form action="{{ route('index') }}" method="post">
+                            <form action="{{ route('contact.send') }}" method="POST">
+                                @csrf
                                 <div class="form-group">
                                     <input type="text" name="name" placeholder="Name" required="">
                                 </div>
@@ -31,7 +32,7 @@
                                     <input type="email" name="email" placeholder="Email" required="">
                                 </div>
                                 <div class="form-group">
-                                    <textarea name="message" placeholder="Message..."></textarea>
+                                    <textarea name="message" placeholder="Message..." required=""></textarea>
                                 </div>
                                 <div class="form-group message-btn">
                                     <button type="submit" class="thm-btn form-inner__btn">Submit Now</button>

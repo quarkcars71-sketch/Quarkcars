@@ -3,7 +3,7 @@
 
 @section('content')
 @php
-    $whatsappNumber = '919694004477';
+    $whatsappNumber = '918769639911';
 
     $smartMsg = rawurlencode("Smart Pack");
     $goldMsg = rawurlencode("Gold Pack");

@@ -3,7 +3,7 @@
 
 @section('content')
 @php
-    $whatsappNumber = '919694004477';
+    $whatsappNumber = '918769639911';
 @endphp
 
 
@@ -83,7 +83,7 @@
                         </ul>
                         <div class="about-one__btn-box-and-call-box">
                             <div class="about-one__btn-box">
-                                <a href="{{ route('about') }}" class="about-one__btn thm-btn">Read More<span
+                                <a href="{{ route('rental') }}" class="about-one__btn thm-btn">View Available Cars<span
                                         class="fas fa-arrow-right"></span></a>
                             </div>
                             <div class="about-one__call-box">
@@ -324,7 +324,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Swift%20VXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Swift VXI</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Swift%20VXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Swift VXI</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -385,7 +385,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Swift%20VXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Swift%20VXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -402,7 +402,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Ertiga%20VXI%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Ertiga VXI CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Ertiga%20VXI%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Ertiga VXI CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -463,7 +463,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Ertiga%20VXI%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Ertiga%20VXI%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -480,7 +480,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Swift%20LXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Swift LXI</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Swift%20LXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Swift LXI</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -541,7 +541,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Swift%20LXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Swift%20LXI.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -558,7 +558,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Mahindra%20Scorpio%20S11.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Mahindra Scorpio S11</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Mahindra%20Scorpio%20S11.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Mahindra Scorpio S11</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -619,7 +619,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Mahindra%20Scorpio%20S11.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Mahindra%20Scorpio%20S11.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -636,7 +636,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Mahindra%20Thar%204X4.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Mahindra Thar 4X4</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Mahindra%20Thar%204X4.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Mahindra Thar 4X4</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -697,7 +697,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Mahindra%20Thar%204X4.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Mahindra%20Thar%204X4.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -714,7 +714,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Hyundai%20i20.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Hyundai i20</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Hyundai%20i20.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Hyundai i20</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -775,7 +775,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Hyundai%20i20.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Hyundai%20i20.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -792,7 +792,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Hyundai%20i10.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Hyundai i10</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Hyundai%20i10.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Hyundai i10</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -853,7 +853,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Hyundai%20i10.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Hyundai%20i10.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -878,7 +878,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Swift%20Dzire.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Swift Dzire</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Swift%20Dzire.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Swift Dzire</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -939,7 +939,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Swift%20Dzire.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Swift%20Dzire.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -956,7 +956,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Aura%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Aura CNG</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Aura%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Aura CNG</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -1017,7 +1017,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Aura%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Aura%20CNG.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1034,7 +1034,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Baleno.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Baleno</a></h3>
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Baleno.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Maruti Baleno</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
                                                     <li>
@@ -1095,7 +1095,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Maruti%20Baleno.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Maruti%20Baleno.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1112,7 +1112,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1174,7 +1174,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1191,7 +1191,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -1254,7 +1254,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1271,7 +1271,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1333,7 +1333,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1350,7 +1350,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1412,7 +1412,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1437,7 +1437,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1499,7 +1499,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1516,7 +1516,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1578,7 +1578,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1595,7 +1595,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1657,7 +1657,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1674,7 +1674,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1736,7 +1736,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1753,7 +1753,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -1816,7 +1816,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1833,7 +1833,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1895,7 +1895,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1912,7 +1912,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -1974,7 +1974,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -1999,7 +1999,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2061,7 +2061,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2078,7 +2078,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2140,7 +2140,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2157,7 +2157,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2219,7 +2219,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2236,7 +2236,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2298,7 +2298,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2315,7 +2315,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -2378,7 +2378,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2395,7 +2395,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2457,7 +2457,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2474,7 +2474,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2536,7 +2536,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2561,7 +2561,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2623,7 +2623,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2640,7 +2640,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2702,7 +2702,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2719,7 +2719,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2781,7 +2781,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2798,7 +2798,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -2860,7 +2860,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2877,7 +2877,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -2940,7 +2940,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -2957,7 +2957,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3019,7 +3019,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3036,7 +3036,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3098,7 +3098,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3123,7 +3123,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Acura
                                                     Sport Version</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3185,7 +3185,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Acura%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3202,7 +3202,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3264,7 +3264,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3281,7 +3281,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi A3
                                                     2025 New</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3343,7 +3343,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%20A3%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025%20New.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3360,7 +3360,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Ferrari
                                                     458 MM Speciale</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3422,7 +3422,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Ferrari%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20458%20MM%20Speciale.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3439,7 +3439,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Audi
                                                     Sport
                                                     Version</a></h3>
                                             <div class="listing-one__meta-box-info">
@@ -3502,7 +3502,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Audi%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Sport%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Version.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3519,7 +3519,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Toyota
                                                     Tacoma 4WD</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3581,7 +3581,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Toyota%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tacoma%204WD.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>
@@ -3598,7 +3598,7 @@
                                             </div>
                                         </div>
                                         <div class="listing-one__content">
-                                            <h3 class="listing-one__title"><a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
+                                            <h3 class="listing-one__title"><a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer">Kia Soul
                                                     2025</a></h3>
                                             <div class="listing-one__meta-box-info">
                                                 <ul class="list-unstyled listing-one__meta">
@@ -3660,7 +3660,7 @@
                                                 </p>
                                             </div>
                                             <div class="listing-one__btn-box">
-                                            <a href="https://wa.me/919694004477?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20get%20details%20for%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Details Now<span
+                                            <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%0A%0AI%20want%20to%20book%20Kia%20Soul%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%202025.%0A%0APlease%20share%20details%20and%20availability." target="_blank" rel="noopener noreferrer" class="thm-btn">Book Now<span
                                                         class="fas fa-arrow-right"></span></a>
                                             </div>
                                         </div>

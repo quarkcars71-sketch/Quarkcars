@@ -19,6 +19,9 @@ class ContactController extends Controller
             'message' => ['required', 'string', 'max:2000'],
         ]);
 
+        $validated['number'] = $validated['number'] ?? 'Not provided';
+        $validated['company'] = $validated['company'] ?? 'Not provided';
+
         try {
             $receiverEmail = config('mail.contact_receiver', 'quarkcars71@gmail.com');
 
@@ -35,11 +38,15 @@ class ContactController extends Controller
                 }
             );
 
-            return response()->json([
-                'success' => true,
-                'message' => 'Your enquiry has been submitted successfully.',
-                'redirect' => route('thank-you'),
-            ]);
+            if ($request->expectsJson() || $request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Your enquiry has been submitted successfully.',
+                    'redirect' => route('thank-you'),
+                ]);
+            }
+
+            return redirect()->route('thank-you')->with('success', 'Your enquiry has been submitted successfully.');
         } catch (Throwable $exception) {
             Log::error('Contact form email failed', [
                 'message' => $exception->getMessage(),

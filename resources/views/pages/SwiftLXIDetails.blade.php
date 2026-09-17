@@ -3,7 +3,7 @@
 
 @section('content')
 @php
-    $whatsappNumber = '919694004477';
+    $whatsappNumber = '918769639911';
 
     $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: ₹4,999/year\n\nPlease share payment details and activation process.");
     $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: ₹9,999/year\n\nPlease share payment details and activation process.");
@@ -566,7 +566,7 @@
                                 </div>
                                 <div class="listing-single__contact-btn-box">
                                     <a href="#"> <i class="icon-steering-wheel"></i>Schedule Test Drive </a>
-                                    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=919694004477');" href="https://api.whatsapp.com/send?phone=919694004477" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
+                                    <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=918769639911');" href="https://api.whatsapp.com/send?phone=918769639911" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i>Whatsapp</a>
                                     <a href="#"> <i class="far fa-envelope"></i>Email Address</a>
                                 </div>
                             </div>

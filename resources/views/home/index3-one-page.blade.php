@@ -3,7 +3,7 @@
 
 @section('content')
 @php
-    $whatsappNumber = '919694004477';
+    $whatsappNumber = '918769639911';
 
     $smartMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase SMART PACK Membership.\n\nPrice: â‚¹4,999/year\n\nPlease share payment details and activation process.");
     $goldMsg = rawurlencode("Hi QuarkCars,\n\nI want to purchase GOLD PACK Membership.\n\nPrice: â‚¹9,999/year\n\nPlease share payment details and activation process.");
@@ -23,15 +23,32 @@
         <div class="container">
             <div class="banner-one__inner">
                 <div class="banner-one__content">
-                    <p class="banner-one__sub-title">100% Trusted car rental platform in Rajasthan</p>
+                    <p class="banner-one__sub-title">100% Trusted car rental platform in Jaipur</p>
                     <h2 class="banner-one__title">Find Your Best Dream <br> <span> Car
                             for</span> <span class="typed-effect" id="type-1" data-strings="Rental, Booking"></span>
                     </h2>
                     <p class="banner-one__text">Drive your journey with Quarkcars are simple, reliable, and affordable. Choose from a<br>  wide range of well-maintained self-drive vehicles.
                     Book easily, drive freely, and enjoy a <br>  smooth rental experience.
                     Travel with comfort, flexibility, and complete control of your trip.</p>
-                    <div class="banner-one__btn-box">
-                        <a href="{{ route('about') }}" class="thm-btn">Read More<span class="fas fa-arrow-right"></span></a>
+                    <div class="banner-one__btn-box" style="display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 25px;">
+                        <!-- 1. View Available Cars -->
+                        <a href="{{ route('rental') }}" class="thm-btn" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600;">
+                            View Available Cars <span class="fas fa-arrow-right"></span>
+                        </a>
+
+                        <!-- 2. WhatsApp Now -->
+                        <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%20I%20would%20like%20more%20information%20about%20your%20car%20rental%20services." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-action" style="background-color: #25D366; color: #ffffff; border-radius: 12px; padding: 14px 22px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; font-size: 15px; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.2);">
+                            <i class="fab fa-whatsapp" style="font-size: 22px; color: #ffffff;"></i> WhatsApp Now
+                        </a>
+
+                        <!-- 3. Call Now -->
+                        <a href="tel:+918769639911" onclick="return gtag_report_conversion('tel:+91-8769639911');" class="btn-call-action" style="background-color: #ffffff; border: 2px solid #1a5196; color: #1a5196; border-radius: 12px; padding: 8px 18px; display: inline-flex; align-items: center; gap: 12px; text-decoration: none; transition: all 0.3s ease;">
+                            <i class="fas fa-phone-alt" style="font-size: 20px; color: #1a5196;"></i>
+                            <div style="text-align: left; line-height: 1.2;">
+                                <div style="font-size: 11px; font-weight: 700; color: #1a5196; text-transform: uppercase;">Call Now</div>
+                                <div style="font-size: 14px; font-weight: 800; color: #1a5196;">+91 8769639911</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="banner-one__img-one" data-aos="slide-left" data-aos-duration="2000">
@@ -374,686 +391,6 @@
         </div>
     </section>
     <!--Search Car End -->
-
-    <!-- Pricing Two Start -->
-    <section class="pricing-two">
-        <div class="container">
-            <div class="section-title text-center sec-title-animation animation-style1">
-                <div class="section-title__tagline-box justify-content-center">
-                    <div class="section-title__tagline-shape">
-                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
-                    </div>
-                    <span class="section-title__tagline">Membership Plan</span>
-                </div>
-                <h2 class="section-title__title title-animation">Time Quick and Easy to <br> Transportation</h2>
-            </div>
-            <ul class="list-unstyled pricing-two__list">
-                <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-1.jpeg') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Smart Pack</h3>
-                                <div class="pricing-two__price-grid">
-                                    <div class="pricing-two__actual-price">
-                                        <span>Actual Price</span>
-                                        <strong>12499 INR</strong>
-                                    </div>
-                                    <div class="pricing-two__discounted-price">
-                                        <span>Discounted Price</span>
-                                        <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
-                                        <p>You Save 7500 INR</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Total 5 Coupons</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1 year validity.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Fast Coupon Redeem after purchase</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Coupon value is 2500 INR/Day</p>
-                                    </div>
-                                </li>
-                                 <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1200 INR Discount per coupon</p>
-                                    </div>
-                                </li>
-                                <!-- <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1500 discount per coupon.</p>
-                                    </div>
-                                </li> -->
-                                <!-- <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support.</p>
-                                    </div>
-                                </li> -->
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $smartMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-2.jpeg') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Gold Pack</h3>
-                                <div class="pricing-two__price-grid">
-                                    <div class="pricing-two__actual-price">
-                                        <span>Actual Price</span>
-                                        <strong>17499 INR</strong>
-                                    </div>
-                                    <div class="pricing-two__discounted-price">
-                                        <span>Discounted Price</span>
-                                        <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
-                                        <p>You Save 7500 INR</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Total 5 Coupons</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1 year validity </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Fast Coupon Redeem after purchase</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Coupon Value is 3500 INR/Day</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1500 INR Discount per coupon</p>
-                                    </div>
-                                     
-                                </li>
-                                <!-- <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1500 discount per coupon.</p>
-                                    </div>
-                                     
-                                </li> -->
-                                 <!-- <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support.</p>
-                                    </div>
-                                     
-                                </li> -->
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $goldMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-3.jpeg') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Premium Pack</h3>
-                                <div class="pricing-two__price-grid">
-                                    <div class="pricing-two__actual-price">
-                                        <span>Actual Price</span>
-                                        <strong>27500 INR</strong>
-                                    </div>
-                                    <div class="pricing-two__discounted-price">
-                                        <span>Discounted Price</span>
-                                        <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
-                                        <p>You Save 12501 INR</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Total 5 Coupons</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>1 year validity</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Fast Coupon Redeem after purchase</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Coupon Value is 5500 INR/Day</p>
-                                    </div>
-                                </li>
-                                 <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>2000 INR Discount per coupon</p>
-                                    </div>
-                                </li>
-                                <!-- <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>2500 discount per coupon.</p>
-                                    </div>
-                                </li> -->
-                                <!-- <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support</p>
-                                    </div>
-                                </li> -->
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $premiumMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="pricing-two__single">
-                        <div class="pricing-two__left-content">
-                            <div class="pricing-two__img reveal">
-                                <img src="{{ asset('assets/images/resources/pricing-2-4.png') }}" alt="">
-                            </div>
-                            <div class="pricing-two__img-content">
-                                <h3 class="pricing-two__title">Vip</h3>
-                                <h2 class="pricing-two__price-box">$900 <span>/Mon</span></h2>
-                            </div>
-                        </div>
-                        <div class="pricing-two__right-content">
-                            <ul class="list-unstyled pricing-two__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Car service is essential for maintaining.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Performance and longevity of vehicle.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Per minutes stopped traffic</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>Online booking</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fas fa-check"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p>24/7 customer support</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="pricing-two__btn-box">
-                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
-                                        class="fas fa-arrow-right"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li> -->
-            </ul>
-        </div>
-    </section>
-    <!-- Pricing Two End -->
-
-    <!--About Three Start -->
-    <section class="about-three" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="about-three__left">
-                        <div class="section-title text-left sec-title-animation animation-style1">
-                            <div class="section-title__tagline-box">
-                                <div class="section-title__tagline-shape">
-                                    <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
-                                </div>
-                                <span class="section-title__tagline">About Quarkcars</span>
-                            </div>
-                            <h2 class="section-title__title title-animation">Welcome to Quarkcars
-                                car booking company</h2>
-                        </div>
-                        <p class="about-three__text-1">Quarkcars operates across multiple cities, offering reliable and accessible self-drive car rental services.
-With a strong focus on customer satisfaction and seamless booking, it ensures a convenient travel experience.</p>
-                        <div class="about-three__points-box">
-                            <ul class="list-unstyled about-three__points">
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-car-insurance"></span>
-                                    </div>
-                                    <div class="content">
-                                        <h3>Best Car Rental Services</h3>
-                                        <p>Experience reliable and affordable car rental services tailored to your travel needs.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-range"></span>
-                                    </div>
-                                    <div class="content">
-                                        <h3>Easy & Fast Booking</h3>
-                                        <p>Book your car quickly and effortlessly with our simple and user-friendly process.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="about-three__btn-box-and-call-box">
-                                <div class="about-three__btn-box">
-                                    <a href="{{ route('about') }}" class="about-three__btn thm-btn">Read More<span
-                                            class="fas fa-arrow-right"></span></a>
-                                </div>
-                                <div class="about-three__call-box">
-                                    <div class="about-three__call-box-icon">
-                                        <span class="icon-call-2"></span>
-                                    </div>
-                                    <div class="about-three__call-box-content">
-                                        <p>Call to Anytime</p>
-                                        <h4><a href="tel:918769639911" onclick="return gtag_report_conversion('tel:+91-8769639911');" href="tel:+91-8769639911"  target="_blank" >+91 8769639911</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="about-three__right wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="about-three__img-box">
-                                    <div class="about-three__img-1">
-                                        <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
-                                    </div>
-                                    <div class="about-three__img-2">
-                                        <img src="{{ asset('assets/images/resources/about-three-img-2.jpg') }}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6">
-                                <div class="about-three__satisfied-and-img">
-                                    <div class="about-three__satisfied-box">
-                                        <div class="icon">
-                                            <span class="icon-reviews"></span>
-                                        </div>
-                                        <div class="about-three__count-box">
-                                            <div class="about-three__count count-box">
-                                                <h3 class="count-text" data-stop="2500" data-speed="1500">00</h3>
-                                            </div>
-                                            <p class="about-three__count-text">Satisfied Client</p>
-                                        </div>
-                                    </div>
-                                    <div class="about-three__img-3">
-                                        <img src="{{ asset('assets/images/resources/about-three-img-3.jpg') }}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--About Three End -->
-
-    <!--Services Three Start -->
-    <section class="services-three" id="services">
-        <div class="services-three__shape-1"></div>
-        <div class="services-three__shape-2"></div>
-        <div class="container">
-            <div class="section-title text-center sec-title-animation animation-style1">
-                <div class="section-title__tagline-box justify-content-center">
-                    <div class="section-title__tagline-shape">
-                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
-                    </div>
-                    <span class="section-title__tagline">What We are Offering</span>
-                </div>
-                <h2 class="section-title__title title-animation">Services We are Providing <br> to Customers</h2>
-            </div>
-            <div class="row">
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="services-three__single">
-                        <div class="services-three__icon">
-                            <span class="icon-car"></span>
-                        </div>
-                        <div class="services-three__content">
-                            <h3 class="services-three__title"><a href="{{ route('services') }}">Self Drive Rental</a>
-                            </h3>
-                            <p class="services-three__text">Flexible and convenient self-drive car rentals for complete travel freedom.</p>
-                        </div>
-                        <div class="services-three__count"></div>
-                    </div>
-                </div>
-                <!--Services Three Single End-->
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="services-three__single">
-                        <div class="services-three__icon">
-                            <span class="icon-taxi"></span>
-                        </div>
-                        <div class="services-three__content">
-                            <h3 class="services-three__title"><a href="{{ route('services') }}">Car Sharing</a>
-                            </h3>
-                            <p class="services-three__text">Earn consistently by sharing your car through a trusted and managed platform.</p>
-                        </div>
-                        <div class="services-three__count"></div>
-                    </div>
-                </div>
-                <!--Services Three Single End-->
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="services-three__single">
-                        <div class="services-three__icon">
-                            <span class="icon-sport-car-1"></span>
-                        </div>
-                        <div class="services-three__content">
-                            <h3 class="services-three__title"><a href="{{ route('services') }}">Airport transfer</a>
-                            </h3>
-                            <p class="services-three__text">Reliable airport pickup and drop services ensuring comfortable, timely travel every time.</p>
-                        </div>
-                        <div class="services-three__count"></div>
-                    </div>
-                </div>
-                <!--Services Three Single End-->
-                <!--Services Three Single Start-->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <div class="services-three__single">
-                        <div class="services-three__icon">
-                            <span class="icon-car-insurance"></span>
-                        </div>
-                        <div class="services-three__content">
-                            <h3 class="services-three__title"><a href="{{ route('services') }}">Fleet leasing</a>
-                            </h3>
-                            <p class="services-three__text">Flexible fleet leasing solutions for businesses with reliable and cost-efficient vehicles.</p>
-                        </div>
-                        <div class="services-three__count"></div>
-                    </div>
-                </div>
-                <!--Services Three Single End-->
-            </div>
-        </div>
-    </section>
-    <!--Services Three End -->
-
-    <!-- Process One Start -->
-    <section class="process-one process-three">
-        <div class="container">
-            <div class="section-title text-center sec-title-animation animation-style2">
-                <div class="section-title__tagline-box justify-content-center">
-                    <div class="section-title__tagline-shape">
-                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
-                    </div>
-                    <span class="section-title__tagline">Steps</span>
-                </div>
-                <h2 class="section-title__title title-animation">Car Rental Process</h2>
-            </div>
-            <div class="row">
-                <!-- Process One Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="process-one__single">
-                        <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-1.jpg') }});">
-                        </div>
-                        <div class="process-one__icon-box">
-                            <div class="process-one__icon-shape"></div>
-                            <div class="process-one__icon">
-                                <span class="icon-car-wash"></span>
-                            </div>
-                            <div class="process-one__count"></div>
-                        </div>
-                        <h3 class="process-one__title">Choose A Car</h3>
-                        <p class="process-one__text">Select the perfect car from our wide range of reliable and comfortable vehicles.</p>
-                    </div>
-                </div>
-                <!-- Process One Single End -->
-                <!-- Process One Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="process-one__single">
-                        <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-2.jpg') }});">
-                        </div>
-                        <div class="process-one__icon-box">
-                            <div class="process-one__icon-shape"></div>
-                            <div class="process-one__icon">
-                                <span class="icon-in-person"></span>
-                            </div>
-                            <div class="process-one__count"></div>
-                        </div>
-                        <h3 class="process-one__title">Come In Contact</h3>
-                        <p class="process-one__text">Get in touch with our team for quick support and booking assistance. </p>
-                    </div>
-                </div>
-                <!-- Process One Single End -->
-                <!-- Process One Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
-                    <div class="process-one__single">
-                        <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-3.jpg') }});">
-                        </div>
-                        <div class="process-one__icon-box">
-                            <div class="process-one__icon-shape"></div>
-                            <div class="process-one__icon">
-                                <span class="icon-car-insurance"></span>
-                            </div>
-                            <div class="process-one__count"></div>
-                        </div>
-                        <h3 class="process-one__title">Pick-Up Locations</h3>
-                        <p class="process-one__text">Convenient pick-up points across multiple locations for easy and flexible car rentals.</p>
-                    </div>
-                </div>
-                <!-- Process One Single End -->
-                <!-- Process One Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="700ms" data-wow-duration="1500ms">
-                    <div class="process-one__single">
-                        <div class="process-one__single-bg"
-                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-4.jpg') }});">
-                          
-                            
-                        </div>
-                        <div class="process-one__icon-box">
-                            <div class="process-one__icon-shape"></div>
-                            <div class="process-one__icon">
-                                <span class="icon-steering-wheel"></span>
-                            </div>
-                            <div class="process-one__count"></div>
-                        </div>
-                        <h3 class="process-one__title">Enjoy Driving</h3>
-                        <p class="process-one__text">Experience smooth, comfortable driving with our well-maintained rental cars.</p>
-                    </div>
-                </div>
-                <!-- Process One Single End -->
-            </div>
-        </div>
-    </section>
-    <!-- Process One End -->
-
-    <!--Counter Three Start-->
-    <section class="counter-three">
-        <div class="counter-three__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
-            style="background-image: url({{ asset('assets/images/backgrounds/counter-three-bg.jpg') }});">
-        </div>
-        <div class="container">
-            <ul class="row list-unstyled">
-                <!--Counter Three Single Start-->
-                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="counter-three__single">
-                        <div class="counter-three__icon">
-                            <span class="icon-car"></span>
-                        </div>
-                        <div class="counter-three__count-box">
-                            <h3 class="odometer" data-count="1050">00</h3>
-                            <span>K</span>
-                        </div>
-                        <p class="counter-three__count-text">Vehicle fleet</p>
-                    </div>
-                </li>
-                <!--Counter Three Single End-->
-                <!--Counter Three Single Start-->
-                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="counter-three__single">
-                        <div class="counter-three__icon">
-                            <span class="icon-mileage"></span>
-                        </div>
-                        <div class="counter-three__count-box">
-                            <h3 class="odometer" data-count="5000">00</h3>
-                            <span> </span>
-                        </div>
-                        <p class="counter-three__count-text">Miles of drive
-                        </p>
-                    </div>
-                </li>
-                <!--Counter Three Single End-->
-                <!--Counter Three Single Start-->
-                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="counter-three__single">
-                        <div class="counter-three__icon">
-                            <span class="icon-reviews"></span>
-                        </div>
-                        <div class="counter-three__count-box">
-                            <h3 class="odometer" data-count="140">00</h3>
-                            <span>K</span>
-                        </div>
-                        <p class="counter-three__count-text">Happy customer</p>
-                    </div>
-                </li>
-                <!--Counter Three Single End-->
-                <!--Counter Three Single Start-->
-                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="counter-three__single">
-                        <div class="counter-three__icon">
-                            <span class="icon-pin-2"></span>
-                        </div>
-                        <div class="counter-three__count-box">
-                            <h3 class="odometer" data-count="1000">00</h3>
-                            <span> </span>
-                        </div>
-                        <p class="counter-three__count-text">Pickup & drop</p>
-                    </div>
-                </li>
-                <!--Counter Three Single End-->
-            </ul>
-        </div>
-    </section>
-    <!--Counter Three End -->
 
     <!-- Listing Three Start -->
     <section class="listing-three" id="cars">
@@ -1828,6 +1165,688 @@ With a strong focus on customer satisfaction and seamless booking, it ensures a 
         </div>
     </section>
     <!-- Listing Three End -->
+
+    <!-- Pricing Two Start -->
+    <section class="pricing-two">
+        <div class="container">
+            <div class="section-title text-center sec-title-animation animation-style1">
+                <div class="section-title__tagline-box justify-content-center">
+                    <div class="section-title__tagline-shape">
+                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
+                    </div>
+                    <span class="section-title__tagline">Membership Plan</span>
+                </div>
+                <h2 class="section-title__title title-animation">Time Quick and Easy to <br> Transportation</h2>
+            </div>
+            <ul class="list-unstyled pricing-two__list">
+                <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-1.jpeg') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Smart Pack</h3>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>12499 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">4999 INR <span>/year</span></h2>
+                                        <p>You Save 7500 INR</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Total 5 Coupons</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1 year validity.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Fast Coupon Redeem after purchase</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Coupon value is 2500 INR/Day</p>
+                                    </div>
+                                </li>
+                                 <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1200 INR Discount per coupon</p>
+                                    </div>
+                                </li>
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1500 discount per coupon.</p>
+                                    </div>
+                                </li> -->
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support.</p>
+                                    </div>
+                                </li> -->
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $smartMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-2.jpeg') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Gold Pack</h3>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>17499 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">9999 INR <span>/year</span></h2>
+                                        <p>You Save 7500 INR</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Total 5 Coupons</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1 year validity </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Fast Coupon Redeem after purchase</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Coupon Value is 3500 INR/Day</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1500 INR Discount per coupon</p>
+                                    </div>
+                                     
+                                </li>
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1500 discount per coupon.</p>
+                                    </div>
+                                     
+                                </li> -->
+                                 <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support.</p>
+                                    </div>
+                                     
+                                </li> -->
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $goldMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-3.jpeg') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Premium Pack</h3>
+                                <div class="pricing-two__price-grid">
+                                    <div class="pricing-two__actual-price">
+                                        <span>Actual Price</span>
+                                        <strong>27500 INR</strong>
+                                    </div>
+                                    <div class="pricing-two__discounted-price">
+                                        <span>Discounted Price</span>
+                                        <h2 class="pricing-two__price-box">14999 INR <span>/year</span></h2>
+                                        <p>You Save 12501 INR</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Total 5 Coupons</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>1 year validity</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Fast Coupon Redeem after purchase</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Coupon Value is 5500 INR/Day</p>
+                                    </div>
+                                </li>
+                                 <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>2000 INR Discount per coupon</p>
+                                    </div>
+                                </li>
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>2500 discount per coupon.</p>
+                                    </div>
+                                </li> -->
+                                <!-- <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support</p>
+                                    </div>
+                                </li> -->
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $premiumMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Buy Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- <li class="wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="pricing-two__single">
+                        <div class="pricing-two__left-content">
+                            <div class="pricing-two__img reveal">
+                                <img src="{{ asset('assets/images/resources/pricing-2-4.png') }}" alt="">
+                            </div>
+                            <div class="pricing-two__img-content">
+                                <h3 class="pricing-two__title">Vip</h3>
+                                <h2 class="pricing-two__price-box">$900 <span>/Mon</span></h2>
+                            </div>
+                        </div>
+                        <div class="pricing-two__right-content">
+                            <ul class="list-unstyled pricing-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Car service is essential for maintaining.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Performance and longevity of vehicle.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Per minutes stopped traffic</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Online booking</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="fas fa-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>24/7 customer support</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="pricing-two__btn-box">
+                                <a href="https://wa.me/{{ $whatsappNumber }}?text={{ $generalMsg }}" target="_blank" rel="noopener noreferrer" class="thm-btn">Rent Now<span
+                                        class="fas fa-arrow-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+    </section>
+    <!-- Pricing Two End -->
+
+    <!--About Three Start -->
+    <section class="about-three" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="about-three__left">
+                        <div class="section-title text-left sec-title-animation animation-style1">
+                            <div class="section-title__tagline-box">
+                                <div class="section-title__tagline-shape">
+                                    <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
+                                </div>
+                                <span class="section-title__tagline">About Quarkcars</span>
+                            </div>
+                            <h2 class="section-title__title title-animation">Welcome to Quarkcars
+                                car booking company</h2>
+                        </div>
+                        <p class="about-three__text-1">Quarkcars operates across multiple cities, offering reliable and accessible self-drive car rental services.
+With a strong focus on customer satisfaction and seamless booking, it ensures a convenient travel experience.</p>
+                        <div class="about-three__points-box">
+                            <ul class="list-unstyled about-three__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-car-insurance"></span>
+                                    </div>
+                                    <div class="content">
+                                        <h3>Best Car Rental Services</h3>
+                                        <p>Experience reliable and affordable car rental services tailored to your travel needs.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-range"></span>
+                                    </div>
+                                    <div class="content">
+                                        <h3>Easy & Fast Booking</h3>
+                                        <p>Book your car quickly and effortlessly with our simple and user-friendly process.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="about-three__btn-box-and-call-box">
+                                <div class="about-three__btn-box">
+                                    <a href="{{ route('about') }}" class="about-three__btn thm-btn">Read More<span
+                                            class="fas fa-arrow-right"></span></a>
+                                </div>
+                                <div class="about-three__call-box">
+                                    <div class="about-three__call-box-icon">
+                                        <span class="icon-call-2"></span>
+                                    </div>
+                                    <div class="about-three__call-box-content">
+                                        <p>Call to Anytime</p>
+                                        <h4><a href="tel:918769639911" onclick="return gtag_report_conversion('tel:+91-8769639911');" href="tel:+91-8769639911"  target="_blank" >+91 8769639911</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="about-three__right wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="about-three__img-box">
+                                    <div class="about-three__img-1">
+                                        <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
+                                    </div>
+                                    <div class="about-three__img-2">
+                                        <img src="{{ asset('assets/images/resources/about-three-img-2.jpg') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="about-three__satisfied-and-img">
+                                    <div class="about-three__satisfied-box">
+                                        <div class="icon">
+                                            <span class="icon-reviews"></span>
+                                        </div>
+                                        <div class="about-three__count-box">
+                                            <div class="about-three__count count-box">
+                                                <h3 class="count-text" data-stop="2500" data-speed="1500">00</h3>
+                                            </div>
+                                            <p class="about-three__count-text">Satisfied Client</p>
+                                        </div>
+                                    </div>
+                                    <div class="about-three__img-3">
+                                        <img src="{{ asset('assets/images/resources/about-three-img-3.jpg') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Three End -->
+
+    <!--Services Three Start -->
+    <section class="services-three" id="services">
+        <div class="services-three__shape-1"></div>
+        <div class="services-three__shape-2"></div>
+        <div class="container">
+            <div class="section-title text-center sec-title-animation animation-style1">
+                <div class="section-title__tagline-box justify-content-center">
+                    <div class="section-title__tagline-shape">
+                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
+                    </div>
+                    <span class="section-title__tagline">What We are Offering</span>
+                </div>
+                <h2 class="section-title__title title-animation">Services We are Providing <br> to Customers</h2>
+            </div>
+            <div class="row">
+                <!--Services Three Single Start-->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="services-three__single">
+                        <div class="services-three__icon">
+                            <span class="icon-car"></span>
+                        </div>
+                        <div class="services-three__content">
+                            <h3 class="services-three__title"><a href="{{ route('services') }}">Self Drive Rental</a>
+                            </h3>
+                            <p class="services-three__text">Flexible and convenient self-drive car rentals for complete travel freedom.</p>
+                        </div>
+                        <div class="services-three__count"></div>
+                    </div>
+                </div>
+                <!--Services Three Single End-->
+                <!--Services Three Single Start-->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="services-three__single">
+                        <div class="services-three__icon">
+                            <span class="icon-taxi"></span>
+                        </div>
+                        <div class="services-three__content">
+                            <h3 class="services-three__title"><a href="{{ route('services') }}">Car Sharing</a>
+                            </h3>
+                            <p class="services-three__text">Earn consistently by sharing your car through a trusted and managed platform.</p>
+                        </div>
+                        <div class="services-three__count"></div>
+                    </div>
+                </div>
+                <!--Services Three Single End-->
+                <!--Services Three Single Start-->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="services-three__single">
+                        <div class="services-three__icon">
+                            <span class="icon-sport-car-1"></span>
+                        </div>
+                        <div class="services-three__content">
+                            <h3 class="services-three__title"><a href="{{ route('services') }}">Airport transfer</a>
+                            </h3>
+                            <p class="services-three__text">Reliable airport pickup and drop services ensuring comfortable, timely travel every time.</p>
+                        </div>
+                        <div class="services-three__count"></div>
+                    </div>
+                </div>
+                <!--Services Three Single End-->
+                <!--Services Three Single Start-->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="services-three__single">
+                        <div class="services-three__icon">
+                            <span class="icon-car-insurance"></span>
+                        </div>
+                        <div class="services-three__content">
+                            <h3 class="services-three__title"><a href="{{ route('services') }}">Fleet leasing</a>
+                            </h3>
+                            <p class="services-three__text">Flexible fleet leasing solutions for businesses with reliable and cost-efficient vehicles.</p>
+                        </div>
+                        <div class="services-three__count"></div>
+                    </div>
+                </div>
+                <!--Services Three Single End-->
+            </div>
+        </div>
+    </section>
+    <!--Services Three End -->
+
+    <!-- Process One Start -->
+    <section class="process-one process-three">
+        <div class="container">
+            <div class="section-title text-center sec-title-animation animation-style2">
+                <div class="section-title__tagline-box justify-content-center">
+                    <div class="section-title__tagline-shape">
+                        <img src="{{ asset('assets/images/shapes/section-title-tagline-shape-1.png') }}" alt="">
+                    </div>
+                    <span class="section-title__tagline">Steps</span>
+                </div>
+                <h2 class="section-title__title title-animation">Car Rental Process</h2>
+            </div>
+            <div class="row">
+                <!-- Process One Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="process-one__single">
+                        <div class="process-one__single-bg"
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-1.jpg') }});">
+                        </div>
+                        <div class="process-one__icon-box">
+                            <div class="process-one__icon-shape"></div>
+                            <div class="process-one__icon">
+                                <span class="icon-car-wash"></span>
+                            </div>
+                            <div class="process-one__count"></div>
+                        </div>
+                        <h3 class="process-one__title">Choose A Car</h3>
+                        <p class="process-one__text">Select the perfect car from our wide range of reliable and comfortable vehicles.</p>
+                    </div>
+                </div>
+                <!-- Process One Single End -->
+                <!-- Process One Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="process-one__single">
+                        <div class="process-one__single-bg"
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-2.jpg') }});">
+                        </div>
+                        <div class="process-one__icon-box">
+                            <div class="process-one__icon-shape"></div>
+                            <div class="process-one__icon">
+                                <span class="icon-in-person"></span>
+                            </div>
+                            <div class="process-one__count"></div>
+                        </div>
+                        <h3 class="process-one__title">Come In Contact</h3>
+                        <p class="process-one__text">Get in touch with our team for quick support and booking assistance. </p>
+                    </div>
+                </div>
+                <!-- Process One Single End -->
+                <!-- Process One Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+                    <div class="process-one__single">
+                        <div class="process-one__single-bg"
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-3.jpg') }});">
+                        </div>
+                        <div class="process-one__icon-box">
+                            <div class="process-one__icon-shape"></div>
+                            <div class="process-one__icon">
+                                <span class="icon-car-insurance"></span>
+                            </div>
+                            <div class="process-one__count"></div>
+                        </div>
+                        <h3 class="process-one__title">Pick-Up Locations</h3>
+                        <p class="process-one__text">Convenient pick-up points across multiple locations for easy and flexible car rentals.</p>
+                    </div>
+                </div>
+                <!-- Process One Single End -->
+                <!-- Process One Single Start -->
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="700ms" data-wow-duration="1500ms">
+                    <div class="process-one__single">
+                        <div class="process-one__single-bg"
+                            style="background-image: url({{ asset('assets/images/backgrounds/process-one-single-bg-4.jpg') }});">
+                          
+                            
+                        </div>
+                        <div class="process-one__icon-box">
+                            <div class="process-one__icon-shape"></div>
+                            <div class="process-one__icon">
+                                <span class="icon-steering-wheel"></span>
+                            </div>
+                            <div class="process-one__count"></div>
+                        </div>
+                        <h3 class="process-one__title">Enjoy Driving</h3>
+                        <p class="process-one__text">Experience smooth, comfortable driving with our well-maintained rental cars.</p>
+                    </div>
+                </div>
+                <!-- Process One Single End -->
+            </div>
+        </div>
+    </section>
+    <!-- Process One End -->
+
+    <!--Counter Three Start-->
+    <section class="counter-three">
+        <div class="counter-three__bg jarallax" data-jarallax data-speed="0.2" data-imgposition="50% 0%"
+            style="background-image: url({{ asset('assets/images/backgrounds/counter-three-bg.jpg') }});">
+        </div>
+        <div class="container">
+            <ul class="row list-unstyled">
+                <!--Counter Three Single Start-->
+                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="counter-three__single">
+                        <div class="counter-three__icon">
+                            <span class="icon-car"></span>
+                        </div>
+                        <div class="counter-three__count-box">
+                            <h3 class="odometer" data-count="50">50</h3>
+                            <span>+</span>
+                        </div>
+                        <p class="counter-three__count-text">Vehicle fleet</p>
+                    </div>
+                </li>
+                <!--Counter Three Single End-->
+                <!--Counter Three Single Start-->
+                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <div class="counter-three__single">
+                        <div class="counter-three__icon">
+                            <span class="icon-mileage"></span>
+                        </div>
+                        <div class="counter-three__count-box">
+                            <h3 class="odometer" data-count="50000">50000</h3>
+                            <span>+</span>
+                        </div>
+                        <p class="counter-three__count-text">KM of drive
+                        </p>
+                    </div>
+                </li>
+                <!--Counter Three Single End-->
+                <!--Counter Three Single Start-->
+                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="counter-three__single">
+                        <div class="counter-three__icon">
+                            <span class="icon-reviews"></span>
+                        </div>
+                        <div class="counter-three__count-box">
+                            <h3 class="odometer" data-count="25000">25000</h3>
+                            <span>+</span>
+                        </div>
+                        <p class="counter-three__count-text">Happy customer</p>
+                    </div>
+                </li>
+                <!--Counter Three Single End-->
+                <!--Counter Three Single Start-->
+                <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="counter-three__single">
+                        <div class="counter-three__icon">
+                            <span class="icon-pin-2"></span>
+                        </div>
+                        <div class="counter-three__count-box">
+                            <h3 class="odometer" data-count="50">50</h3>
+                            <span>+</span>
+                        </div>
+                        <p class="counter-three__count-text">Pickup & drop</p>
+                    </div>
+                </li>
+                <!--Counter Three Single End-->
+            </ul>
+        </div>
+    </section>
+    <!--Counter Three End -->
+
+    
 
     <!-- Video One Start -->
     <section class="video-one">
