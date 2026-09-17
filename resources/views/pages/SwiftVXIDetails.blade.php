@@ -903,7 +903,7 @@
                                                 <i class="far fa-envelope"></i>
                                             </div>
                                             <div class="text">
-                                                <p><a href="mailto:support@quarkcars.com">support@quarkcars.com</a>
+                                                <p><a href="mailto:info@quarkcars.com">info@quarkcars.com</a>
                                                 </p>
                                             </div>
                                         </li>

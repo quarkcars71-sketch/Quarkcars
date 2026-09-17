@@ -16,8 +16,8 @@
                             <span class="icon-call"></span>
                         </div>
                         <p>Contact Us</p>
-                        <h3><a href="tel:919694004477"> +91 9694004477</a></h3>
-                       <!-- <h3><a href="tel:918769639911"> +91 8769639911</a></h3> -->
+                        <!-- <h3><a href="tel:919694004477"> +91 9694004477</a></h3> -->
+                       <h3><a href="tel:918769639911"> +91 8769639911</a></h3>
                         <br>
                         <br>
                         <br>
@@ -34,7 +34,7 @@
                         </div>
                         <p>Mail Us</p>
                         <h3><a href="mailto:info@quarkcars.com">info@quarkcars.com</a></h3>
-                      <h3><a href="mailto:support@quarkcars.com">support@quarkcars.com</a></h3>
+                      <!-- <h3><a href="mailto:support@quarkcars.com">support@quarkcars.com</a></h3> -->
                         <br>
                         <br>
                         <br>
