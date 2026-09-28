@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+@if(session('ec_email') || session('ec_phone'))
+<script>
+window.dataLayer = window.dataLayer || [];
+
+window.dataLayer.push({
+    event: 'quarkcars_lead',
+    ec_email: @json(session('ec_email')),
+    ec_phone: @json(session('ec_phone'))
+});
+</script>
+@endif
     
 <!-- Google Tag Manager -->
 <script>

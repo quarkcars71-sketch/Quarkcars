@@ -38,6 +38,9 @@ class ContactController extends Controller
                 }
             );
 
+            $request->session()->flash('ec_email', $validated['email']);
+$request->session()->flash('ec_phone', $validated['number'] ?? '');
+
             if ($request->expectsJson() || $request->ajax() || $request->wantsJson()) {
                 return response()->json([
                     'success' => true,
