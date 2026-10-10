@@ -3147,9 +3147,8 @@ xs sidebar
 .banner-one {
   position: relative;
   display: block;
-  overflow: hidden;
+  overflow: visible;
   background-color: rgba(var(--gorent-extra-rgb), .30);
-  clip-path: polygon(50% 0%, 100% 0, 100% 81%, 81% 94%, 16% 94%, 0 100%, 0 0);
   padding: 146px 0 177px;
   z-index: 1;
 }
@@ -12805,6 +12804,7 @@ Error Page
   opacity: 0.4;
   filter: blur(120px);
   z-index: -1;
+  pointer-events: none !important;
 }
 
 .search-car__shape-2 {
@@ -12818,6 +12818,7 @@ Error Page
   opacity: 0.4;
   filter: blur(120px);
   z-index: -1;
+  pointer-events: none !important;
 }
 
 .search-car__inner {
@@ -19510,6 +19511,233 @@ Product Description
 
 
 
+
+/*--------------------------------------------------------------
+# Banner Hero CTA Buttons & Fix Clickability
+--------------------------------------------------------------*/
+[class*="__shape"],
+[class*="__shape"] *,
+.search-car__shape-1,
+.search-car__shape-2,
+.banner-one__shape-bg,
+.banner-one__shape-1,
+.banner-one__shape-1-bg,
+.banner-one__shape-2,
+.banner-one__img-one,
+.banner-one__img-one * {
+    pointer-events: none !important;
+}
+
+.banner-one {
+    position: relative !important;
+    z-index: 5 !important;
+}
+
+.banner-one__inner,
+.banner-one__content {
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+.banner-hero-cta,
+.banner-one__btn-box {
+    position: relative !important;
+    z-index: 20 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 14px !important;
+    margin-top: 25px !important;
+}
+
+.btn-hero-cars {
+    position: relative !important;
+    z-index: 25 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    background-color: var(--gorent-base, #efa716) !important;
+    color: var(--gorent-black, #1a2238) !important;
+    border-radius: 12px !important;
+    padding: 0 24px !important;
+    height: 52px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 14px rgba(239, 167, 22, 0.3) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    border: none !important;
+}
+.btn-hero-cars:hover {
+    background-color: #d89309 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(239, 167, 22, 0.4) !important;
+}
+
+.btn-whatsapp-action {
+    position: relative !important;
+    z-index: 25 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    background-color: #25D366 !important;
+    color: #ffffff !important;
+    border-radius: 12px !important;
+    padding: 0 22px !important;
+    height: 52px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.25) !important;
+    border: none !important;
+}
+.btn-whatsapp-action:hover {
+    background-color: #20bd5a !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35) !important;
+    color: #ffffff !important;
+}
+
+.btn-call-action {
+    position: relative !important;
+    z-index: 25 !important;
+    pointer-events: auto !important;
+    cursor: pointer !important;
+    background: #ffffff !important;
+    border: 2px solid #1a5196 !important;
+    color: #1a5196 !important;
+    border-radius: 12px !important;
+    padding: 0 20px !important;
+    height: 52px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 15px rgba(26, 81, 150, 0.12) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+.btn-call-action:hover {
+    background: #1a5196 !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(26, 81, 150, 0.28) !important;
+}
+.btn-call-action * {
+    pointer-events: none;
+}
+.btn-call-action .call-icon-box {
+    width: 34px !important;
+    height: 34px !important;
+    background: #eef4fc !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    transition: all 0.3s ease !important;
+}
+.btn-call-action:hover .call-icon-box {
+    background: rgba(255, 255, 255, 0.22) !important;
+}
+.btn-call-action .call-icon-box svg,
+.btn-call-action .call-icon-box i {
+    color: #1a5196 !important;
+    fill: #1a5196 !important;
+    transition: all 0.3s ease !important;
+}
+.btn-call-action:hover .call-icon-box svg,
+.btn-call-action:hover .call-icon-box i {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
+.btn-call-action .call-sub-label {
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    color: #6b7c96 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    display: block !important;
+    line-height: 1 !important;
+    margin-bottom: 2px !important;
+    transition: color 0.3s ease !important;
+}
+.btn-call-action:hover .call-sub-label {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+.btn-call-action .call-phone-num {
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    color: #1a5196 !important;
+    letter-spacing: 0.3px !important;
+    display: block !important;
+    line-height: 1.1 !important;
+    transition: color 0.3s ease !important;
+}
+.btn-call-action:hover .call-phone-num {
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .banner-one {
+        clip-path: none !important;
+        -webkit-clip-path: none !important;
+        padding-bottom: 90px !important;
+        overflow: visible !important;
+    }
+    .banner-one__inner,
+    .banner-one__content {
+        overflow: visible !important;
+        position: relative !important;
+        z-index: 100 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-one {
+        clip-path: none !important;
+        -webkit-clip-path: none !important;
+        padding-bottom: 90px !important;
+        overflow: visible !important;
+    }
+    .banner-hero-cta {
+        position: relative !important;
+        z-index: 999 !important;
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        gap: 14px !important;
+        margin-top: 20px !important;
+    }
+    .btn-hero-cars,
+    .btn-whatsapp-action,
+    .btn-call-action {
+        position: relative !important;
+        z-index: 1000 !important;
+        width: 100% !important;
+        min-height: 52px !important;
+        height: 52px !important;
+        margin-bottom: 12px !important;
+        justify-content: center !important;
+        text-align: center !important;
+        box-sizing: border-box !important;
+        border-radius: 12px !important;
+        pointer-events: auto !important;
+        cursor: pointer !important;
+        touch-action: manipulation !important;
+    }
+    .btn-call-action:last-child {
+        margin-bottom: 0 !important;
+    }
+}
 
 /*--------------------------------------------------------------
 # End

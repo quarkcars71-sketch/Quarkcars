@@ -12,17 +12,17 @@
 @endphp
 
     <!-- Banner One Start -->
-    <section class="banner-one" id="home">
+    <section class="banner-one" id="home" style="overflow: visible !important; clip-path: none !important; -webkit-clip-path: none !important;">
         <div class="banner-one__shape-bg"
-            style="background-image: url({{ asset('assets/images/shapes/banner-one-shape-bg.png') }});"></div>
-        <div class="banner-one__shape-1">
+            style="background-image: url({{ asset('assets/images/shapes/banner-one-shape-bg.png') }}); pointer-events: none !important;"></div>
+        <div class="banner-one__shape-1" style="pointer-events: none !important;">
             <div class="banner-one__shape-1-bg"
-                style="background-image: url({{ asset('assets/images/backgrounds/banner-one-shape-1-bg.jpg') }});"></div>
+                style="background-image: url({{ asset('assets/images/backgrounds/banner-one-shape-1-bg.jpg') }}); pointer-events: none !important;"></div>
         </div>
-        <div class="banner-one__shape-2"></div>
+        <div class="banner-one__shape-2" style="pointer-events: none !important;"></div>
         <div class="container">
-            <div class="banner-one__inner">
-                <div class="banner-one__content">
+            <div class="banner-one__inner" style="position: relative; z-index: 100; overflow: visible;">
+                <div class="banner-one__content" style="position: relative; z-index: 101; overflow: visible;">
                     <p class="banner-one__sub-title">100% Trusted car rental platform in Jaipur</p>
                     <h2 class="banner-one__title">Find Your Best Dream <br> <span> Car
                             for</span> <span class="typed-effect" id="type-1" data-strings="Rental, Booking"></span>
@@ -30,29 +30,263 @@
                     <p class="banner-one__text">Drive your journey with Quarkcars are simple, reliable, and affordable. Choose from a<br>  wide range of well-maintained self-drive vehicles.
                     Book easily, drive freely, and enjoy a <br>  smooth rental experience.
                     Travel with comfort, flexibility, and complete control of your trip.</p>
-                    <div class="banner-one__btn-box" style="display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 25px;">
+<style>
+    .banner-one {
+        clip-path: none !important;
+        -webkit-clip-path: none !important;
+        overflow: visible !important;
+    }
+    .banner-one__shape-bg,
+    .banner-one__shape-1,
+    .banner-one__shape-1-bg,
+    .banner-one__shape-2,
+    .banner-one__img-one,
+    .banner-one__img-one * {
+        pointer-events: none !important;
+    }
+    .btn-hero-cars *,
+    .btn-whatsapp-action *,
+    .btn-call-action * {
+        pointer-events: none !important;
+    }
+
+    .banner-one__inner,
+    .banner-one__content {
+        position: relative !important;
+        z-index: 10 !important;
+    }
+
+    .banner-hero-cta {
+        position: relative !important;
+        z-index: 20 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        gap: 14px !important;
+        margin-top: 25px !important;
+    }
+    
+    /* 1. View Available Cars */
+    .btn-hero-cars {
+        position: relative !important;
+        z-index: 25 !important;
+        pointer-events: auto !important;
+        cursor: pointer !important;
+        background-color: var(--gorent-base, #efa716) !important;
+        color: var(--gorent-black, #1a2238) !important;
+        border-radius: 12px !important;
+        padding: 0 24px !important;
+        height: 52px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        font-weight: 700 !important;
+        font-size: 15px !important;
+        text-decoration: none !important;
+        box-shadow: 0 4px 14px rgba(239, 167, 22, 0.3) !important;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        border: none !important;
+    }
+    .btn-hero-cars:hover {
+        background-color: #d89309 !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(239, 167, 22, 0.4) !important;
+    }
+
+    /* 2. WhatsApp Button */
+    .btn-whatsapp-action {
+        position: relative !important;
+        z-index: 25 !important;
+        pointer-events: auto !important;
+        cursor: pointer !important;
+        background-color: #25D366 !important;
+        color: #ffffff !important;
+        border-radius: 12px !important;
+        padding: 0 22px !important;
+        height: 52px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        font-weight: 700 !important;
+        text-decoration: none !important;
+        font-size: 15px !important;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        box-shadow: 0 4px 14px rgba(37, 211, 102, 0.25) !important;
+        border: none !important;
+    }
+    .btn-whatsapp-action:hover {
+        background-color: #20bd5a !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35) !important;
+        color: #ffffff !important;
+    }
+
+    /* 3. Call Now Button */
+    .btn-call-action {
+        position: relative !important;
+        z-index: 25 !important;
+        pointer-events: auto !important;
+        cursor: pointer !important;
+        background: #ffffff !important;
+        border: 2px solid #1a5196 !important;
+        color: #1a5196 !important;
+        border-radius: 12px !important;
+        padding: 0 20px !important;
+        height: 52px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 12px !important;
+        text-decoration: none !important;
+        box-shadow: 0 4px 15px rgba(26, 81, 150, 0.12) !important;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    .btn-call-action:hover {
+        background: #1a5196 !important;
+        color: #ffffff !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(26, 81, 150, 0.28) !important;
+    }
+    .btn-call-action * {
+        pointer-events: none;
+    }
+    .btn-call-action .call-icon-box {
+        width: 34px !important;
+        height: 34px !important;
+        background: #eef4fc !important;
+        border-radius: 50% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
+        transition: all 0.3s ease !important;
+    }
+    .btn-call-action:hover .call-icon-box {
+        background: rgba(255, 255, 255, 0.22) !important;
+    }
+    .btn-call-action .call-icon-box svg,
+    .btn-call-action .call-icon-box i {
+        color: #1a5196 !important;
+        fill: #1a5196 !important;
+        transition: all 0.3s ease !important;
+    }
+    .btn-call-action:hover .call-icon-box svg,
+    .btn-call-action:hover .call-icon-box i {
+        color: #ffffff !important;
+        fill: #ffffff !important;
+    }
+    .btn-call-action .call-sub-label {
+        font-size: 10px !important;
+        font-weight: 700 !important;
+        color: #6b7c96 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 0.5px !important;
+        display: block !important;
+        line-height: 1 !important;
+        margin-bottom: 2px !important;
+        transition: color 0.3s ease !important;
+    }
+    .btn-call-action:hover .call-sub-label {
+        color: rgba(255, 255, 255, 0.85) !important;
+    }
+    .btn-call-action .call-phone-num {
+        font-size: 14px !important;
+        font-weight: 800 !important;
+        color: #1a5196 !important;
+        letter-spacing: 0.3px !important;
+        display: block !important;
+        line-height: 1.1 !important;
+        transition: color 0.3s ease !important;
+    }
+    .btn-call-action:hover .call-phone-num {
+        color: #ffffff !important;
+    }
+
+    /* Mobile Responsive Layout */
+    @media only screen and (max-width: 991px) {
+        .banner-one {
+            clip-path: none !important;
+            -webkit-clip-path: none !important;
+            padding-bottom: 90px !important;
+            overflow: visible !important;
+        }
+        .banner-one__inner,
+        .banner-one__content {
+            overflow: visible !important;
+            position: relative !important;
+            z-index: 100 !important;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .banner-one {
+            clip-path: none !important;
+            -webkit-clip-path: none !important;
+            padding-bottom: 90px !important;
+            overflow: visible !important;
+        }
+        .banner-hero-cta {
+            position: relative !important;
+            z-index: 999 !important;
+            display: flex !important;
+            flex-direction: column !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            gap: 14px !important;
+            margin-top: 20px !important;
+        }
+        .btn-hero-cars,
+        .btn-whatsapp-action,
+        .btn-call-action {
+            position: relative !important;
+            z-index: 1000 !important;
+            width: 100% !important;
+            min-height: 52px !important;
+            height: 52px !important;
+            margin-bottom: 12px !important;
+            justify-content: center !important;
+            text-align: center !important;
+            box-sizing: border-box !important;
+            border-radius: 12px !important;
+            pointer-events: auto !important;
+            cursor: pointer !important;
+            touch-action: manipulation !important;
+        }
+        .btn-call-action:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+</style>
+
+                    <div class="banner-one__btn-box banner-hero-cta">
                         <!-- 1. View Available Cars -->
-                        <a href="{{ route('rental') }}" class="thm-btn" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600;">
-                            View Available Cars <span class="fas fa-arrow-right"></span>
+                        <a href="{{ route('rental') }}" class="btn-hero-cars">
+                            <span>View Available Cars</span> <span class="fas fa-arrow-right"></span>
                         </a>
 
                         <!-- 2. WhatsApp Now -->
-                        <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%20I%20would%20like%20more%20information%20about%20your%20car%20rental%20services." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-action" style="background-color: #25D366; color: #ffffff; border-radius: 12px; padding: 14px 22px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; font-size: 15px; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.2);">
+                        <a href="https://wa.me/918769639911?text=Hi%20QuarkCars%2C%20I%20would%20like%20more%20information%20about%20your%20car%20rental%20services." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-action">
                             <i class="fab fa-whatsapp" style="font-size: 22px; color: #ffffff;"></i> WhatsApp Now
                         </a>
 
                         <!-- 3. Call Now -->
-                        <a href="tel:+918769639911" onclick="return gtag_report_conversion('tel:+91-8769639911');" class="btn-call-action" style="background-color: #ffffff; border: 2px solid #1a5196; color: #1a5196; border-radius: 12px; padding: 8px 18px; display: inline-flex; align-items: center; gap: 12px; text-decoration: none; transition: all 0.3s ease;">
-                            <i class="fas fa-phone-alt" style="font-size: 20px; color: #1a5196;"></i>
-                            <div style="text-align: left; line-height: 1.2;">
-                                <div style="font-size: 11px; font-weight: 700; color: #1a5196; text-transform: uppercase;">Call Now</div>
-                                <div style="font-size: 14px; font-weight: 800; color: #1a5196;">+91 8769639911</div>
+                        <a href="tel:+918769639911" onclick="return gtag_report_conversion('tel:+91-8769639911');" class="btn-call-action">
+                            <div class="call-icon-box">
+                                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1v3.5a1 1 0 01-1 1C10.61 22 2 13.39 2 2.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/>
+                                </svg>
+                            </div>
+                            <div style="text-align: left;">
+                                <span class="call-sub-label">Call Now</span>
+                                <span class="call-phone-num">+91 8769639911</span>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="banner-one__img-one" data-aos="slide-left" data-aos-duration="2000">
-                    <img src="{{ asset('assets/images/resources/banner-one-img-1.png') }}" alt="" class="float-bob-y">
+                <div class="banner-one__img-one" data-aos="slide-left" data-aos-duration="2000" style="pointer-events: none !important;">
+                    <img src="{{ asset('assets/images/resources/banner-one-img-1.png') }}" alt="" class="float-bob-y" style="pointer-events: none !important;">
                 </div>
             </div>
         </div>
@@ -60,9 +294,9 @@
     <!--Banner One End -->
 
     <!--Search Car Start -->
-    <section class="search-car">
-        <div class="search-car__shape-1"></div>
-        <div class="search-car__shape-2"></div>
+    <section class="search-car" style="position: relative; z-index: 1;">
+        <div class="search-car__shape-1" style="pointer-events: none !important;"></div>
+        <div class="search-car__shape-2" style="pointer-events: none !important;"></div>
         <div class="container">
             <div class="search-car__inner">
                 <div class="search-car__tab-box tabs-box">

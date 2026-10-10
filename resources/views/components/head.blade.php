@@ -51,8 +51,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     @stack('styles')
 
     <!-- template styles -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v={{ time() }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}?v={{ time() }}" />
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11405172128"></script>
@@ -69,16 +69,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
 function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
+  try {
+    if (typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+          'send_to': 'AW-11405172128/TaRECPjGsM8ZEKC7tL4q'
+      });
     }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-11405172128/TaRECPjGsM8ZEKC7tL4q',
-      'event_callback': callback
-  });
-  return false;
+  } catch(e) {
+    console.warn('gtag conversion error', e);
+  }
+  return true;
 }
 </script>
 
