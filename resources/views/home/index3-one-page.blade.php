@@ -23,14 +23,35 @@
         <div class="container">
             <div class="banner-one__inner" style="position: relative; z-index: 100; overflow: visible;">
                 <div class="banner-one__content" style="position: relative; z-index: 101; overflow: visible;">
-                    <p class="banner-one__sub-title">100% Trusted car rental platform in Jaipur</p>
-                    <h2 class="banner-one__title">Find Your Best Dream <br> <span> Car
-                            for</span> <span class="typed-effect" id="type-1" data-strings="Rental, Booking"></span>
-                    </h2>
-                    <p class="banner-one__text">Drive your journey with Quarkcars are simple, reliable, and affordable. Choose from a<br>  wide range of well-maintained self-drive vehicles.
-                    Book easily, drive freely, and enjoy a <br>  smooth rental experience.
-                    Travel with comfort, flexibility, and complete control of your trip.</p>
+                    <div class="hero-tag-badge">
+                        <i class="fas fa-shield-alt text-warning mr-1"></i> #1 Self Drive Car Rental in Jaipur
+                    </div>
+                    <h1 class="banner-one__title" style="margin-top: 14px; margin-bottom: 12px; line-height: 1.18;">
+                        Self Drive Car <br> <span>Rental In Jaipur</span> 
+                    </h1>
+                    <h3 class="banner-one__tagline" style="font-size: 22px; font-weight: 700; color: #1a2238; margin-bottom: 16px; letter-spacing: -0.2px;">
+                        Book Your Perfect Car. Drive Your Way.
+                    </h3>
+                    <p class="banner-one__text" style="font-size: 16px; line-height: 1.65; max-width: 580px; margin-bottom: 24px; color: #4a5568;">
+                        Experience freedom on wheels with Quarkcars. Choose from a wide range of sanitized, well-maintained self-drive cars with zero hidden charges and flexible pickup options.
+                    </p>
 <style>
+    .hero-tag-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(239, 167, 22, 0.12);
+        color: #b87e07;
+        border: 1px solid rgba(239, 167, 22, 0.35);
+        padding: 6px 14px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        width: fit-content;
+    }
+
     .banner-one {
         clip-path: none !important;
         -webkit-clip-path: none !important;
